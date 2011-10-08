@@ -4,7 +4,7 @@
             <div class="hd">
                 <div class="div1">
                     <div class="div2">
-                        <p>Заметки
+                        <p><?=$this->lang->line('notes')?>
                             <span>
                                 <a href="javascript:switchNoteDisplay()"><img src="<?=$this->config->item('style_url')?>skin/layout/notes_close.gif"/></a>
                             </span>
@@ -23,13 +23,13 @@
 
             <div class="ft">
                 <div class="bottom">
-                    <span class="chars" id="chars"></span> Символы
+                    <span class="chars" id="chars"></span><?=$this->lang->line('characters')?> 
                 </div>
             </div>
 
             <center>
                 <div class="button2">
-                    <a href="javascript:switchNoteDisplay()" class="button notice">Ok</a>
+                    <a href="javascript:switchNoteDisplay()" class="button notice"><?=$this->lang->line('ok')?> </a>
                 </div>
             </center>
 

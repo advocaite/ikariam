@@ -1141,3 +1141,7 @@ $lang['withdraw'] = 'Withdraw fleet!';
 $lang['cargo'] = 'Cargo';
 $lang['cargo_space'] = 'Cargo space';
 $lang['holds_empty'] = 'Holds are empty';
+$lang['characters'] = 'Characters'; 
+$lang['ok'] = 'Ok'; 
+$lang['copy_right'] = '© 2010 by Ikariam Dev Team Advocaite & Dzoki.';
+$lang['error'] = 'Error';  

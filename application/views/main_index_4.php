@@ -186,7 +186,7 @@
                         <div id="footer-menu" class="clearfix">
                             <ul	class="clearfix">
                             </ul>
-                            <p class="copyright">© 2010 by Nexus.</p>
+                            <p class="copyright"><?=$this->lang->line('copy_right')?></p>
                         </div>
                     </div>
                 </div>
