@@ -1,0 +1,9 @@
+#researchDetail
+.buildingDescription{background:url(layout/forschung_bibliothek.gif) no-repeat right 10px}
+#researchDetail #mainview .contentBox01h table
+td{padding:3px
+5px;border-bottom:1px dotted #faE1b0}
+#researchDetail #mainview .contentBox01h table
+td.desc{font-weight:bold;vertical-align:top}
+#researchDetail #mainview .contentBox01h table td
+a{color:#542c0f;text-decoration:underline}

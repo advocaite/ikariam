@@ -1,0 +1,21 @@
+#tavern
+.buildingDescription{background:url(buildings/y100/tavern.gif) no-repeat right 10px}
+#tavern #container #mainview .content
+.sliderinput{margin:10px
+0pt 8px 130px;position:relative}
+#tavern #mainview .forminput
+#textfield_wine{display:none}
+#tavern #mainview .forminput
+.setMax{display:none}
+#tavern #mainview
+#serve{margin:10px
+0px 10px 130px}
+#tavern #mainview #serve
+select{border:1px
+solid #c9a584;border-top-color:#5d4c2f;border-left-color:#5d4c2f;color:#542C0F}
+#tavern
+div.satisfaction{color:#906646;font-size:14px;font-weight:bold;margin-left:130px}
+#tavern
+span.value{font-size:18px;color:#906646;vertical-align:middle}
+#tavern
+span.bonus{padding-left:10px;color:#906646}

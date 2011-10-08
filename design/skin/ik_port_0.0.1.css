@@ -1,0 +1,77 @@
+#port
+.buildingDescription{background:url(buildings/y100/port.gif) no-repeat right 10px}
+#port #mainview
+.buildingDescription{margin:0px
+10px 10px 10px;position:relative}
+#port #container #mainview .contentBox01h .content
+table.table01{margin:10px
+auto;empty-cells:show;border-collapse:separate}
+#port #container #mainview .contentBox01h .content table.table01
+.progressBar{margin:0
+auto;height:8px;text-align:left;overflow:hidden}
+#port #mainview
+strong{font-weight:bold}
+#port #ships
+.unitDescription{background-color:#fdf7dd;padding:7px
+20px 5px 20px}
+#port #ships
+unitCosts{background-color:#fdf7dd;background:url(layout/dummy-port-ship.gif) no-repeat}
+#port .table01
+td{text-align:center}
+#port #container #mainview .table01
+tr.struggle{background-color:#DFC5C3}
+#port #container #mainview .contentBox01h
+.content{}
+#port #container #mainview .contentBox01h .content
+.table01{margin-top:10px}
+#port #container #mainview .contentBox01h .content .table01
+th.origin{width:98px}
+#port #container #mainview .contentBox01h .content .table01
+td.city{text-align:left;background:url(layout/icon-city2.gif) no-repeat left center;padding-left:25px}
+#port #container #mainview .contentBox01h .content ul
+li{padding:5px
+0px}
+#port #container #mainview table.stuff
+td.amount{text-align:right;padding:0px}
+#port #mainview .contentBox01h .content
+div.tcap{font-weight:bold;text-align:center;margin:0
+auto}
+#port #mainview .contentBox01h .master
+p{text-align:center;font-style:italic}
+#port #container #mainview
+li.unit{height:140px}
+#port #container #mainview .unit .resources
+li.gold{display:block;float:none;width:75px;position:absolute;top:110px;left:120px}
+#port #container div.costs ul.resources li
+.textLabel{position:absolute;left:0;top:0}
+#port #mainview
+.buildingDescription{margin:0px
+10px 10px 10px;position:relative}
+#port #container #mainview .contentBox01h .content
+table.table01{margin:10px
+auto;empty-cells:show;border-collapse:separate}
+#port #container #mainview .contentBox01h .content table.table01
+.progressBar{margin:0
+auto;height:8px;text-align:left;overflow:hidden}
+#port #mainview
+strong{font-weight:bold}
+#port #ships
+.unitDescription{background-color:#fdf7dd;padding:7px
+20px 5px 20px}
+#port #ships
+.unitCosts{background-color:#fdf7dd;background:url(layout/dummy-port-ship.gif) no-repeat}
+#port .table01
+td{text-align:center}
+#port #container #mainview .table01
+tr.struggle{background-color:#DFC5C3}
+#port #container #mainview .contentBox01h .content
+.table01{margin-top:10px}
+#port #container #mainview .contentBox01h .content .table01
+th.origin{width:98px}
+#port #container #mainview .contentBox01h .content .table01
+td.city{text-align:left;background:url(layout/icon-city2.gif) no-repeat left center;padding-left:25px}
+#port #container #mainview table.stuff
+td.amount{text-align:right;padding:0px}
+#port #container #mainview .contentBox01h .content ul.cities li
+a{color:#542c0f;margin:10px}
+#port #container #mainview .yui-panel{width:120px}

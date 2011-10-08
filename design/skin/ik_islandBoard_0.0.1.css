@@ -1,0 +1,65 @@
+#islandBoard
+.message{widht:686px;padding:7px
+0 0 0}
+#islandBoard .message
+.postHeader{widht:686px;height:39px;background-image:url('board/message_header2.gif');font-weight:bold;color:#7e4a21;padding:0;margin:0}
+#islandBoard
+.warning{margin:0
+0 30px 0;padding:10px
+0 0 0}
+#islandBoard
+.inputDiv{padding:0;margin:0;display:inline}
+#islandBoard .message .postHeader
+.head{margin:5px
+0 0 30px;padding:7px
+0 0 13px;height:24px;position:absolute;z-index:100}
+#islandBoard
+.chars{font-size:10px}
+#islandBoard .message .postHeader
+.icons{padding:8px
+0 0 650px;margin:0;position:absolute}
+#islandBoard .message .postHeader
+a{color:#7e4a21;text-decoration:none}
+#islandBoard .message .postHeader a:hover{text-decoration:underline}
+#islandBoard .message
+.postMessage{width:673px;background-image:url('board/message_content.gif');padding:10px
+0 12px 13px;margin:0}
+#islandBoard .message
+.header{font-weight:bold;color:#542c0f;display:blocK;padding:5px
+0 10px 0}
+#islandBoard .message
+.footer{width:686px;background-image:url('board/message_footer.gif');height:3px}
+#islandBoard
+.pageBrowser{height:30px}
+#islandBoard .pageBrowser
+img{vertical-align:middle;padding-bottom:4px}
+#islandBoard .pageBrowser a.pageLink:link,#islandBoard .pageBrowser a.pageLink:visited{color:#542c0f;padding:1px
+5px}
+#islandBoard .pageBrowser .currentPage,#islandBoard .pageBrowser a.pageLink:hover{background-color:#f3ddb2;border:1px
+solid #9b7747;padding:0
+4px;color:#542c0f;text-decoration:none}
+#islandBoard .pageBrowser
+img{vertical-align:middle}
+#islandBoard
+.buildingDescription{height:auto;min-height:60px}
+#islandBoard #newMessage
+label{font-size:10px}
+#islandBoard #newMessage
+input.textfield{font-weight:bold;color:#542c0f;font-size:12px;border:1px
+dotted #C0C0C0;width:640px}
+#islandBoard #newMessage
+textarea{font-size:12px;border:1px
+dotted #C0C0C0;width:640px;height:100px}
+#islandBoard #newMessage
+.button{cursor:pointer}
+#islandBoard #islandBoardOverview
+ul{margin:10px;color:#542C0F}
+#islandBoard #islandBoardOverview ul
+li{width:160px;background:url('board/schriftrolle_closed2.gif') no-repeat 10px 7px;margin:2px
+0;padding-left:30px}
+#islandBoard #islandBoardOverview ul li:hover{background-color:#ecd298}
+#islandBoard #islandBoardOverview
+li.current{font-weight:bold;background:url('board/schriftrolle_offen2.gif') no-repeat 10px 3px}
+#islandBoard #islandBoardOverview
+a{color:#542C0F;display:block;width:170px;padding:4px}
+#islandBoard #islandBoardOverview a:hover{text-decoration:none}

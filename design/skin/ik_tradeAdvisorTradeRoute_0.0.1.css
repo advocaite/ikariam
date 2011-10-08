@@ -1,0 +1,43 @@
+#tradeAdvisorTradeRoute
+ul.tradeRoute{position:relative;top:-5px;height:42px;background-image:url(transport/bgCitiesFromTo.gif);background-repeat:no-repeat;margin-left:8px}
+#tradeAdvisorTradeRoute
+ul.tradeRoute2{position:relative;top:-5px;height:42px;background-image:url(transport/bgTradegoodAndTime.gif);background-repeat:no-repeat;margin-left:8px}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li{display:block}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li.startCity{position:absolute;top:10px;left:38px;width:180px;height:30px}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li.endCity{position:absolute;left:202px;top:10px;display:block;margin:0px;padding:0px;padding-left:40px}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li.premiumDuration{position:absolute;left:449px;top:0px;padding-top:14px}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li.premiumCost{position:absolute;left:500px;top:0px;padding-top:14px}
+#tradeAdvisorTradeRoute ul.tradeRoute li.premiumCost
+img{margin-top:-10px}
+#tradeAdvisorTradeRoute ul.tradeRoute
+li.renew{position:absolute;left:530px;top:0px;padding-top:9px;width:125px;text-align:right;height:30px}
+#tradeAdvisorTradeRoute ul.tradeRoute li.renew
+.button{display:block;width:80px;float:right}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.number{position:absolute;left:123px;top:10px;padding-top:1px}
+#tradeAdvisorTradeRoute ul.tradeRoute2 li.number
+input{text-align:right;border:1px
+solid #d4c1a2}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.tradegood{position:absolute;left:38px;top:10px}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.time{position:absolute;left:198px;top:10px;padding-left:18px}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.save{position:absolute;left:367px;top:10px}
+#tradeAdvisorTradeRoute ul.tradeRoute2 li.save
+input{cursor:pointer;display:block;width:26px;height:25px;background-image:url(transport/save.gif);border:0px}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.status{position:absolute;left:485px;top:10px}
+#tradeAdvisorTradeRoute ul.tradeRoute2
+li.delete{position:absolute;left:408px;top:10px;width:125px}
+#tradeAdvisorTradeRoute ul.tradeRoute2 li.delete
+a{display:block;width:26px;height:25px;background-image:url(transport/delete.gif);border:0px}
+#tradeAdvisorTradeRoute
+div.listFooter{position:relative;z-index:10;left:12px;top:0px;background-image:url(premium/table_border_2.gif);background-repeat:no-repeat;background-position:center center;width:650px;height:10px}
+#tradeAdvisorTradeRoute
+div.addRoute{padding-top:10px;padding-bottom:15px;text-align:center}

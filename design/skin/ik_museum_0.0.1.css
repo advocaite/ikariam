@@ -1,0 +1,46 @@
+#museum
+.buildingDescription{background:url(buildings/y100/museum.gif) no-repeat right 10px}
+#museum #container #mainview
+.buildingDescription{height:140px;margin-bottom:15px}
+#museum #culturalGoods
+.content{background:url(museum/culturalgoods.gif) no-repeat 40px 6px;margin:6px
+3px}
+#museum #culturalGoods .content
+*{margin-left:140px}
+#museum #culturalGoods .content *
+*{margin-left:0px}
+#museum #culturalGoods
+p{margin:4px
+8px}
+#museum #culturalGoods
+p.desc{}
+#museum #culturalGoods
+div.goods{padding:8px;font-size:14px;color:#906646}
+#museum #culturalGoods div.goods
+.value{font-size:22px;vertical-align:top;background:url(museum/icon32_culturalgood.gif) no-repeat right center;padding-right:32px;padding-bottom:10px}
+#museum #culturalGoods
+.result{padding:8px}
+#museum #culturalGoods .result
+.value{font-weight:bold;color:#060}
+#museum
+table{width:100%;margin:0
+auto}
+#museum table
+.empty{width:80px}
+#museum table
+th{font-weight:bold;text-align:center;color:#906646;background-color:#faeac6}
+#museum table th, #museum table
+td{padding:3px
+6px;vertical-align:middle}
+#museum table
+td.score{text-align:right}
+#museum table
+.actions{padding-left:20px}
+#museum table
+tr.alt{background-color:#fdf1d4}
+#museum
+a.writeMsg{margin:0
+3px}
+#museum
+a.cancelTreaty{margin:0
+3px}

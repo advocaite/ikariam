@@ -1,0 +1,48 @@
+/*
+THEME NAME: Gameforge Clean
+THEME URI: http://www.gameforge.de
+AUTHOR: Stephan Krippendorf
+DESCRIPTION: Leeres Template mit sauberem CSS zur weiterverarbeitung. 
+CSS Struktur mit Reset und Tools ist eingebunden. 
+In der styles.css einfach noch eine Projektspeziefische CSS Datei 
+einbinden und die layout.css ggf. löschen/ändern.
+*/
+
+
+/* --- CSS IMPORT --- */
+
+/* Reset Browser defaults */
+@import url('gf_reset.css');
+
+/* Set new Defaults */
+@import url('gf_default.css');
+
+/* Basic Layout */
+@import url('layout.css');
+
+/* Project Files */
+/* Hier die Projektdaten einfügen */
+/* always last parameter */
+.clearfix:after {
+ clear:both;
+ content:".";
+ display:block;
+ height:0;
+ visibility:hidden;
+}
+.clearfix { display:inline-block; }
+/* hide from IE Mac \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+
+.products {
+	color:#59ACDE;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	height:30px;
+	width:100%;
+	z-index:300;
+	}

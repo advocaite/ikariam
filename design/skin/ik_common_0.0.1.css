@@ -1,0 +1,2955 @@
+body{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup,sub{line-height:-1px;vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+@charset "utf-8";html,body{width:100%;height:100%;margin:0px;padding:0px;margin-bottom:18px}
+.unicode{font-family:'Lucida Sans Unicode','Arial Unicode MS'}
+body{background:#dbbe8c url(layout/bg_stone.jpg) repeat top center;font:normal 12px Arial,Helvetica,sans-serif;text-align:center;color:#542c0f}
+.tooltip2{background-color:#fdf7dd;border:1px
+solid #BE8D53;border-width:4px 1px 1px;color:#542C0F;display:none;font-size:11px;line-height:1em;padding:0;position:absolute;left:100px;margin: -27px 0 0 50px;z-index:1000000;width:auto !important;width:400px}
+.tooltip2
+br{clear:both}
+.tooltip2
+h5{padding:5px
+5px 5px 7px;background-color:#fae0ae;font-weight:bold;font-size:12px;color:#612d04}
+.tooltip2
+div.unitBox{float:left;margin:5px
+3px 5px 3px;border:1px
+solid #ff00000}
+.tooltip2 .unitBox div.icon, .tooltip2 .unitBox
+div.iconSmall{display:block;text-align:center;width:40px;overflow:hidden;background-color:#faeac6;padding:3px;height:41px}
+.tooltip2 .unitBox
+div.iconSmall{height:41px}
+.tooltip2 .unitBox div.iconSmall
+img{margin:15px
+0 6px 0}
+.tooltip2 .unitBox
+div.count{width:40px;text-align:center;margin:2px
+0 0 0;padding:3px;background-color:#fae0ae}
+.tooltip2
+table{margin:0px}
+p{line-height:1.34em}
+#mainview
+p{margin:4px
+20px}
+a{color:#434a93;text-decoration:none}
+#container #mainview
+hr{color:#bc575d;background-color:#bc575d;border:none;border-color:#bc575d;height:1px;margin:12px
+20px}
+a:hover{text-decoration:underline}
+*:focus{outline:none;border:none}
+strong{font-weight:bold}
+.accesshint{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#globalResources h3, #cityResources h3, #advisors h3, #GF_toolbar h3, #cityNav h3, #breadcrumbs
+h3{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#GF_toolbar{position:absolute;top:0px;left:0px;height:24px;width:100%;z-index:100}
+#GF_toolbar
+ul{position:relative;width:900px;height:24px;margin:0
+auto;padding-left:80px;text-align:left}
+#GF_toolbar
+li{display:inline}
+#GF_toolbar
+a{margin:0
+14px;line-height:24px;font:bold 11px Arial, Helvetica, sans-serif;color:#FFF}
+#GF_toolbar .premium a
+.textLabel{color:#FFDC26}
+#container{position:relative;width:980px;margin:0
+auto 20px auto;z-index:10}
+#container2{position:relative;width:1000px;margin:0
+-10px;min-height:1px;z-index:20;background-image:url(layout/bg_content.jpg);text-align:left}
+#header{position:relative;height:336px;margin:0
+-132px -189px -132px;background:#f3dcb6 url(layout/bg_header.jpg) no-repeat}
+#header
+*{display:none}
+#breadcrumbs{position:absolute;width:366px;height:22px;top:147px;left:250px;z-index:50;background:url(layout/bg_breadcrumbs.gif) no-repeat;line-height:20px;font-size:12px;color:#ffdc26;padding:3px
+10px}
+#breadcrumbs
+a{color:#ffefc0;text-decoration:none;padding:3px
+0px}
+#breadcrumbs a,
+#breadcrumbs
+span{float:left;display:block;padding:0px}
+#breadcrumbs
+img{vertical-align:middle}
+#breadcrumbs
+a.world{background:url(layout/icon-world.gif) no-repeat left center;padding-left:24px}
+#breadcrumbs
+a.island{background:url(layout/icon-island.gif) no-repeat left center;padding-left:32px}
+#breadcrumbs
+a.city{background:url(layout/icon-city2.gif) no-repeat left center;padding-left:32px}
+#breadcrumbs a:hover{color:#fff8e4}
+#cityNav{position:absolute;left:146px;top:36px;width:450px;height:60px;text-align:center;z-index:10000}
+#cityNav
+.textLabel{font-size:10px;color:#542c0f}
+#cityNav
+li{position:absolute;top:0;left:0}
+#cityNav li
+a{display:block;font-size:11px;text-decoration:none;background-repeat:no-repeat;background-position:0px 0px}
+#cityNav
+.previousCity{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#cityNav
+.nextCity{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#cityNav
+.viewWorldmap{left:194px;top:4px}
+#cityNav .viewWorldmap
+a{width:84px;height:18px;padding-top:36px;background-image:url(layout/btn_world.jpg)}
+#cityNav .viewWorldmap a:hover{background-position:0px -54px}
+#cityNav .viewWorldmap
+a.down{background-position:0px -108px}
+#cityNav
+.viewIsland{left:278px;top:4px}
+#cityNav .viewIsland
+a{width:84px;height:18px;padding-top:36px;background-image:url(layout/btn_island.jpg)}
+#cityNav .viewIsland a:hover{background-position:0px -54px}
+#cityNav .viewIsland
+a.down{background-position:0px -108px}
+#cityNav .viewCity,
+#cityNav
+.viewRelatedCity{left:362px;top:0px}
+#cityNav .viewCity a,
+#cityNav .viewRelatedCity
+a{width:84px;height:18px;padding-top:40px;background-image:url(layout/btn_city.jpg)}
+#cityNav .viewCity a:hover,
+#cityNav .viewRelatedCity a:hover{background-position:0px -58px}
+#cityNav .viewCity a.down,
+#cityNav .viewRelatedCity
+a.down{background-position:0px -116px}
+#cityNav
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#cityNav
+.citySelect{font-size:12px;text-align:left;position:absolute;display:block;top:6px;left:12px;width:177px;height:24px}
+#cityNav
+.smallFont{font-size:11px}
+#cityNav .citySelect
+*{background:url(layout/select_citynav.jpg) no-repeat 0px 0px}
+#cityNav .citySelect
+li{position:static;line-height:24px;padding-left:8px}
+#cityNav .citySelect .optionList
+li{height:24px;background-image:url(layout/select_citynav.jpg);background-position:0px -98px;cursor:pointer}
+#cityNav .citySelect .optionList
+li.first{padding-top:2px;background-position:0px -72px}
+#cityNav .citySelect .optionList
+li.first.hover{background-position:0px -172px}
+#cityNav .citySelect .optionList
+li.last{padding-bottom:2px;background-position:0px -146px}
+#cityNav .citySelect .optionList
+li.last.hover{background-position:0px -200px}
+#cityNav .citySelect
+.optionList{position:absolute;display:none;top:24px;left:0px;z-index:1000;width:177px}
+#cityNav .citySelect
+.optionList_expanded{display:block}
+#cityNav .citySelect .optionList
+.hover{background-position:0px -122px}
+#cityNav .citySelect
+.dropbutton{height:24px;line-height:24px;padding-left:8px;cursor:default}
+#cityNav .citySelect
+.dropbutton_expanded{background-position:0px -48px;color:#fff5b4}
+#cityNav .citySelect .optionList li.deployedCities,
+#cityNav .citySelect
+.deployedCities{background-image:url(layout/select_citynav_deployment.jpg)}
+#cityNav .citySelect .optionList li.occupiedCities,
+#cityNav .citySelect
+.occupiedCities{background-image:url(layout/select_citynav_occupation.jpg)}
+#cityNav .citySelect  .optionList li.tradegood
+span.cityresource{float:left;width:30px;height:20px;background:none}
+#cityNav
+.replaced{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#cityNav .citySelect
+span.cityresource{}
+#cityNav .citySelect .tradegood1
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_wine.gif) no-repeat center}
+#cityNav .citySelect .tradegood2
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_marble.gif) no-repeat center}
+#cityNav .citySelect .tradegood3
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_glass.gif) no-repeat center}
+#cityNav .citySelect .tradegood4
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_sulfur.gif) no-repeat center}
+#container
+#cityResources{z-index:5000;position:absolute;left:146px;top:96px;width:450px;height:32px}
+#container #cityResources .resources
+.disabled{background-image:none;color:#999}
+#container #cityResources
+li{position:absolute;top:3px;width:48px;overflow:visible}
+#container #cityResources li.occupiedCities,
+#container #cityResources li.deployedCities,
+#container #cityResources
+li.blockadedCities{width:420px;background-image:url(layout/resources_related_city.gif);font-size:12px;font-weight:bold}
+#container #cityResources li
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #cityResources
+.population{left:70px;top:-28px;width:70px}
+#container #cityResources
+.actions{left:16px;top:-28px;width:40px}
+.storage_full{color:#C00;font-weight:bold}
+.storage_danger{color:#C30}
+#container #cityResources
+.wood{left:14px}
+#container #cityResources
+.wine{left:103px}
+#container #cityResources
+.marble{left:192px}
+#container #cityResources
+.glass{left:281px}
+#container #cityResources
+.sulfur{left:370px}
+#container #cityResources li
+.tooltip{position:absolute;display:none;top:26px;left:0px;background-color:#f1d7ad;border:1px
+solid #be8d53;border-top-width:4px;font-size:11px;line-height:1em;color:#542c0f;width:auto;white-space:nowrap;padding:4px
+8px}
+#container #cityResources li .tooltip
+.textLabel{position:static;display:inline;left:0;height:auto;overflow:visible}
+#globalResources{position:absolute;top:36px;left:37px;width:111px;height:92px}
+#globalResources
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#globalResources
+li{position:absolute}
+#globalResources li
+a{position:absolute;font-weight:bold;color:#906646}
+#globalResources li a:hover{text-decoration:none}
+#globalResources .transporters
+a{top:2px;left:0px;width:98px;height:31px;background:url(layout/btn_ship.jpg) no-repeat 0px 0px;text-align:right;padding-right:12px;line-height:31px}
+#globalResources .transporters a:hover{background-position:0px -31px}
+#globalResources .transporters
+a.down{background-position:0px -62px}
+#globalResources .transporters .transSum, #globalResources .transporters
+.transAvail{display:block;margin-left:64px}
+#globalResources .transporters
+.transAvail{margin-top:9px;font-size:18px}
+#globalResources .gold
+a{top:62px;width:98px;height:29px;background:url(layout/btn_gold.jpg) no-repeat 0px 0px;padding-right:12px;line-height:29px;text-align:right}
+#globalResources .gold a:hover{background-position:0px -29px}
+#globalResources .gold
+a.down{background-position:0px -58px}
+#globalResources .ambrosia
+a{top:33px;width:98px;height:29px;background:url(layout/btn_ambrosia.jpg) no-repeat 0px 0px;padding-right:12px;line-height:29px;text-align:right}
+#globalResources .ambrosia a:hover{background-position:0px -29px}
+#globalResources .ambrosia
+a.down{background-position:0px -58px}
+#globalResources
+.goldBalance{display:none}
+
+#globalResources
+li{position:absolute}#globalResources li
+a{position:absolute;font-weight:bold;color:#906646}#globalResources li a:hover{text-decoration:none}#globalResources .ambrosiaNoSpin
+a{top:-36px;left:0px;width:98px;height:70px;background:url(premium/premiumsymbol_a_no_spin.gif) no-repeat 0px 0px;text-align:right;padding-right:12px;line-height:108px}#globalResources .ambrosia
+a{top:-36px;left:0px;width:98px;height:70px;background:url(premium/premiumsymbol_a.gif) no-repeat 0px 0px;text-align:right;padding-right:12px;line-height:108px}#globalResources .ambrosia a:hover, #globalResources .ambrosiaNoSpin a:hover{background:url(premium/premiumsymbol_b.gif) no-repeat 0px 0px}#globalResources .ambrosia a.down, #globalResources .ambrosiaNoSpin
+a.down{background:url(premium/premiumsymbol_c.gif) no-repeat 0px 0px}#globalResources .ambrosia .transSum, #globalResources .transporters
+.transAvail{display:block;margin-left:64px}#globalResources .ambrosia
+.transAvail{margin-top:9px;font-size:18px}#globalResources .gold
+a{top:62px;width:98px;height:29px;background:url(layout/btn_gold.jpg) no-repeat 0px 0px;padding-right:12px;line-height:29px;text-align:right}#globalResources .gold a:hover{background-position:0px -29px}#globalResources .gold
+a.down{background-position:0px -58px}#globalResources .transporters
+a{top:33px;width:98px;height:29px;background:url(layout/btn_ship2.jpg) no-repeat 0px 0px;padding-right:12px;line-height:29px;text-align:right}#globalResources .transporters a:hover{background-position:0px -29px}#globalResources .transporters
+a.down{background-position:0px -58px}#globalResources
+.goldBalance{display:none}
+
+#advisors
+li{position:absolute}
+#advisors
+a{display:block;font-size:10px;color:#542c0f;text-decoration:none;width:90px;height:108px}
+#advisors a
+.textLabel{position:absolute;top:89px;width:90px;height:18px;line-height:18px;text-align:center;cursor:pointer}
+#advisors
+a.pluslink{position:absolute;top:62px;left:62px;width:22px;height:22px;background-image:url(buttons/premiumadvisors_plus.gif)}
+#advisors a.pluslink:hover{background-image:url(buttons/premiumadvisors_plus_over.gif)}
+#advisors a.pluslink
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#advisors
+a.plusteaser{position:absolute;top:62px;left:62px;width:22px;height:22px;background-image:url(buttons/premiumadv_plus_tease.gif)}
+#advisors a.plusteaser:hover{background-image:url(buttons/premiumadv_plus_tease_over.gif)}
+#advisors a.plusteaser
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#advisors
+#advCities{left:618px;top:39px}
+#advisors #advCities
+a.normal{background-image:url(layout/advisors/mayor.gif)}
+#advisors #advCities
+a.normalactive{background-image:url(layout/advisors/mayor_active.gif)}
+#advisors #advCities
+a.premium{background-image:url(layout/advisors/mayor_premium.gif)}
+#advisors #advCities
+a.premiumactive{background-image:url(layout/advisors/mayor_premium_active.gif)}
+#advisors
+#advMilitary{left:708px;top:39px}
+#advisors #advMilitary
+a.normal{background-image:url(layout/advisors/general.gif)}
+#advisors #advMilitary
+a.normalactive{background-image:url(layout/advisors/general_active.gif)}
+#advisors #advMilitary
+a.normalalert{background-image:url(layout/advisors/general_alert.gif)}
+#advisors #advMilitary
+a.premium{background-image:url(layout/advisors/general_premium.gif)}
+#advisors #advMilitary
+a.premiumactive{background-image:url(layout/advisors/general_premium_active.gif)}
+#advisors #advMilitary
+a.premiumalert{background-image:url(layout/advisors/general_premium_alert.gif)}
+#advisors
+#advResearch{left:798px;top:39px}
+#advisors #advResearch
+a.normal{background-image:url(layout/advisors/scientist.gif)}
+#advisors #advResearch
+a.normalactive{background-image:url(layout/advisors/scientist_active.gif)}
+#advisors #advResearch
+a.premium{background-image:url(layout/advisors/scientist_premium.gif)}
+#advisors #advResearch
+a.premiumactive{background-image:url(layout/advisors/scientist_premium_active.gif)}
+#advisors
+#advDiplomacy{left:888px;top:39px}
+#advisors #advDiplomacy
+a.normal{background-image:url(layout/advisors/diplomat.gif)}
+#advisors #advDiplomacy
+a.normalactive{background-image:url(layout/advisors/diplomat_active.gif)}
+#advisors #advDiplomacy
+a.premium{background-image:url(layout/advisors/diplomat_premium.gif)}
+#advisors #advDiplomacy
+a.premiumactive{background-image:url(layout/advisors/diplomat_premium_active.gif)}
+#mainview{position:relative;margin:0px
+29px -18px 251px;z-index:30;padding:0px
+18px}
+#footer{clear:both;position:relative;width:560px;height:33px;padding:47px
+120px 0px 340px;margin:0
+-10px;background-image:url(layout/bg_footer.jpg);font-size:11px;font-weight:bold;color:#edd090;text-align:right}
+#footer
+.copyright{float:left}
+#footer
+a{margin:0
+10px;color:#edd090}
+#footer a:hover{color:#FFF}
+#footer
+a#gflink{margin:0px}
+#conExtraDiv1{position:absolute;z-index:3000;bottom:62px;left:251px;width:9px;height:12px;background:url(layout/corner_bottomleft.gif) no-repeat bottom left}
+#conExtraDiv2{position:absolute;z-index:3000;bottom:62px;right:29px;width:9px;height:12px;background:url(layout/corner_bottomright.gif) no-repeat bottom right}
+#conExtraDiv3{position:absolute;z-index:3000;top:147px;right:29px;width:5px;height:10px;background:url(layout/corner_topright.gif) no-repeat top right}
+#extraDiv1{position:absolute;top:0px;right:0px;width:100%;height:147px;background:url(layout/bg_sky.jpg) repeat top center;z-index:1}
+#extraDiv2{position:absolute;top:147px;left:0px;width:100%;height:189px;background:url(layout/bg_ocean.jpg) repeat top center;z-index:1}
+#container
+.dynamic{position:relative;display:inline;clear:both;float:left;width:228px;margin:2px
+0 0 18px;background:url(layout/bg_sidebox.gif) repeat-y}
+#container .dynamic
+h3.header{height:24px;padding-top:2px;line-height:24px;font-weight:bold;text-align:center;background:url(layout/bg_sidebox_header.jpg) no-repeat}
+#container .dynamic
+.content{position:relative;width:218px;margin:4px
+5px}
+#container .dynamic
+div.footer{height:5px;overflow:hidden;background:url(layout/bg_sidebox_footer.gif) no-repeat;clear:left}
+#container
+.help{position:absolute;top:0px;right:0px;width:34px;height:24px;background:-2px 1px no-repeat url(layout/help.gif)}
+#container .help
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container .dynamic .content
+p{margin:5px
+10px}
+#container .dynamic
+img{display:block;margin:0
+auto}
+.contentBox{background-image:url(layout/bg_contentBox01.gif);position:relative;width:680px;margin-bottom:10px}
+.contentBox
+h3.header{background-image:url(layout/bg_contentBox01h_header.gif);background-repeat:no-repeat;height:20px;line-height:20px;padding:10px
+6px 0px 6px;color:#7e4a21;font-weight:bold;text-align:center}
+.contentBox
+div.content{position:relative;margin:0px
+3px}
+.contentBox
+div.footer{background:url(layout/bg_contentBox01_footer.gif) no-repeat;overflow:hidden;height:3px}
+.contentBox01,.contentBox01h{background-image:url(layout/bg_contentBox01.gif);position:relative;width:680px;margin-bottom:10px}
+.contentBox01 div.content,
+.contentBox01h
+div.content{position:relative;margin:0px
+3px}
+.contentBox01h div.content
+.value{background:transparent none repeat scroll 0% 50%;border:medium none;color:#906646;font-size:18px;margin-left:0pt;padding-left:0pt;text-align:right;width:30px}
+.contentBox01h div.content
+label.valueLabel{}
+.contentBox01
+h3.header{background-image:url(layout/bg_contentBox01_header.gif);height:7px;padding:0;margin:0;overflow:hidden}
+.contentBox01 h3.header
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.contentBox01h
+h3.header{background-image:url(layout/bg_contentBox01h_header.gif);background-repeat:no-repeat;height:20px;line-height:20px;padding:10px
+6px 0px 6px;color:#7e4a21;font-weight:bold;text-align:center}
+.contentBox01 div.footer,
+.contentBox01h
+div.footer{background:url(layout/bg_contentBox01_footer.gif) no-repeat;overflow:hidden;height:3px}
+#container #mainview
+table.table01{width:600px;margin:0px
+auto 10px auto;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;border:1px
+solid #e4b873;background-color:#fdf7dd;text-align:center}
+#container #mainview table.table01
+caption{text-align:center;margin:3px
+0px}
+#container #mainview table.table01
+tr{font-weight:normal}
+#container #mainview table.table01
+tr.alt{background-color:#FfEAcf}
+#container #mainview table.table01
+th{background-color:#faeac6;text-align:center}
+#container #mainview table.table01
+th{height:24px;padding:4px;font-weight:bold}
+#container #mainview table.table01
+td{padding:4px
+10px}
+#container #mainview table.TableHoriMax
+td{text-align:center}
+#container #mainview
+table.TableHoriMax{width:100%;margin:0px
+auto 10px auto;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;border:0px
+solid #e4b873;background-color:#fdf7dd}
+#container #mainview table.TableHoriMax
+tr{font-weight:normal}
+#container #mainview table.TableHoriMax
+tr.alt{background-color:#fdf1d4}
+#container #mainview table.TableHoriMax
+th{text-align:center;height:24px;padding:4px;font-weight:bold;background-color:#faeac6}
+#container
+ul.resources{text-align:left}
+#container ul.resources
+li{width:100px;height:26px;padding-left:32px;line-height:26px;background-repeat:no-repeat}
+#container ul.resources li
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container .resources
+.gold{background-image:url(resources/icon_gold.gif);background-position:4px 2px}
+#container ul.resources
+.wood{background-image:url(resources/icon_wood.gif);background-position:4px 2px}
+#container ul.resources
+.wine{background-image:url(resources/icon_wine.gif);background-position:4px 2px}
+#container ul.resources
+.marble{background-image:url(resources/icon_marble.gif);background-position:2px 2px}
+#container ul.resources
+.glass{background-image:url(resources/icon_glass.gif);background-position:4px 2px}
+#container ul.resources
+.sulfur{background-image:url(resources/icon_sulfur.gif);background-position:2px 2px}
+#container ul.resources
+.population{background-image:url(resources/icon_population.gif);padding-left:40px;background-position:2px 0px}
+#container ul.resources
+.actions{background-image:url(resources/icon_actionpoints.gif);padding-left:28px;background-position:2px 0px}
+#container ul.resources
+.citizens{background-image:url(resources/icon_citizen.gif);background-position:4px 2px}
+#container ul.resources
+.upkeep{background-image:url(resources/icon_upkeep.gif);background-position:2px 0px}
+#container ul.resources
+.time{background-image:url(resources/icon_time.gif);background-position:4px 2px}
+*.button_inactive{display:inline;margin:auto;border:3px
+double #5d4c2f;border-top-color:#c9a584;border-left-color:#c9a584;padding:2px
+4px;background:#eccf8e url(input/button.gif) repeat-x;font-weight:bold;font-size:12px;text-align:center;color:#542c0f;filter:alpha(opacity=50);-moz-opacity:.5;opacity:.5;cursor:default;width:150px}
+*.button{display:inline;margin:10px
+auto;width:auto;white-space:nowrap;border:3px
+double #5d4c2f;border-top-color:#c9a584;border-left-color:#c9a584;padding:2px
+10px;background:#eccf8e url(input/button.gif) repeat-x;font-weight:bold;font-size:12px;text-align:center;color:#542c0f;white-space:nowrap;width:auto;cursor:pointer}
+*.button:hover{color:#FFF;text-decoration:none}
+*.button:active{border:3px
+double #c9a584;border-top-color:#5d4c2f;border-left-color:#5d4c2f;padding:3px
+10px 1px 10px}
+*.bigButton{display:block;white-space:normal;display:block;margin:0px}
+.centerButton{text-align:center;margin-top:10px;margin-bottom:10px}
+.leftButton{text-align:left;margin-top:10px;margin-bottom:10px}
+*.buttonChanged{border:3px
+double #5d4c2f;border-top-color:#c9a584;border-left-color:#c9a584;padding:2px
+0px;background:#eccf8e url(input/button.gif) repeat-x;font-weight:bold;font-size:12px;text-align:center;color:#b03937}
+*.dangerButton,*.cancelUpgrade{border:3px
+double #5d1b12;border-top-color:#ba4d4f;border-left-color:#ba4d4f;padding:2px
+2px;background:#d36c69 url(input/dangerbutton.gif) repeat-x;color:#5c2222;font-weight:bold;font-size:12px;text-align:center}
+*.dangerButton:hover,*.cancelUpgrade:hover{background-color:#d36c69;color:#FFF}
+*.dangerButton:active,*.cancelUpgrade:active{border:3px
+double #ba4d4f;border-top-color:#5d1b12;border-left-color:#5d1b12;padding:3px
+1px 1px 3px}
+#container #mainview
+.important{font-weight:bold}
+select{border:1px
+solid #c9a584;border-top-color:#5d4c2f;border-left-color:#5d4c2f;padding:1px;margin:2px;font:normal 12px Arial,Helvetica,sans-serif}
+option{margin:4px
+2px}
+input,input.textfield,textarea,textarea.textfield{border:1px
+solid #c9a584;border-top-color:#5d4c2f;border-left-color:#5d4c2f;padding:2px;background:#fff7e1 url(input/textfield.gif) repeat-x;font:normal 14px Arial,Helvetica,sans-serif}
+select:focus,textarea:focus,input:focus,input.textfield:focus{background-image:none;background-color:#fff;border:1px
+solid #c9a584;border-top-color:#5d4c2f;border-left-color:#5d4c2f}
+.displayframe1{width:304px;border:1px
+solid #f3ddb2;padding:1px}
+.displayframe2{border:1px
+solid #e4b873;background-color:#fdf7dd}
+#backTo
+a{display:block;margin:10px
+auto;width:180px;font-weight:bold;font-size:12px;text-align:center;color:#542c0f}
+#mainview
+h1{margin:0
+auto 0 375px;font-weight:bold;font-size:18px;line-height:40px;color:#b03937}
+#mainview
+.buildingDescription{position:relative;height:auto;min-height:120px;margin:0px
+10px 10px 10px}
+#mainview .buildingDescription
+p{margin-right:160px}
+#barracks
+.buildingDescription{background:url(buildings/y100/barracks.gif) no-repeat right 10px}
+#container
+#diplomacyDescription{background:url(layout/diplomacy_logo.gif) no-repeat right 20px}
+#buildingUpgrade{text-align:center}
+#buildingUpgrade
+.buildingLevel{font-size:36px;font-weight:bold;color:#906646;height:70px}
+#buildingUpgrade .buildingLevel
+.textLabel{display:block;margin-top:4px;font-size:12px;font-weight:normal;color:#542c0f}
+#buildingUpgrade
+h4{margin:6px
+0px;padding:2px;background-color:#fffbdb;font-size:12px;font-weight:normal;text-align:center}
+#buildingUpgrade
+.actions{position:absolute;top:0px;left:0px}
+#buildingUpgrade .actions
+.upgrade{position:absolute;top:0px;left:10px}
+#buildingUpgrade .actions
+.downgrade{position:absolute;top:0px;left:130px}
+#buildingUpgrade .actions .upgrade a, #buildingUpgrade .actions .downgrade
+a{display:block;width:80px;height:16px;padding-top:44px;color:#542c0f;text-decoration:none}
+#buildingUpgrade .actions .upgrade
+a{background:url(upgrade/btn_upgrade.jpg) no-repeat center 8px}
+#container #buildingUpgrade .actions .downgrade
+a{background:url(upgrade/btn_downgrade.jpg) no-repeat center 8px}
+#container #buildingUpgrade .actions .upgrade
+a.disabled{background:url(upgrade/btn_upgrade-off.jpg) no-repeat center 8px}
+#container #buildingUpgrade .actions .downgrade
+a.disabled{background:url(upgrade/btn_downgrade-off.jpg) no-repeat center 8px}
+#container #buildingUpgrade
+.resources{margin:0px
+15px}
+#container #buildingUpgrade .resources
+li.alt{border-left:3px solid #F6EBBC}
+#container #buildingUpgrade .resources
+li{float:left;width:60px}
+#container #buildingUpgrade .resources
+li.time{float:none;clear:left;display:block;text-align:left;margin:2px
+auto}
+#container #buildingUpgrade.upgrading
+.isUpgrading{font-weight:bold;width:140px;margin:8px
+auto 4px 70px}
+#container #buildingUpgrade.upgrading
+.buildingLevel{position:absolute;left:10px;top:0px;width:60px;background:url(upgrade/nextlevelarrow.gif) no-repeat 6px 48px;text-align:center;font-size:24px;height:70px}
+#container #buildingUpgrade.upgrading .buildingLevel
+.textLabel{display:block;margin-bottom:46px;font-size:12px}
+#container #buildingUpgrade.upgrading
+.nextLevel{position:absolute;left:10px;top:20px;width:60px;font-size:24px;font-weight:bold;text-align:center}
+#container #buildingUpgrade.upgrading .nextLevel
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container
+.progressBar{width:120px;margin:12px
+auto 2px 80px;height:20px;border:1px
+solid #775726;background-color:#fefbe8;text-align:left}
+#container .progressBar
+.bar{height:100%;background-color:#73443e}
+#container #buildingUpgrade.upgrading
+.time{display:block;font-weight:bold;width:140px;margin:4px
+auto 4px 70px;text-align:center}
+#container #buildingUpgrade.upgrading
+.cancelUpgrade{display:block;width:110px;margin:4px
+auto 4px 80px}
+#container
+div#navigation{margin-top:8px}
+img{border:none}
+.occupation_warning{border:1px
+solid #f1d198;padding:3px
+10px 3px 40px;margin:5px
+5px 5px 5px;background:#fcddd2 url(icons/occupation_warning.gif) no-repeat 5px 5px;min-heigght:30px}
+#container .occupation_warning .messageSend
+img{display:inline;vertical-align:middle}
+#container #mainview
+.contentBox03{background-image:url(layout/bg_contentBox03.gif);position:relative;width:450px;margin-bottom:10px}
+#container #mainview .contentBox03
+div.content{position:relative;margin:0px
+3px}
+#container #mainview .contentBox03
+h3.header{background-image:url(layout/bg_contentBox03_header.gif);height:7px;padding:0;margin:0;overflow:hidden}
+#container #mainview .contentBox03 h3.header
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #mainview .contentBox03
+div.footer{background-image:url(layout/bg_contentBox03_footer.gif);overflow:hidden;height:3px}
+#container #mainview
+.contentBox04h{background-image:url(layout/bg_contentBox04.gif);position:relative;width:410px;margin-bottom:10px}
+#container #mainview .contentBox04h
+div.content{position:relative;margin:0px
+3px}
+#container #mainview .contentBox04h
+h3.header{background-image:url(layout/bg_contentBox04h_header.gif);height:20px;padding:10px
+6px 0px 6px;margin:0;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;text-align:center}
+#container #mainview .contentBox04h h3.header
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #mainview .contentBox04h
+div.footer{background-image:url(layout/bg_contentBox04_footer.gif);overflow:hidden;height:3px}
+#container #mainview
+.contentBox05h{background-image:url(layout/bg_contentBox05.gif);position:relative;width:250px;margin-bottom:10px}
+#container #mainview .contentBox05h
+div.content{position:relative;margin:0px
+3px}
+#container #mainview .contentBox05h
+h3.header{background-image:url(layout/bg_contentBox05h_header.gif);height:20px;padding:10px
+6px 0px 6px;margin:0;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;text-align:center}
+#container #mainview .contentBox05h h3.header
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #mainview .contentBox05h
+div.footer{background-image:url(layout/bg_contentBox05_footer.gif);overflow:hidden;height:3px}
+a.allyLink{color:#542c0f;font-weight:bold}
+#mainview tr.pgnt
+div.last{float:left;width:10%}
+#mainview tr.pgnt
+div.text{float:left;width:80%;padding:5px
+0px}
+#mainview tr.pgnt
+div.next{float:right;width:10%}
+#mainview div#currentResearch .researchName
+a{color:#542c0f;text-decoration:none}
+#mainview div#currentResearch .researchName a:hover{color:#542c0f;text-decoration:underline}
+#container #mainview
+.researchTypes{position:relative}
+#container #mainview
+.researchType{position:relative;padding:10px
+0px;background:url(interface/bg_build3.gif) repeat-y top right}
+#container #mainview ul.researchTypes
+li.alt{background-color:#fdf1d4;background-image:url(interface/bg_build4.gif)}
+#container #mainview .researchType
+h4{font-size:14px;font-weight:bold;line-height:22px;margin-bottom:2px;margin-left:180px;width:350px}
+.seafaring
+img{border:2px
+solid #00F}
+.economy
+img{border:2px
+solid #FF0}
+.knowledge
+img{border:2px
+solid #92CBFF}
+.military
+img{border:2px
+solid #F00}
+#container #mainview .researchType h4
+a{color:#542c0f}
+.researchInfo
+.leftBranch{position:absolute;top:13px;left:13px}
+.researchTypeLabel{text-align:center;position:relative;width:150px;height:50px;top:0px;left:0px}
+#container #mainview
+.unitcount{background-image:url(layout/scroll_bg.gif);color:#50110A;display:block;font-size:10px;height:23px;left:-4px;line-height:23px;padding:0
+16px;text-align:center;top:60px;white-space:nowrap;margin:0
+auto}
+.textLabel
+.before{background-image:url(layout/scroll_leftend.gif);display:block;height:23px;left:0;position:absolute;top:0;width:12px}
+.textLabel
+.after{background-image:url(layout/scroll_rightend.gif);display:block;height:23px;position:absolute;right:0;top:0;width:12px}
+#container #mainview .researchType
+p{margin-left:180px;width:350px}
+#container #mainview .researchType
+p.effect{font-weight:bold}
+#mainview .researchType
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview .researchType .costs
+h5{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #mainview .researchType
+.resources{margin-left:180px}
+#container #mainview .researchType .resources
+li{display:inline;padding-top:3px;padding-bottom:3px;margin:4px
+8px}
+#container #mainview .researchType .resources
+li.upkeep{margin-left:22px}
+#container #mainview .researchType
+hr{margin-left:180px;margin-right:147px;color:#bc575d;background-color:#bc575d;border:none;border-color:#bc575d;height:1px}
+#mainview .researchType
+a.build{position:absolute;display:block;width:100px;top:42px;left:550px}
+#container #mainview #researchTypes .researchType
+p.cannotbuild{position:absolute;margin:0;top:42px;left:550px;width:100px;text-align:center;color:#960}
+.cannotbuild
+a{}
+#container ul.resources
+.researchPoints{background-image:url(resources/icon_research.gif);background-position:10px 2px;font-size:14px}
+.researchButton{position:absolute;top: -14px;left:0px}
+.researchButton2{position:absolute;top:38px;left:550px;width:115px}
+.researchType
+.costs{position:absolute;top:75px;left:360px;width:100px}
+.researchLeftMenu
+li{position:relative;padding-left:32px;margin-left:5px;height:26px;line-height:26px}
+.researchLeftMenu
+.scientists{background:url(resources/icon_scientist.gif) no-repeat top left}
+.researchLeftMenu
+.time{background:url(resources/icon_research_time.gif) no-repeat top left}
+.researchLeftMenu
+.points{background:url(resources/icon_research.gif) no-repeat top left;background-position:10px 2px}
+html #diplomacyAdvisor #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisorOutBox #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisorTreaty #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisorAlly #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisorArchive #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisorArchiveOutBox #container #mainview
+table.table01{margin:0px
+auto 10px auto;border-bottom:1px dotted #E4B873;width:100%}
+html #diplomacyAdvisor #container #mainview table.table01 tr.entry
+td{border-bottom:1px dotted #E4B873}
+html #diplomacyAdvisorArchive #container #mainview table.table01 tr.entry
+td{border-bottom:1px dotted #E4B873}
+html #diplomacyAdvisorArchiveOutBox #container #mainview table.table01 tr.entry
+td{border-bottom:1px dotted #E4B873}
+html #diplomacyAdvisorOutBox #container #mainview table.table01 tr.entry
+td{border-bottom:1px dotted #E4B873}
+#container #container2 #mainview .contentBox01 table#messages
+td{padding:2px
+10px}
+html #diplomacyAdvisor #container #mainview tr.text
+td{background-color:#f3f3f3}
+html #diplomacyAdvisorArchive #container #mainview tr.text
+td{background-color:#f3f3f3}
+html #diplomacyAdvisorOutBox #container #mainview tr.text
+td{background-color:#f3f3f3}
+html #diplomacyAdvisorArchiveOutBox #container #mainview tr.text
+td{background-color:#f3f3f3}
+#container #mainview table.table01
+.important{font-weight:bold}
+#container #mainview table.table01
+.note{font-size:11px}
+html #diplomacyAdvisor #container #mainview .table01 a:link,
+html #diplomacyAdvisor #container #mainview .table01 a:visited,
+html #diplomacyAdvisor #container #mainview .table01 a:active{text-decoration:none;color:#542c0f}
+html #diplomacyAdvisorArchive #container #mainview .table01 a:link,
+html #diplomacyAdvisorArchive #container #mainview .table01 a:visited,
+html #diplomacyAdvisorArchive #container #mainview .table01 a:active{text-decoration:none;color:#542c0f}
+html #diplomacyAdvisorOutBox #container #mainview .table01 a:link,
+html #diplomacyAdvisorOutBox #container #mainview .table01 a:visited,
+html #diplomacyAdvisorOutBox #container #mainview .table01 a:active{text-decoration:none;color:#542c0f}
+html #diplomacyAdvisorArchiveOutBox #container #mainview .table01 a:link,
+html #diplomacyAdvisorArchiveOutBox #container #mainview .table01 a:visited,
+html #diplomacyAdvisorArchiveOutBox #container #mainview .table01 a:active{text-decoration:none;color:#542c0f}
+div.diplomacyAdvisorTabs
+table#tabz{margin-top:5px;width:100%}
+div.diplomacyAdvisorTabs table#tabz
+td{width:25%;text-align:center}
+div.diplomacyAdvisorTabs #tabz td
+a{color:#542C0F;display:block;margin:0px
+auto;padding:5px
+0px 10px}
+div.diplomacyAdvisorTabs{background:transparent url(layout/bg_tabs.jpg) no-repeat scroll 0% 50%;height:36px;margin-bottom:5px;width:680px}
+div.diplomacyAdvisorTabs a
+em{font-weight:bold}
+div.diplomacyAdvisorTabs #tabz td.selected a, div.diplomacyAdvisorTabs #tabz td a:hover{background:transparent url(layout/bg_tabs_diplomacy_single2.jpg) no-repeat scroll center -5px}
+#cityMilitary #container #mainview .contentBox01h
+.table01{margin-top:10px}
+.cityTT{padding:0;margin:0;border:0;font:11px Arial, Helvetica, sans-serif;width:175px}
+.cityTT
+th{}
+.cityTT
+td{border:0px}
+#cityMilitary  .contentBox01h
+div.content{background-color:#faeac6}
+#cityMilitary  #container #mainview
+table{margin:0pt auto;width:100%}
+#cityMilitary  #container #mainview
+table{border-collapse:collapse;width:670px;margin-bottom:1px}
+#cityMilitary  #container #mainview table
+td.city{text-align:left}
+#cityMilitary  #container #mainview table#garrison
+td.units{}
+#cityMilitary  #container #mainview table#garrison
+td.ships{}
+#cityMilitary  #container #mainview table td,
+#cityMilitary  #container #mainview table
+th{border:2px
+solid #FAEAC6;text-align:center}
+#cityMilitary  #container #mainview table tr
+td{background-color:#FDF7DD}
+#cityMilitary  #container #mainview table tr.alt
+td{background-color:#F2D9AB}
+#cityMilitary  #container #mainview table tr.total
+td{background-color:#F2D9AB;font-weight:bold;border-top:1px solid #000}
+#cityMilitary  #container #mainview table
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}
+#cityMilitary  #container #mainview table th,
+#cityMilitary  #container #mainview table
+td{padding:3px
+6px;vertical-align:middle}
+#cityMilitary  table
+.empty{width:80px}
+#cityMilitary  .dynamic
+.content{text-align:center}
+#cityMilitary  .dynamic .content
+.button{display:block;padding:2px
+5px;margin:10px
+auto;width:160px}
+#cityMilitary  #container #mainview .contentBox01h
+a{color:#542c0f;text-decoration:underline}
+#cityMilitary  #container #mainview table#overall td.ships,
+#cityMilitary  #container #mainview table#overall
+td.units{text-align:center}
+html #allyHighscore #mainview table.table01 th,
+html #highscore #mainview table.table01
+th{background-color:#FAE0AE;color:#906646;font-weight:bold;text-align:center;font-size:15px;border-top:1px solid #906646;border-bottom:1px solid #909696;padding:5px}
+html #allyHighscore #mainview div.content table.table01,
+html #highscore #mainview div.content
+table.table01{border:0px;width:100%}
+html #allyHighscore #mainview div.content table.table01 tr.first,
+html #highscore #mainview div.content table.table01
+tr.first{font-size:18px;height:40px;background-color:#e5d6b5}
+html #allyHighscore #mainview div.content table.table01 tr.second,
+html #highscore #mainview div.content table.table01
+tr.second{font-size:15px;height:36px;background-color:#f0e0be}
+html #allyHighscore #mainview div.content table.table01 tr.third,
+html #highscore #mainview div.content table.table01
+tr.third{font-size:13px;height:32px;background-color:#f9e8c5}
+html #allyHighscore #mainview div.content table.table01 tr.first,
+html #allyHighscore #mainview div.content table.table01 tr.second,
+html #allyHighscore #mainview div.content table.table01 tr.third,
+html #highscore #mainview div.content table.table01 tr.first,
+html #highscore #mainview div.content table.table01 tr.second,
+html #highscore #mainview div.content table.table01
+tr.third{border-bottom:1px solid #EACAC6}
+html #allyHighscore #mainview div.content table.table01 tr.first td.place,
+html #allyHighscore #mainview div.content table.table01 tr.second td.place,
+html #allyHighscore #mainview div.content table.table01 tr.third td.place,
+html #highscore #mainview div.content table.table01 tr.first td.place,
+html #highscore #mainview div.content table.table01 tr.second td.place,
+html #highscore #mainview div.content table.table01 tr.third
+td.place{font-weight:bold}
+html #allyHighscore #mainview div.content table.table01 tr.first td.place,
+html #highscore #mainview div.content table.table01 tr.first
+td.place{background:url(layout/medallie32x32_gold.gif) no-repeat 7px 4px}
+html #allyHighscore #mainview div.content table.table01 tr.second td.place,
+html #highscore #mainview div.content table.table01 tr.second
+td.place{background:url(layout/medallie24x24_silber.gif) no-repeat 11px 5px}
+html #allyHighscore #mainview div.content table.table01 tr.third td.place,
+html #highscore #mainview div.content table.table01 tr.third
+td.place{background:url(layout/medallie16x16_bronze.gif) no-repeat 15px 5px}
+html #allyHighscore #mainview div.content table.table01 td.score,
+html #highscore #mainview div.content table.table01
+td.score{text-align:right}
+html #highscore #mainview div.content table.table01 tr.first.own,
+html #highscore #mainview div.content table.table01 tr.second.own,
+html #highscore #mainview div.content table.table01 tr.third.own,
+html #highscore #mainview div.content table.table01
+tr.own{background-color:#CAE877}
+html #allyHighscore #mainview div.content table.table01 tr.first.ownally,
+html #allyHighscore #mainview div.content table.table01 tr.second.ownally,
+html #allyHighscore #mainview div.content table.table01 tr.third.ownally,
+html #allyHighscore #mainview div.content table.table01 tr.ownally,
+html #highscore #mainview div.content table.table01
+tr.ownally{background-color:#FAE877}
+a.notenough{color:#999;font-weight:normal;font-size:11px;text-decoration:none}
+a.notenough
+.buyNow{text-decoration:underline}
+a.notenough:hover{color:#BBB}
+#mainview .unit .sliderinput,
+#mainview .unit
+.sliderinput{margin:10px
+0pt 8px 130px;position:relative}
+.fnone{float:none}
+.fright{float:right}
+.fleft{float:left;margin-right:8px}
+.clearleft{clear:left}
+.clearright{clear:right}
+.clearboth{clear:both}
+#container #civilopedia_menu .content
+li.main{list-style-type:disc;margin-left:30px}
+#container #civilopedia_menu .content li.main ul#units,
+#container #civilopedia_menu .content li.main ul#buildings,
+#container #civilopedia_menu .content li.main ul#research,
+#container #civilopedia_menu .content li.main
+ul#ships{margin-bottom:5px}
+#container #civilopedia_menu .content li.main ul#units li,
+#container #civilopedia_menu .content li.main ul#buildings li,
+#container #civilopedia_menu .content li.main ul#research li,
+#container #civilopedia_menu .content li.main ul#ships
+li{margin-left:20px;list-style-type:disc}
+#container #civilopedia_menu
+a{color:#542c0f;text-decoration:none}
+#container #civilopedia_menu a:hover{color:#542c0f;text-decoration:underline}
+#resource .stuff,
+#port .stuff,
+#academy
+.stuff{margin-left:1px;border:2px
+solid #e4b873}
+#resource .stuff th,
+#port .stuff th,
+#academy .stuff
+th{background-color:#fbe2b5;color:#7e4a21;font-weight:bold;padding:1px
+2px}
+#resource .stuff td,
+#port .stuff td,
+#academy .stuff
+td{padding:1px
+2px}
+tr.pgnt
+td{font-weight:bold}
+#container #mainview
+div.informations{margin-top:45px;margin-bottom:10px}
+#container #mainview div.informations
+h2{color:#B03937;font-weight:bold;padding:5px
+0px}
+#container #mainview div.informations
+div.hint{padding:20px
+10px 20px 60px;margin:10px
+0px;border:3px
+solid #E4B873;font-size:12px;background-color:#F3D49F;background-image:url(layout/exclamation.jpg);background-repeat:no-repeat;background-position:5px 5px}
+#container #mainview div.informations
+div.navigation{padding:10px;margin:15px
+0px;color:#542C0f;font-size:11px;border-top:1px dashed #542C0F}
+#container #mainview div.informations div.navigation
+a{color:#542C0F;font-size:11px;font-weight:bold}
+#container #mainview div.informations
+div.content{margin-bottom:10px}
+#container #mainview div.informations
+ul{margin:15px
+30px}
+#container #mainview div.informations ul
+li{list-style-type:disc}
+#container #mainview div.informations div.navigation a:hover{text-decoration:none;color:#B03937}
+#container #civilopedia_menu
+div.main{font-size:11px}
+#container #civilopedia_menu div.main
+ul{margin:5px
+0px 5px 10px}
+#container #civilopedia_menu div.main ul
+li{font-weight:bold}
+#container #civilopedia_menu div.main ul li ul
+li{font-weight:normal;margin:0;padding:0}
+#container #civilopedia_menu div.main ul li ul li
+a{}
+#container #civilopedia_menu div.main ul li ul li a:hover{}
+#container #mainview .unit .att-icon{left:459px;position:absolute;top:12px}
+#container #mainview .unit .def-icon{left:493px;position:absolute;top:12px}
+#unitdescription #mainview div.costs table#upgrades,
+#shipdescription #mainview div.costs
+table#upgrades{margin:10px
+0px;width:100%}
+#unitdescription #mainview div.costs table#upgrades th,
+#shipdescription #mainview div.costs table#upgrades
+th{color:#542c0f;font:bold 12px Arial, Helvetica, sans-serif;padding-bottom:4px;border-bottom:1px solid #FBE7C0}
+#unitdescription #mainview div.costs table#upgrades td,
+#shipdescription #mainview div.costs table#upgrades
+td{font-size:11px}
+#unitdescription #mainview div.costs table#upgrades td img,
+#shipdescription #mainview div.costs table#upgrades td
+img{position:relative;left:auto;top:auto}
+html .content
+ul.error{padding:5px}
+#cityMilitary-fleet  .contentBox01h div.content,
+#cityMilitary-army  .contentBox01h
+div.content{background-color:#faeac6}
+#cityMilitary-fleet  #container #mainview table,
+#cityMilitary-army  #container #mainview
+table{margin:0pt auto;width:100%;border-collapse:collapse;width:670px;margin-bottom:1px}
+#cityMilitary-fleet  #container #mainview table td.city,
+#cityMilitary-army  #container #mainview table
+td.city{text-align:left}
+#cityMilitary-fleet  #container #mainview table#garrison td.units,
+#cityMilitary-army  #container #mainview table#garrison
+td.units{}
+#cityMilitary-fleet  #container #mainview table#garrison td.ships,
+#cityMilitary-army  #container #mainview table#garrison
+td.ships{}
+#cityMilitary-fleet  #container #mainview .content table td,
+#cityMilitary-fleet  #container #mainview .content table th,
+#cityMilitary-army  #container #mainview .content table td,
+#cityMilitary-army  #container #mainview .content table
+th{border:2px
+solid #FAEAC6;text-align:center}
+#cityMilitary-fleet  #container #mainview table tr td,
+#cityMilitary-army  #container #mainview table tr
+td{}
+#cityMilitary-fleet  #container #mainview table tr.alt td,
+#cityMilitary-army  #container #mainview table tr.alt
+td{background-color:#F2D9AB}
+#cityMilitary-fleet  #container #mainview table tr.total td,
+#cityMilitary-army  #container #mainview table tr.total
+td{background-color:#F2D9AB;font-weight:bold;border-top:1px solid #000}
+#cityMilitary-fleet  #container #mainview table th,
+#cityMilitary-army  #container #mainview table
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}
+#cityMilitary-fleet  #container #mainview table th,
+#cityMilitary-fleet  #container #mainview table td,
+#cityMilitary-army  #container #mainview table th,
+#cityMilitary-army  #container #mainview table
+td{padding:3px
+6px;vertical-align:middle}
+#cityMilitary-fleet  table .empty,
+#cityMilitary-army  table
+.empty{width:80px}
+#cityMilitary-fleet  .dynamic .content,
+#cityMilitary-army  .dynamic
+.content{text-align:center}
+#cityMilitary-fleet  .dynamic .content .button,
+#cityMilitary-army  .dynamic .content
+.button{display:block;padding:2px
+5px;margin:10px
+auto;width:160px}
+#cityMilitary-fleet  #container #mainview .contentBox01h a,
+#cityMilitary-army  #container #mainview .contentBox01h
+a{color:#542c0f}
+#cityMilitary-fleet  #container #mainview table#overall td.ships,
+#cityMilitary-fleet  #container #mainview table#overall td.units,
+#cityMilitary-army  #container #mainview table#overall td.ships,
+#cityMilitary-army  #container #mainview table#overall
+td.units{text-align:center}
+#cityMilitary-fleet #container #mainview table tr.count td,
+#cityMilitary-army #container #mainview table tr.count
+td{background-color:#FDF7DD}
+#container #mainview #premiumOffers table.TableHoriMax
+td.active{vertical-align:top;text-align:left;color:green;font-weight:bold;font-size:16px}
+#container #mainview #premiumOffers table.TableHoriMax
+td.inactive{vertical-align:top;text-align:left;color:red;font-weight:bold;font-size:16px}
+#ambrosia
+.content{text-align:center}
+#ambrosia
+.ambrosiaCount{padding-top:100px;background:url(premium/ambrosia.gif) no-repeat top center;color:#906646;font-weight:bold;font-size:24px}
+#mainview
+ul#premiumResourceAssign{width:650px;margin-top:20px}
+#container #premiumResourceAssign
+.sliderinput{margin-left:100px}
+#container #premiumResourceAssign
+.startvalue{position:absolute;left:0px;padding-top:8px;text-align:right;width:55px}
+#container #premiumResourceAssign
+.diffvalue{position:absolute;top:12px;left:590px}
+#container #premiumResourceAssign
+.textfield{position:absolute;top:8px;left:510px;width:60px;text-align:center}
+#container #premiumResourceAssign li
+.summary{position:absolute;left:510px;width:100px;text-align:left}
+#container #premiumResourceAssign li.wood,
+#container #premiumResourceAssign li.wine,
+#container #premiumResourceAssign li.marble,
+#container #premiumResourceAssign li.glass,
+#container #premiumResourceAssign
+li.sulfur{background-position:65px center}
+#container #premiumResourceAssign
+li.setSlider{margin:0px;padding:0px}
+#container #premiumResourceAssign li.setSlider
+#buttonEqual{position:absolute;left:320px;margin:0px;padding-left:5px;padding-right:5px}
+#container #premiumResourceAssign li.setSlider
+#buttonZero{position:absolute;left:120px;margin:0px;padding-left:5px;padding-right:5px}
+#container
+#tradeBtn{width:auto;padding-left:5px;padding-right:5px}
+.modifiersList{cursor:pointer;width:50px;margin:auto;text-align:center}
+.modifiersList ul li
+ul{position:absolute;margin:auto}
+.modifiersList ul li
+ul{display:none}
+.modifiersList ul:hover li
+ul{display:block;border:1px
+solid #cba062}
+.modifiersList ul li
+ul{padding:6px
+6px 0 0;background-image:url(combatreport/bg_detailValues.jpg);background-color:#ddd2b6;background-repeat:repeat-y;margin: -20px 0 0 50px}
+html* .modifiersList ul li
+ul{margin: -6px 0 0 0px}
+.modifiersList ul li ul
+li{width:130px;height:26px;text-align:right;background-repeat:no-repeat;background-position:15px 0px}
+.modifiersList ul li ul
+li.baseAttack{background-image:url(unitdesc/unit_attack_small.gif)}
+.modifiersList ul li ul
+li.upgradesAttack{background-image:url(layout/sword-icon-report.gif)}
+.modifiersList ul li ul li.specialAssault,.modifiersList ul li ul
+li.specialSteady{background-image:url(unitdesc/unit_boom_small.gif)}
+.modifiersList ul li ul
+li.baseDefense{background-image:url(layout/shield-icon-report.gif)}
+.modifiersList ul li ul
+li.upgradesDefense{background-image:url(layout/shield-icon1.gif)}
+.modifiersList ul li ul
+li.wallBonus{background-image:url(combatreport/wallbonus.gif)}
+.modifiersList ul li ul
+li.title{text-align:left;font-weight:bold;padding:0
+0 0 15px}
+.modifiersList ul li ul
+li.endurance{background-image:url(layout/icon-endurance2.gif)}
+.modifiersList ul li ul
+li.enduranceModifier{background-image:url(combatreport/enduranceModifier.gif)}
+.combatReportLostTroops{display:block;width:85px;float:left}
+.reportForm p
+strong{font-weight:bold;color:#900}
+.reportForm
+.offender{font-weight:bold}
+.reportForm
+label{display:block;margin-left:20px;margin-top:8px}
+html
+#annotationBox{position:absolute;left:100px;top:55px;z-index:40000}
+html #annotationBox
+.close{background-image:url(layout/notice_close.gif);position:absolute;left:377px;top:9px;height:18px;width:18px;cursor:pointer}
+html #annotationBox .close:hover{background-image:url(layout/notice_close_hover.gif)}
+html
+#annotationBox{width:403px}
+html #annotationBox
+h3{background-color:transparent;background-image:url(layout/bg_messageBox_header.gif);height:20px;padding-top:10px;padding-left:10px;font-weight:bold}
+html #annotationBox
+.footer{background-image:url(layout/bg_messageBox_footer.gif);background-repeat:no-repeat;height:6px;line-height:1px;font-size:0px;padding:0px}
+html #annotationBox
+.content{padding:10px;background-image:url(layout/bg_messageBox.gif)}
+#information table th.center,
+#information table
+td.center{text-align:center}
+#information table
+td{padding:2px}
+html #upgradeInProgress
+.isUpgrading{font-weight:bold;width:320px;text-align:center;margin:8px
+auto 4px 80px}
+html #upgradeInProgress
+.buildingLevel{position:absolute;left:10px;top:40px;width:60px;background:url(upgrade/nextlevelarrow.gif) no-repeat 6px 45px;text-align:center;font-size:24px;height:70px}
+html #upgradeInProgress .buildingLevel
+.textLabel{display:block;margin-bottom:46px;font-size:12px}
+html #upgradeInProgress
+.nextLevel{position:absolute;left:10px;top:55px;width:60px;font-size:24px;font-weight:bold;text-align:center}
+html #upgradeInProgress .nextLevel
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+html #upgradeInProgress
+.progressBar{width:320px;margin:12px
+auto 2px 80px;height:24px;border:1px
+solid #775726;background-color:#fefbe8;text-align:left}
+html #upgradeInProgress  .progressBar
+.bar{height:100%;background-color:#73443e}
+html #upgradeInProgress
+.time{display:block;font-weight:bold;width:320px;margin:4px
+auto 4px 80px;text-align:center}
+html #upgradeInProgress
+.cancelUpgrade{display:block;position:absolute;width:80px;margin: -25px 0px 0px 330px}
+html #constructionList
+li{border-bottom:1px dotted #EBC185;padding-bottom:5px}
+html #constructionList
+h4{background-color:#ebc185;color:#580404;line-height:20px;font-weight:bold;text-align:center}
+html #constructionList .currentUnit, #constructionList.dynamic .content ul
+li{position:relative;margin:4px
+0px;height:52px;padding-left:52px;border-bottom:1px solid #fffbdb}
+html #constructionList
+.abortdiv{position:absolute;left:190px}
+html #constructionList
+.abort{background-image:url(interface/btn_abort.gif);background-repeat:no-repeat;display:block;width:23px;height:19px}
+html #constructionList
+.amount{font-weight:bold;padding:4px
+0px;padding-left:5px;display:inline}
+html #constructionList
+.time{padding-left:18px}
+.armybutton.swordsman{background-position:-50px 0px}
+.armybutton.phalanx{background-position:-100px 0px}
+.armybutton.archer{background-position:-150px 0px}
+.armybutton.marksman{background-position:-200px 0px}
+.armybutton.medic{background-position:-250px 0px}
+.armybutton.cook{background-position:-300px 0px}
+.armybutton.steamgiant{background-position:-350px 0px}
+.armybutton.gyrocopter{background-position:-400px 0px}
+.armybutton.bombardier{background-position:-450px 0px}
+.armybutton.catapult{background-position:-500px 0px}
+.armybutton.mortar{background-position:-550px 0px}
+.armybutton.ram{background-position:-600px 0px}
+.armybutton.spearman{background-position:-750px 0px}
+.fleetbutton.ship_ram{background-position:-50px 0px}
+.fleetbutton.ship_ballista{background-position:-100px 0px}
+.fleetbutton.ship_flamethrower{background-position:-150px 0px}
+.fleetbutton.ship_catapult{background-position:-200px 0px}
+.fleetbutton.ship_steamboat{background-position:-250px 0px}
+.fleetbutton.ship_mortar{background-position:-300px 0px}
+.fleetbutton.ship_submarine{background-position:-350px 0px}
+.citySpecialSelect{font-size:12px;text-align:left;position:relative;display:block;left:12px;width:175px;height:25px}
+.smallFont{font-size:11px}
+.citySpecialSelect
+*{background:url(relatedCities/cityselect_dropdown.gif) no-repeat 0px 0px}
+.citySpecialSelect
+li{position:static;line-height:25px;padding-left:8px}
+.citySpecialSelect .optionList
+li.first{border-top:1px solid #cd9e6f;background:#fff7e2;z-index:1000}
+.citySpecialSelect .optionList
+li{border-left:1px solid #cd9e6f;border-right:1px solid #cd9e6f;background:#fff7e2;height:25px;z-index:1000;cursor:pointer}
+.citySpecialSelect .optionList
+li.last{border-bottom:1px solid #cd9e6f;background:#fff7e2;z-index:1000}
+.citySpecialSelect .optionList
+li.first.hover{background:#fff5b0;z-index:1000}
+.citySpecialSelect .optionList
+.hover{background:#fff5b0;z-index:1000}
+.citySpecialSelect .optionList
+li.last.hover{background:#fff5b0;z-index:1000}
+.citySpecialSelect
+.optionList{background:#fcf6dc;position:absolute;display:none;top:25px;left:0px;z-index:1000;width:175px}
+.citySpecialSelect
+.optionList_expanded{background:#fcf6dc;display:block;z-index:1000}
+.citySpecialSelect
+.dropbutton{background-position:0px -0px;padding-left:8px;height:25px;line-height:25px;cursor:default;overflow:hidden}
+.citySpecialSelect
+.dropbutton.hover{background-position:0px -25px;padding-left:8px;height:25px;line-height:25px;cursor:default}
+.citySpecialSelect
+.dropbutton_expanded{background-position:0px -50px;padding-left:8px}
+.citySpecialSelect
+.dropbutton_expanded.hover{background-position:0px -50px;padding-left:8px}
+.citySpecialSelect .optionList li.deployedCities,
+.citySpecialSelect
+.deployedCities{background-image:url(layout/select_citynav_deployment.jpg)}
+.citySpecialSelect .optionList li.occupiedCities,
+.citySpecialSelect
+.occupiedCities{background-image:url(layout/select_citynav_occupation.jpg)}
+.citySpecialSelect  .optionList li.tradegood
+span.cityresource{float:left;width:30px;height:20px;background:none}
+.replaced{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.citySpecialSelect
+span.cityresource{}
+.citySpecialSelect .tradegood1
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_wine.gif) no-repeat center}
+.citySpecialSelect .tradegood2
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_marble.gif) no-repeat center}
+.citySpecialSelect .tradegood3
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_glass.gif) no-repeat center}
+.citySpecialSelect .tradegood4
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_sulfur.gif) no-repeat center}
+div.contentBox01h
+div#wonderBox85h{position:relative;height:100px;text-align:center}
+.wonder_BarPos1{margin-left:240px !important}
+.wonder_BarPos2{margin-left:170px !important}
+.wonder_BarPos3{margin-left:140px !important}
+.wonder_BarPos4{margin-left:90px !important}
+.wonder_BarPos5{margin-left:45px !important}
+.wonder_bar{position:absolute;height:71px;width:512px;background:url(wonder/belief_bar2.gif);margin:0}
+.leftInfo{position:absolute;left: -185px;top:56px;width:180px;padding:4px;text-align:right}
+.rightInfo{position:absolute;left:5px;top:56px;width:180px;padding:4px}
+div.contentBox01h div#wonderBox85h
+div.wonderBar{position:absolute;top:0;left:0;height:71px;background:url(wonder/belief_bar2.gif);margin:10px
+0 10px 40px}
+.wonder_level{position:absolute;top:0;left:0;background-position:0px -71px}
+div#wonderbeliefinfo.wonder_belief_info
+div.tooltip2{position:absolute;left:-25px;top:35px;width:230px !important}
+.wonder_l1{width:110px}
+.wonder_l2{width:210px}
+.wonder_l3{width:310px}
+.wonder_l4{width:410px}
+.wonder_l5{width:512px}
+.wonder_belief{position:absolute;top:0;left:0;background-position:0px -142px}
+.wonder_belife_info_display{position:relative;height:25px;text-align:center;margin-left:35px}
+.wonder_belief_info{position:absolute;height:78px;width:24px;background:url(wonder/icon_arrow.gif) no-repeat bottom right;z-index:29392}
+.wonder_level_display{position:absolute;background:url(wonder/belief_bar_level.gif) no-repeat;width:53px;height:81px;font-size:36px;font-weight:bold;color:#580404;text-align:center;margin:0
+0 0 565px}
+.wld1{margin-left:130px}
+.wld2{margin-left:230px}
+.wld3{margin-left:330px}
+.wld4{margin-left:430px}
+.wld5{margin-left:530px}
+.warningFont{font-weight:bold;color:#f00}
+html #relatedCities .citySpecialSelect .resource
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_wood.gif) no-repeat center}
+html
+.dropdown{font-size:12px;text-align:left;position:relative;display:block;top:0px;left:12px;height:25px}
+html .dropdown.size175 ul.optionList,
+html
+.dropdown.size175{width:175px}
+html .dropdown.size175
+*{background:url(layout/dropdown_175px.gif) no-repeat 0px 0px}
+html .dropdown.size165 ul.optionList,
+html
+.dropdown.size165{width:165px}
+html .dropdown.size165
+*{background:url(layout/dropdown_165px.gif) no-repeat 0px 0px}
+html .dropdown.size155 ul.optionList,
+html
+.dropdown.size155{width:155px}
+html .dropdown.size155
+*{background:url(layout/dropdown_155px.gif) no-repeat 0px 0px}
+html .dropdown.size145 ul.optionList,
+html
+.dropdown.size145{width:145px}
+html .dropdown.size145
+*{background:url(layout/dropdown_145px.gif) no-repeat 0px 0px}
+html .dropdown.size135 ul.optionList,
+html
+.dropdown.size135{width:135px}
+html .dropdown.size135
+*{background:url(layout/dropdown_135px.gif) no-repeat 0px 0px}
+html .dropdown.size125 ul.optionList,
+html
+.dropdown.size125{width:125px}
+html .dropdown.size125
+*{background:url(layout/dropdown_125px.gif) no-repeat 0px 0px}
+html .dropdown.size115 ul.optionList,
+html
+.dropdown.size115{width:115px}
+html .dropdown.size115
+*{background:url(layout/dropdown_115px.gif) no-repeat 0px 0px}
+html .dropdown.size105 ul.optionList,
+html
+.dropdown.size105{width:105px}
+html .dropdown.size105
+*{background:url(layout/dropdown_105px.gif) no-repeat 0px 0px}
+html .dropdown.size95 ul.optionList,
+html
+.dropdown.size95{width:95px}
+html .dropdown.size95
+*{background:url(layout/dropdown_95px.gif) no-repeat 0px 0px}
+html .dropdown.size68 ul.optionList,
+html
+.dropdown.size68{width:68px}
+html .dropdown.size68
+*{background:url(layout/dropdown_68px.gif) no-repeat 0px 0px}
+html
+.dropdown.smallFont{font-size:11px}
+html .dropdown
+li{position:static;line-height:25px;padding-left:8px}
+html .dropdown .optionList
+li.first{border-top:1px solid #cd9e6f;background:#fff7e2;z-index:1000}
+html .dropdown .optionList
+li{border-left:1px solid #cd9e6f;border-right:1px solid #cd9e6f;background:#fff7e2;height:25px;z-index:1000;cursor:pointer}
+html .dropdown .optionList
+li.last{border-bottom:1px solid #cd9e6f;background:#fff7e2;z-index:1000}
+html .dropdown .optionList
+li.first.hover{background:#fff5b0;z-index:1000}
+html .dropdown .optionList
+.hover{background:#fff5b0;z-index:1000}
+html .dropdown .optionList
+li.last.hover{background:#fff5b0;z-index:1000}
+html .dropdown
+.optionList{background:#fcf6dc;position:absolute;display:none;top:25px;left:0px;z-index:1000;width:175px}
+html .dropdown
+.optionList_expanded{background:#fcf6dc;display:block;z-index:1000}
+html .dropdown
+.dropbutton{background-position:0px -0px;padding-left:8px;height:25px;line-height:25px;cursor:default;overflow:hidden}
+html .dropdown
+.dropbutton.hover{background-position:0px -25px;padding-left:8px;height:25px;line-height:25px;cursor:default}
+html .dropdown
+.dropbutton_expanded{background-position:0px -50px;padding-left:8px}
+html .dropdown
+.dropbutton_expanded.hover{background-position:0px -50px;padding-left:8px}
+html .dropdown .optionList li.tradegood
+span.cityresource{float:left;width:30px;height:20px;background:none}
+html
+select.replaced{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+html .dropdown
+span.cityresource{}
+html .dropdown .tradegood1
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_wine.gif) no-repeat center}
+html .dropdown .tradegood2
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_marble.gif) no-repeat center}
+html .dropdown .tradegood3
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_glass.gif) no-repeat center}
+html .dropdown .tradegood4
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_sulfur.gif) no-repeat center}
+html .dropdown .resource
+span.cityresource{float:left;width:30px;height:20px;background:url(resources/icon_worldmap_wood.gif) no-repeat center}
+div#goToResearch
+img.iconResearch{margin: -5px 9px}
+div#goToResearch
+div.centerButton{margin:25px
+0 25px 0}
+#cityMilitary-army
+.allied{background-color:#caf9b1}
+#cityMilitary-army
+.treaty{background-color:#fefa85}
+#container
+#resUpgrade{color:#580404}
+#container #resUpgrade
+img{display:block;margin:6px
+auto}
+#container #resUpgrade
+.buildingLevel{text-align:center;font:bold 36px Arial, Helvetica, sans-serif;height:70px}
+#container #resUpgrade .buildingLevel
+.textLabel{display:block;font:normal 12px Arial, Helvetica, sans-serif}
+#container #resUpgrade
+h4{font-weight:normal;text-align:center;margin:6px
+0px;padding:4px;background-color:#fffbdb}
+#container #resUpgrade
+.resources{margin:0
+0 0 30px}
+#container #resUpgrade
+#donateForm{border:1px
+solid #fffbdb;border-bottom-color:#dfcea2;border-right-color:#dfcea2;background-color:#fcf1d2;margin:10px
+8px}
+#resUpgrade
+#donate{text-align:center}
+#container #resUpgrade #donate
+label{display:block;text-align:center;margin:2px
+0px;padding:4px
+2px}
+#container #resUpgrade #donate
+input.textfield{width:120px;text-align:center;vertical-align:middle}
+#container #resUpgrade #donate
+a{margin-left:4px;padding:0px
+4px;line-height:26px;font-weight:bold;text-decoration:none}
+#container #resUpgrade #donate a:hover{text-decoration:underline}
+#container #resUpgrade.upgrading
+.content{height:200px}
+#container #resUpgrade.upgrading
+.isUpgrading{font-weight:bold;width:140px;text-align:center;margin:20px
+auto 4px 70px}
+#container #resUpgrade.upgrading
+.buildingLevel{position:absolute;width:60px;left:10px;top:96px;text-align:center;font-size:24px;background:url(upgrade/nextlevelarrow.gif) no-repeat 6px 45px;height:70px}
+#container #resUpgrade.upgrading .buildingLevel
+.textLabel{display:block;margin-bottom:46px}
+#container #resUpgrade.upgrading
+.nextLevel{position:absolute;width:60px;left:10px;top:112px;text-align:center;font-weight:bold;color:#894846;font-size:24px}
+#container #resUpgrade.upgrading .nextLevel
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #resUpgrade.upgrading
+.progressBar{width:120px;margin:24px
+auto 2px 80px;height:20px;border:1px
+solid #775726;background-color:#fefbe8}
+#container #resUpgrade.upgrading .progressBar
+.bar{height:100%;background-color:#73443e}
+#container #resUpgrade.upgrading
+.time{display:block;font-weight:bold;width:140px;margin:4px
+auto 4px 70px;text-align:center}
+#mainview #setWorkers
+div.content{height:178px;color:#612d04}
+#mainview #setWorkers
+ul{position:relative;height:50px;background-image:url(layout/assignworkers_bg_stats.gif)}
+#mainview #setWorkers
+.citizens{position:absolute;top:16px;left:12px;width:100px;height:120px;background:url(characters/y100_citizen_faceright.gif) no-repeat 30px 16px}
+#mainview #setWorkers .citizens
+.value{position:absolute;top:123px;left:14px;width:72px;height:24px;background-image:url(interface/bg_count.gif);line-height:24px;text-align:center}
+#mainview #setWorkers .citizens
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview #setWorkers
+.workers{position:absolute;top:16px;left:538px;width:100px;height:120px}
+#resource #setWorkers
+.workers{background:url(characters/y100_worker_wood_faceleft.gif) no-repeat 11px 16px}
+#setWorkers .workers
+.value{position:absolute;top:123px;left:14px;width:72px;height:24px;background-image:url(img/resource/bg_count.gif);line-height:24px;text-align:center}
+#setWorkers .workers
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#setWorkers
+.gain{position:absolute;top:4px;left:126px;width:250px}
+#setWorkers .gain
+.textLabel{display:block;text-align:center;line-height:18px;height:18px;font-size:11px}
+#setWorkers .gain
+#gainPoints{width:140px;height:20px;line-height:20px;overflow:hidden}
+#setWorkers .gain
+.gainPerHour{position:absolute;top:22px;left:145px}
+#setWorkers
+.costs{position:absolute;top:4px;left:404px;width:120px}
+#setWorkers .costs
+.textLabel{display:block;text-align:center;line-height:18px;height:18px;font-size:11px}
+#setWorkers .costs
+#valueResearchCosts{font-weight:bold;color:#2d8f37}
+#setWorkers .costs
+#valueResearchCosts.negative{color:#c61d1a}
+#setWorkers
+.setMin{position:absolute;display:block;width:24px;height:24px;top:88px;left:114px;background-image:url(img/resource/btn_min.gif)}
+#setWorkers .setMin
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#setWorkers
+.setMax{position:absolute;display:block;width:24px;height:24px;top:88px;left:512px;background-image:url(img/resource/btn_max.gif)}
+#setWorkers .setMax
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#setWorkers
+#overchargeMsg.status{position:absolute;left:200px;top:60px;width:250px;height:20px;font-weight:bold;text-align:center}
+#setWorkers
+#overchargeMsg.nooc{display:none}
+#setWorkers
+#overchargeMsg.ocready{color:#d30c0c}
+#setWorkers
+#overchargeMsg.oced{font-style:italic;color:#d30c0c}
+#setWorkers
+#sliderbg{position:absolute;top:84px;left:140px;width:350px;height:35px;padding:0px
+10px;background-image:url(img/resource/bg_slider.gif)}
+#setWorkers #sliderbg
+#actualValue{position:absolute;left:0;top:0;width:100%;height:100%;clip:rect(0px 0px auto 0px);background:url(img/resource/bg_slider_lightblue.gif) no-repeat 10px 6px}
+#setWorkers #sliderbg
+#overcharge{position:absolute;left:0;top:0;width:100%;height:100%;clip:rect(0px auto auto 370px);background:url(img/resource/bg_slider_darkred.gif) no-repeat 10px 6px}
+#setWorkers #sliderbg
+#sliderthumb{position:absolute;width:16px;height:35px;background-image:url(img/resource/bg_slider_thumb.gif)}
+#setWorkers
+input.textfield{width:90px;height:20px;text-align:center;margin:0;padding:2px
+0;position:absolute;top:130px;left:260px}
+#setWorkers input.button,
+#setWorkers
+input.buttonChanged{height:26px;margin:0;padding:0
+10px;position:absolute;top:130px;left:360px}
+.contentBox01h
+table{width:100%;margin:0px
+auto 10px auto;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;border:0px
+solid #e4b873;background-color:#fdf7dd}
+.contentBox01h table
+tr{font-weight:normal}
+.contentBox01h table
+.alt{background-color:#fdf1d4}
+.contentBox01h table
+th{background-color:#faeac6;text-align:center;height:24px;padding:4px;font-weight:bold;background-color:#faeac6}
+.contentBox01h table
+td{vertical-align:top}
+.contentBox01h table tr.own
+td{vertical-align:top}
+#mainview
+.othercities{margin:10px
+0px 20px 0px}
+.contentBox
+table{width:674px;margin:0px
+auto;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;background-color:#fdf7dd}
+.contentBox table
+tr{font-weight:normal}
+.contentBox table
+.alt{background-color:#fdf1d4}
+.contentBox table
+th{text-align:center;height:24px;padding:4px;font-weight:bold;background-color:#faeac6}
+.contentBox table
+td{vertical-align:middle;padding:4px
+8px}
+#resourceUsers tr.own
+td{font-weight:bold;color:#060}
+#resourceUsers
+td.ownerName{font-weight:bold}
+#resourceUsers
+td.cityLevel{text-align:left}
+#resourceUsers
+td.cityWorkers{text-align:left}
+#resourceUsers
+td.ownerDonation{text-align:right}
+#resourceUsers td.ownerDonation
+img{vertical-align:middle}
+#resourceUsers
+td.actions{border-left:2px solid #faeac6}
+.happiness_ecstatic{background:url(smilies/ecstatic.gif) no-repeat center center}
+.happiness_happy{background:url(smilies/happy.gif) no-repeat center center}
+.happiness_neutral{background:url(smilies/neutral.gif) no-repeat center center}
+.happiness_sad{background:url(smilies/sad.gif) no-repeat center center}
+.happiness_outraged{background:url(smilies/outraged.gif) no-repeat center center}
+#notices{height:100%}
+#notices h4, #SatisfactionOverview .negatives
+h4{background:url(interface/bg_subheading_h4.gif) repeat-x;height:23px;line-height:22px;text-align:center;font-weight:bold;font-size:11px}
+#notices div
+p{margin:0px}
+#notices div
+h5{font-weight:bold}
+#notices
+.warning{border:1px
+solid #f1d198;padding:3px
+10px 3px 80px;margin:2px
+0px;background:#fcddd2 url(townhall_warning.gif) no-repeat 10px 4px;min-height:50px}
+#notices
+.notice{background-color:#fdf4cb;border:1px
+solid #f1d198;padding:3px
+10px 3px 80px;margin:2px
+0px}
+#unitConstructionList
+li{border-bottom:1px dotted #EBC185;padding-bottom:5px}
+#unitConstructionList
+h4{background-color:#ebc185;color:#580404;line-height:20px;font-weight:bold;text-align:center}
+#unitConstructionList .currentUnit, #unitConstructionList.dynamic .content ul
+li{position:relative;margin:4px
+0px;height:52px;padding-left:52px;border-bottom:1px solid #fffbdb}
+#unitConstructionList
+.abortdiv{position:absolute;left:190px}
+#unitConstructionList
+.abort{background-image:url(interface/btn_abort.gif);background-repeat:no-repeat;display:block;width:23px;height:19px}
+#unitConstructionList
+.amount{font-weight:bold;padding:4px
+0px;width:135px}
+#unitConstructionList .currentUnit
+.progressbar{width:100px;height:10px;margin:4px
+0px;border:1px
+solid #775726;background-color:#fefbe8;overflow:hidden;background-image:url(input/textfield.gif);background-position:bottom}
+#unitConstructionList .currentUnit .progressbar
+.bar{height:100%;background-color:#73443e;background-image:url(interface/progressbar_anim.gif);background-position:bottom}
+#unitConstructionList .currentUnit
+.time{position:absolute;font-weight:bold;top:25px;left:160px;font-size:11px}
+#unitConstructionList .currentUnit .time
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#unitConstructionList
+.swordsman{background:url(characters/military/x40_y40/y40_swordsman_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.phalanx{background:url(characters/military/x40_y40/y40_phalanx_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.archer{background:url(characters/military/x40_y40/y40_archer_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.marksman{background:url(characters/military/x40_y40/y40_marksman_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.mortar{background:url(characters/military/x40_y40/y40_mortar_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.slinger{background:url(characters/military/x40_y40/y40_slinger_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.catapult{background:url(characters/military/x40_y40/y40_catapult_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ram{background:url(characters/military/x40_y40/y40_ram_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.steamgiant{background:url(characters/military/x40_y40/y40_steamgiant_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.bombardier{background:url(characters/military/x40_y40/y40_bombardier_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.cook{background:url(characters/military/x40_y40/y40_cook_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.medic{background:url(characters/military/x40_y40/y40_medic_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.gyrocopter{background:url(characters/military/x40_y40/y40_gyrocopter_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.spearman{background:url(characters/military/x40_y40/y40_spearman_faceright.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_ram{background:url(characters/fleet/40x40/ship_ram_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_ballista{background:url(characters/fleet/40x40/ship_ballista_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_catapult{background:url(characters/fleet/40x40/ship_catapult_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_flamethrower{background:url(characters/fleet/40x40/ship_flamethrower_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_mortar{background:url(characters/fleet/40x40/ship_mortar_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_steamboat{background:url(characters/fleet/40x40/ship_steamboat_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_submarine{background:url(characters/fleet/40x40/ship_submarine_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.ship_transport{background:url(characters/fleet/40x40/ship_transport_r_40x40.gif) no-repeat 6px 6px}
+#unitConstructionList
+.townHall{background:url(buildings/x40_y40/townHall.gif) no-repeat 6px 6px}
+#unitConstructionList
+.academy{background:url(buildings/x40_y40/academy.gif) no-repeat 6px 6px}
+#unitConstructionList
+.warehouse{background:url(buildings/x40_y40/warehouse.gif) no-repeat 6px 6px}
+#unitConstructionList
+.tavern{background:url(buildings/x40_y40/tavern.gif) no-repeat 6px 6px}
+#unitConstructionList
+.palace{background:url(buildings/x40_y40/palace.gif) no-repeat 6px 6px}
+#unitConstructionList
+.palaceColony{background:url(buildings/x40_y40/palaceColony.gif) no-repeat 6px 6px}
+#unitConstructionList
+.museum{background:url(buildings/x40_y40/museum.gif) no-repeat 6px 6px}
+#unitConstructionList
+.port{background:url(buildings/x40_y40/port.gif) no-repeat 6px 6px}
+#unitConstructionList
+.wall{background:url(buildings/x40_y40/wall.gif) no-repeat 6px 6px}
+#unitConstructionList
+.embassy{background:url(buildings/x40_y40/embassy.gif) no-repeat 6px 6px}
+#unitConstructionList
+.branchOffice{background:url(buildings/x40_y40/branchOffice.gif) no-repeat 6px 6px}
+#unitConstructionList
+.workshop{background:url(buildings/x40_y40/workshop.gif) no-repeat 6px 6px}
+#unitConstructionList
+.safehouse{background:url(buildings/x40_y40/safehouse.gif) no-repeat 6px 6px}
+#unitConstructionList
+.forester{background:url(buildings/x40_y40/forester.gif) no-repeat 6px 6px}
+#unitConstructionList
+.glassblowing{background:url(buildings/x40_y40/glassblowing.gif) no-repeat 6px 6px}
+#unitConstructionList
+.alchemist{background:url(buildings/x40_y40/alchemist.gif) no-repeat 6px 6px}
+#unitConstructionList
+.winegrower{background:url(buildings/x40_y40/winegrower.gif) no-repeat 6px 6px}
+#unitConstructionList
+.stonemason{background:url(buildings/x40_y40/stonemason.gif) no-repeat 6px 6px}
+#unitConstructionList
+.carpentering{background:url(buildings/x40_y40/carpentering.gif) no-repeat 6px 6px}
+#unitConstructionList
+.optician{background:url(buildings/x40_y40/optician.gif) no-repeat 6px 6px}
+#unitConstructionList
+.fireworker{background:url(buildings/x40_y40/fireworker.gif) no-repeat 6px 6px}
+#unitConstructionList
+.vineyard{background:url(buildings/x40_y40/vineyard.gif) no-repeat 6px 6px}
+#unitConstructionList
+.architect{background:url(buildings/x40_y40/architect.gif) no-repeat 6px 6px}
+#unitConstructionList
+.barracks{background:url(buildings/x40_y40/barracks.gif) no-repeat 6px 6px}
+#unitConstructionList
+.shipyard{background:url(buildings/x40_y40/shipyard.gif) no-repeat 6px 6px}
+#unitConstructionList
+.temple{background:url(buildings/x40_y40/temple.gif) no-repeat 6px 6px}
+#container #mainview #units
+hr{margin-left:130px;margin-right:160px;color:#bc575d;background-color:#bc575d;border:none;border-color:#bc575d;height:1px}
+#container #mainview
+#units{position:relative}
+#container #mainview
+.unit{position:relative;padding:10px
+0px;background:url(interface/bg_build.gif) repeat-y top right;min-height:140px}
+#container #mainview .unit
+h4{font-size:14px;font-weight:bold;line-height:22px;margin-bottom:2px;margin-left:130px;width:400px}
+#container #mainview .unitinfo
+img{position:absolute;top:10px;left:5px}
+#container #mainview #units .unit
+p{margin-left:130px;width:400px}
+#container #mainview .unit
+.unitcount{position:absolute;width:72px;height:24px;line-height:24px;text-align:center;top:110px;left:30px;background:url(interface/bg_count.gif) no-repeat}
+#container #mainview .unit .unitcount
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview .unit
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview .costs
+h5{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#container #mainview .unit
+.resources{margin-left:130px;margin-right:160px;text-align:right;margin-bottom:10px}
+#container #mainview .unit .resources
+li{display:inline;width:auto;padding-top:3px;padding-bottom:3px;margin:0px
+8px;line-height:22px}
+#container #mainview .unit .resources
+li.citizens{position:absolute;left:125px}
+#container #mainview .unit .resources
+li.wood{position:absolute;left:190px}
+#container #mainview .unit .resources li.wine,
+#container #mainview .unit .resources li.marble,
+#container #mainview .unit .resources li.glass,
+#container #mainview .unit .resources
+li.sulfur{position:absolute;left:255px}
+#container #mainview .unit .resources
+li.upkeep{float:none;margin-left:22px}
+#container #mainview .unit .resources
+li.time{float:none}
+#mainview .unit
+.forminput{position:absolute;top:32px;left:550px;width:100px}
+#mainview .unit .forminput
+.textfield{width:60px;text-align:center}
+#mainview .unit .forminput
+.setMax{vertical-align:middle;font-weight:bold}
+#barracks #mainview .unit .sliderinput, #shipyard #mainview .unit
+.sliderinput{position:relative;margin:10px
+0 8px 130px}
+#barracks
+.buildingDescription{height:auto;margin-bottom:15px}
+th.col1{color:#612d04}
+td.col1{color:#612d04}
+html #assignCulturalGoods
+.totalCulturalGoods{font-size:18px;font-weight:bold;color:#906646;text-align:center}
+html #assignCulturalGoods .totalCulturalGoods
+.textLabel{display:block;margin:10px;font-size:12px;font-weight:normal}
+@charset "utf-8";#safehouseMissions #mainview
+a{color:#542c0f;text-decoration:underline}
+html #safehouse #container #mainview ul li.risk .statusBar,
+html #safehouseMissions #mainview
+.statusBar{width:205px;height:10px;border:1px
+solid #775726;background-color:#fefbe8;overflow:hidden}
+html #safehouse #container #mainview ul li.risk .statusBar .bar,
+html #safehouseMissions #mainview .statusBar
+.bar{height:100%;background-color:#deaf64;border-right:1px solid #960;background:url(layout/bg-spy-detection-bar-205.gif) no-repeat;overflow:hidden}
+html #safehouseReports #container #mainview
+td.job{font-weight:bold;width:120px}
+html #safehouseReports #container #mainview
+td.report{padding-top:10px}
+html #safehouseReports #container #mainview td.report
+a{color:#542c0f;font-weight:bold;text-decoration:underline}
+html #safehouseReports #container #mainview td.report a:hover{color:#542c0f;font-weight:bold}
+html #safehouseReports #container #mainview
+table.reportTable{margin:10px
+0px;width:300px;border:1px
+solid #FAEAC6}
+html #safehouseReports #container #mainview table.reportTable
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}
+html #safehouseReports #container #mainview table.reportTable th,
+html #safehouseReports #container #mainview table.reportTable
+td{padding:3px
+6px}
+html #safehouseReports #container #mainview table.reportTable
+td.count{text-align:center}
+html #safehouseReports #container #mainview
+tr.status{border-bottom:2px dotted #e4b873}
+html #safehouseReports #container #mainview .contentBox01h
+.content{margin-button:10px}
+html #safehouseReports #container #mainview
+table.record{margin:3px
+6px 10px 6px;width:500px}
+html #safehouseReports #container #mainview
+table#resources{width:200px}
+html #safehouseReports #container #mainview table#resources
+td.unitname{text-align:center}
+html #safehouseReports #container #mainview table#resources
+td.count{text-align:right;padding-right:20px}
+html #safehouseReports #container .dynamic
+.content{text-align:center}
+@charset "utf-8";#tavern #mainview
+div.buildingDescription{height:auto;padding-bottom:20px}
+#mainview
+#citySatisfaction{margin-top:20px;height:80px}
+#mainview
+.ecstatic{background:url(smilies/ecstatic.gif) no-repeat center center}
+#mainview
+.happy{background:url(smilies/happy.gif) no-repeat center center}
+#mainview
+.neutral{background:url(smilies/neutral.gif) no-repeat center center}
+#mainview
+.sad{background:url(smilies/sad.gif) no-repeat center center}
+#mainview
+.outraged{background:url(smilies/outraged.gif) no-repeat center center}
+#mainview #createColony
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview #transportGoods label,
+#colonize #mainview #createColony
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#setPremiumTransports
+.content{background:url(characters/fleet/60x60/ship_trans_prem_r_60x60.gif) no-repeat 30px 0px;padding-left:80px}
+#setPremiumTransports
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#setPremiumTransports
+.sliderinput{margin-left:40px}
+#setPremiumTransports
+#textfield_premium{left:400px;position:absolute;text-align:center;top:4px;width:60px}
+#setPremiumTransports
+p.costs{font-weight:bold;text-align:center;margin-right:60px}
+#setPremiumTransports
+#ambrosiaCosts{font-size:1.1em}
+#setPremiumTransports
+p.PremiumTransportsButton{text-align:center;margin-top:20px;margin-bottom:20px}
+#mainview
+ul.resourceAssign{position:relative;width:500px;margin:0
+auto}
+#mainview .resourceAssign
+li{position:relative;background-repeat:no-repeat;height:30px;padding:4px
+0px}
+#container .resourceAssign
+li.gold{background-image:url(resources/icon_gold.gif);background-position:4px center}
+#container .resourceAssign
+li.wood{background-image:url(resources/icon_wood.gif);background-position:4px center}
+#container .resourceAssign
+li.wine{background-image:url(resources/icon_wine.gif);background-position:4px center}
+#container .resourceAssign
+li.marble{background-image:url(resources/icon_marble.gif);background-position:2px center}
+#container .resourceAssign
+li.glass{background-image:url(resources/icon_glass.gif);background-position:4px center}
+#container .resourceAssign
+li.sulfur{background-image:url(resources/icon_sulfur.gif);background-position:2px center}
+#container .resourceAssign
+.sliderinput{margin-left:40px}
+#container .resourceAssign li
+.notAvailable{line-height:24px;color:#960;margin-left:60px}
+#container .resourceAssign
+.textfield{position:absolute;top:4px;left:440px;width:60px;text-align:center}
+#container .resourceAssign
+.summary{position:absolute;top:4px;left:440px;width:60px;text-align:center}
+#container .resourceAssign
+.summaryText{float:right;margin-right:83px}
+#mainview .assignUnits
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview
+ul.assignUnits{position:relative;width:634px;margin:0
+auto}
+#mainview .assignUnits
+li{position:relative;background-repeat:no-repeat;background-position:45px center;height:30px;padding:8px
+0px}
+#container .assignUnits li
+.notAvailable{line-height:24px;color:#960;margin-left:120px}
+#container .assignUnits
+.textfield{position:absolute;top:12px;left:500px;width:50px;text-align:center}
+#container .assignUnits
+.amount{position:absolute;top:15px;left:0px;width:35px;text-align:right;font-size:14px;color:#580404}
+#container .assignUnits .amount
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.assignUnits
+li.swordsman{background-image:url(characters/military/x40_y40/y40_swordsman_faceright.gif)}
+.assignUnits
+li.phalanx{background-image:url(characters/military/x40_y40/y40_phalanx_faceright.gif)}
+.assignUnits
+li.archer{background-image:url(characters/military/x40_y40/y40_archer_faceright.gif)}
+.assignUnits
+li.marksman{background-image:url(characters/military/x40_y40/y40_marksman_faceright.gif)}
+.assignUnits
+li.mortar{background-image:url(characters/military/x40_y40/y40_mortar_faceright.gif)}
+.assignUnits
+li.slinger{background-image:url(characters/military/x40_y40/y40_slinger_faceright.gif)}
+.assignUnits
+li.catapult{background-image:url(characters/military/x40_y40/y40_catapult_faceright.gif)}
+.assignUnits
+li.ram{background-image:url(characters/military/x40_y40/y40_ram_faceright.gif)}
+.assignUnits
+li.steamgiant{background-image:url(characters/military/x40_y40/y40_steamgiant_faceright.gif)}
+.assignUnits
+li.bombardier{background-image:url(characters/military/x40_y40/y40_bombardier_faceright.gif)}
+.assignUnits
+li.cook{background-image:url(characters/military/x40_y40/y40_cook_faceright.gif)}
+.assignUnits
+li.medic{background-image:url(characters/military/x40_y40/y40_medic_faceright.gif)}
+.assignUnits
+li.gyrocopter{background-image:url(characters/military/x40_y40/y40_gyrocopter_faceright.gif)}
+.assignUnits
+li.spearman{background-image:url(characters/military/x40_y40/y40_spearman_faceright.gif)}
+.assignUnits
+li.ship_ballista{background-image:url(characters/fleet/40x40/ship_ballista_r_40x40.gif)}
+.assignUnits
+li.ship_catapult{background-image:url(characters/fleet/40x40/ship_catapult_r_40x40.gif)}
+.assignUnits
+li.ship_flamethrower{background-image:url(characters/fleet/40x40/ship_flamethrower_r_40x40.gif)}
+.assignUnits
+li.ship_mortar{background-image:url(characters/fleet/40x40/ship_mortar_r_40x40.gif)}
+.assignUnits
+li.ship_ram{background-image:url(characters/fleet/40x40/ship_ram_r_40x40.gif)}
+.assignUnits
+li.ship_steamboat{background-image:url(characters/fleet/40x40/ship_steamboat_r_40x40.gif)}
+.assignUnits
+li.ship_submarine{background-image:url(characters/fleet/40x40/ship_submarine_r_40x40.gif)}
+#mainview .assignUnits
+.sliderinput{margin-left:100px}
+#container .assignUnits
+.weight{background-image:url(icons/weight.jpg);background-repeat:no-repeat;left:95px;position:absolute;text-align:right;top:12px;width:29px;height:24px;font-size:14px;color:#580404;padding-top:4px;padding-right:25px}
+#container .assignUnits
+.sliderinput{margin-left:160px}
+#container .assignUnits
+.textfield{left:577px}
+#container .assignUnits .weight
+.textLabel{height:1px;left:-9999px;overflow:hidden;position:absolute;width:1px}
+#mainview
+.sliderinput{position:relative}
+#mainview .sliderinput
+.sliderbg{position:relative;left:24px;width:332px;height:30px;padding:0px
+10px;background-image:url(interface/slider_build_bg.gif)}
+#mainview .sliderinput .sliderbg
+.actualValue{position:absolute;left:0;top:0;width:100%;height:100%;clip:rect(0px 0px auto 0px);background:url(interface/slider_build_red.gif) no-repeat 17px 11px}
+#mainview .sliderinput .sliderbg
+.sliderthumb{position:absolute;width:16px;height:30px;background-image:url(interface/slider_build_thumb.gif);cursor:pointer}
+#mainview .sliderinput
+.setMin{position:absolute;display:block;width:24px;height:24px;top:3px;left:0px;background-image:url(img/resource/btn_min.gif)}
+#mainview .sliderinput .setMin
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#mainview .sliderinput
+.setMax{position:absolute;display:block;width:24px;height:24px;top:3px;left:376px;background-image:url(img/resource/btn_max.gif)}
+#mainview .sliderinput .setMax
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#missionSummary{position:relative;padding-top:10px}
+#missionSummary
+.costs{position:relative;margin-left:170px;margin-bottom:10px}
+#missionSummary
+.common{position:relative;float:right;width:350px}
+#missionSummary
+.additionalUpkeep{line-height:22px;background:url(resources/icon_upkeep.gif) no-repeat top left;padding-left:26px}
+#missionSummary
+.estMissionCosts{line-height:22px;background:url(resources/icon_gold.gif) no-repeat 2px top;padding-left:26px}
+#missionSummary
+.journeyTarget{padding-left:44px;line-height:24px;background:url(img/icon_target2.gif) no-repeat top left}
+#missionSummary .journeyTarget
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#missionSummary
+.journeyTime{padding-left:44px;line-height:24px;background:url(img/icon_journeytime.gif) no-repeat top left}
+#missionSummary .journeyTime
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#missionSummary
+.transporters{width:110px;height:50px;margin-left:160px;padding-left:44px;background:url(characters/fleet/40x40/ship_transport_r_40x40.gif) no-repeat 4px 4px;font-size:18px;color:#906646;text-align:left}
+#missionSummary .transporters
+.textLabel{display:block;font-size:12px;color:#542c0f;height:22px;line-height:22px}
+#container #mainview #missionSummary .transporters
+#transporterCount{background:transparent;margin-left:0;padding-left:0;border:none;width:30px;font-size:18px;color:#906646;text-align:right}
+#missionSummary
+.newSummary{position:relative;background-image:url(layout/bg_plunder_boxes.jpg);background-repeat:no-repeat;background-position:left top;margin-left:10px;margin-right:20px;padding-top:5px;padding-bottom:3px;padding-left:40px;height:50px}
+#missionSummary
+.plunderInfo{position:relative;height:25px;width:640px;margin-left:15px;margin-right:20px}
+#missionSummary
+.targetName{position:absolute;background:transparent url(img/icon_target2.gif) no-repeat scroll left top;line-height:24px;padding-left:44px;height:25px;width:200px}
+#missionSummary
+.upkeep{line-height:22px;background:url(resources/icon_upkeep.gif) no-repeat top left;padding-left:26px;float:right}
+#missionSummary .newSummary
+.textLabel{height:1px;left:-9999px;overflow:hidden;position:absolute;width:1px}
+#missionSummary
+.transporter{padding-left:0px;font-size:16px;font-weight:bold;color:#3e331f}
+#missionSummary
+.neededTransporter{position:absolute;top:18px;width:40px;text-align:right}
+#missionSummary
+.sumTransporter{position:absolute;left:220px;top:45px;width:40px;text-align:right;display:none}
+#missionSummary
+.plusSign{padding-top:2px;padding-right:5px;float:left}
+#missionSummary
+.textfield{position:absolute;text-align:center;top:35px;width:60px}
+#mainview
+.plusminus{left:100px;position:absolute;width:80px;height:55px}
+#mainview .plusminus
+.minus{position:absolute;background:transparent url(buttons/plunder_arrows.jpg);background-repeat:no-repeat;background-position:0px -14px;height:13px;width:15px;left:50px;top:23px}
+#mainview #plusminus .minus:hover{background-position: -16px -15px}
+#mainview #plusminus
+.plus{position:absolute;background:transparent url(buttons/plunder_arrows.jpg);background-repeat:no-repeat;left:50px;top:8px;height:13px;width:15px}
+#mainview #plusminus .plus:hover{background-position: -16px 0px}
+#mainview #plusminus
+input.value{padding-bottom:0px;vertical-align:top}
+#mainview #plusminus
+input{float:left;text-align:center;font-size:16px;font-weight:bold;color:#3e331f;padding-left:3px;padding-right:3px;margin-top:13px;height:20px;width:45px;padding:0px}
+#missionSummary
+.lock{position:absolute;left:228px;width:30px;text-align:center}
+#missionSummary
+.freight{text-align:left;font-size:14px;color:#3e331f}
+#missionSummary .freight
+#totalWeight{position:absolute;left:250px;width:50px;top:21px}
+#missionSummary .freight
+#totalFreight{position:absolute;left:340px;width:50px;top:21px}
+#missionSummary
+.travelTime{position:absolute;top:0px;font-size:14px;color:#3e331f}
+#missionSummary .travelTime
+#journeyTime{position:absolute;left:400px;width:60px;text-align:right;top:15px}
+#missionSummary .travelTime
+#returnTime{position:absolute;left:487px;width:60px;text-align:left;top:26px}
+#mainview #missionSummary
+.submit{position:absolute;left:595px;width:50px;top:10px;text-align:center}
+#mainview #missionSummary
+#plunderbutton{display:block;background-image:url(buttons/plunder_submit.jpg);width:50px;height:34px}
+#mainview #missionSummary
+.warning{background-position:0px 0px}
+#mainview #missionSummary .warning:hover{background-position:50px 0px}
+#mainview #missionSummary
+.ok{background-position:0px -34px}
+#mainview #missionSummary .ok:hover{background-position:50px -34px}
+.assignUnits
+li.alt{background-color:#fdf1d4}
+input.buttonChanged{display:block;clear:both;margin:10px
+auto}
+.timespan{position:relative;width:180px;margin:16px
+auto;background-color:#fffbec;border:1px
+solid #fbe7c0;background-image:url(resources/icon_time.gif);background-position:16px 30px;background-repeat:no-repeat}
+.timespan
+label{display:block;padding:2px;font-weight:bold;text-align:center;color:#906646;background-color:#faeac6}
+.timespan
+select{display:block;width:100px;height:20px;color:#906646;line-height:20px;margin:10px
+auto;font-weight:bold;text-align:center}
+@charset "utf-8";#embassy #mainview
+.buildingDescription{height:auto}
+#container .dynamic
+ul.links{margin:0px
+0px 10px 0px}
+#container .dynamic ul.links
+li{text-align:left;list-style-type:disc;margin-left:25px}
+#container .dynamic ul.links li
+a{color:#542c0f}
+#container #mainview
+table#allyinfo{width:100%}
+#container #mainview table#allyinfo
+td{text-align:left;padding:3px
+5px 3px 10px}
+.highlight,
+#container #mainview table.table01
+tr.highlight{background-color:#cae877}
+#container #mainview table#results
+td{padding:2px
+2px 2px 30px;text-align:left;margin:0px}
+#container #mainview table#results td.score,
+#container #mainview table#results
+td.members{padding:0px
+35px 0px 0px;margin:0;text-align:right}
+span.score{font-size:11px;color:#7e7b6e}
+#container #mainview table#results
+a{color:#542c0f}
+#container #mainview table.table01
+td.cities{text-align:left;width:170px;padding-left:5px}
+tr.alt2{background-color:#F2D9AB}
+#memberList
+a.city{background:url(layout/icon-city2.gif) no-repeat left center;padding-left:28px;width:330px;color:#542c0f}
+#mainview .contentBox01h .content table
+.col1{width:100px;padding:10px
+0 10px 20px}
+#mainview .contentBox01h .content table
+td{padding-top:10px}
+td.newRank_col1{padding:10px
+0 10px 8px;font-weight:bold;width:100px;vertical-align:top}
+td.newRank_col2{padding:10px
+0}
+td.newRank_col2
+input{width:307px}
+#mainview .contentBox01h .content table
+.colIcon{width:25px;text-align:center}
+#mainview .contentBox01h .content table
+.colEmpty{width:40px}
+#mainview .contentBox01h .content table
+.colAction{text-align:center;width:115px;padding:5px
+8px 0 0}
+#mainview .contentBox01h .content table
+.rowRanks{height:35px}
+#mainview .cityInfo
+ul{cursor:pointer;z-index:1000}
+#mainview .cityInfo ul li
+ul{display:none;position:absolute;background-color:#fae0ae;border:1px
+solid #e4b873;text-align:left;line-height:18px;margin: -22px 0 0 0;left:182px}
+#mainview .cityInfo ul li:hover
+ul{display:block}
+#mainview .cityInfo ul li ul
+li{padding:4px;width:180px}
+#mainview .cityInfo ul li ul li:hover{background-color:#fdf7dd}
+.invisible{display:none}
+@charset "utf-8";#diplomacy #container #mainview
+a{color:#542c0f}
+#container
+#diplomacyDescription{height:auto;background:none;min-height:0px}
+#container #mainview
+#notice{background:url(layout/bg_message.gif) no-repeat;width:550px;height:334px;text-align:left;margin:10px
+auto;padding:40px
+0px 0px 20px;color:#542c0f;font-size:12px}
+#container #mainview #notice
+#mailSubject{margin:5px
+0px}
+#container #mainview #notice
+input.textfield{font-weight:bold;font-size:11px;width:250px;margin-bottom:10px}
+#container #mainview #notice
+span.maillabels{font-weight:bold}
+#container #mainview #notice input,
+#container #mainview #notice
+textarea{color:#542c0f}
+#container #mainview #notice
+textarea{width:500px;height:140px}
+#container #mainview #notice
+h3{font-weight:bold;font-size:12px;margin:0px
+0px 25px 0px;padding:8px
+0px 0px 0px}
+#container #container2 #islandBoardOverview
+ul{margin:10px;color:#542C0F}
+#container #container2 #islandBoardOverview ul li:hover{background-color:#ecd298}
+#container #container2 #islandBoardOverview
+a{color:#542C0F;display:block;width:190px;padding:4px}
+#container #container2 #islandBoardOverview a:hover{text-decoration:none}
+@charset "utf-8";#researchOverview #container #mainview div.contentBox01h
+div.content{padding-right:10px;margin:0px
+20px}
+@charset "utf-8";#workshop
+.buildingDescription{height:auto}
+#demolition
+h4{font-size:18px;margin:10px
+auto;text-align:center;color:#900;font-weight:bold}
+#demolition .content
+p{text-align:center}
+#demolition .content
+p.refund{text-decoration:underline}
+#NEResOfferPremium .content .yes,
+#demolition .content
+.yes{display:inline;float:left;background:url(buttons/yes.gif) no-repeat left top;width:200px;margin:0px
+auto 30px 90px;padding-left:40px;line-height:38px;font-size:14px}
+#NEResOfferPremium .content .no,
+#demolition .content
+.no{display:block;background:url(buttons/no.gif) no-repeat left top;width:200px;margin:0
+90px 30px auto;padding-left:40px;line-height:38px;font-size:14px}
+#NEResOfferPremium .content ul.resources,
+#demolition .content
+ul.resources{width:400px;margin:0
+auto}
+#NEResOfferPremium .content ul.resources li,
+#demolition .content ul.resources
+li{display:inline;padding-right:10px;padding-bottom:8px}
+#NEResOfferPremium .footer,
+#demolition
+.footer{clear:both}
+@charset "utf-8";.clearfloat{clear:both;height:0;font-size:1px;line-height:0px}
+html #militaryAdvisorCombatReports #container #container2 .dynamic ul li,
+#militaryAdvisorReportView #container #container2 .dynamic ul li,
+#militaryAdvisorMilitaryMovements #container #container2 .dynamic ul
+li{margin-left:10px}
+html #militaryAdvisorReportView
+#battleReportDetail{margin:10px}
+html #militaryAdvisorReportView #battleReportDetail
+li{margin:3px}
+html #militaryAdvisorReportView #battleReportDetail li ul.resources
+li{display:inline;padding-bottom:10px}
+html #militaryAdvisorReportView #battleReportDetail li
+span.time{margin-right:20px}
+html #militaryAdvisorReportView
+li.time{padding-right:20px}
+html #militaryAdvisorReportView #lost
+tr{}
+html #militaryAdvisorReportView  td
+span.loss{font-weight:bold}
+html #militaryAdvisorReportView #lost td.swordsman,
+html #militaryAdvisorReportView #lost td.slinger,
+html #militaryAdvisorReportView #lost td.marksman,
+html #militaryAdvisorReportView #lost td.phalanx,
+html #militaryAdvisorReportView #lost td.mortar,
+html #militaryAdvisorReportView #lost td.catapult,
+html #militaryAdvisorReportView #lost td.ram,
+html #militaryAdvisorReportView #lost td.steamgiant,
+html #militaryAdvisorReportView #lost td.bombardier,
+html #militaryAdvisorReportView #lost td.cook,
+html #militaryAdvisorReportView #lost td.medic,
+html #militaryAdvisorReportView #lost td.gyrocopter,
+html #militaryAdvisorReportView #lost td.ship_transport,
+html #militaryAdvisorReportView #lost td.ship_ram,
+html #militaryAdvisorReportView #lost td.ship_ballista,
+html #militaryAdvisorReportView #lost td.ship_catapult,
+html #militaryAdvisorReportView #lost td.ship_mortar,
+html #militaryAdvisorReportView #lost td.ship_flamethrower,
+html #militaryAdvisorReportView #lost td.ship_steamboat,
+html #militaryAdvisorReportView #lost
+td.ship_submarine{background-position:center 5px;background-repeat:no-repeat}
+html #militaryAdvisorReportView #lost
+td.swordsman{background-image:url(characters/military/x60_y60/y60_swordsman_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.slinger{background-image:url(characters/military/x60_y60/y60_slinger_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.marksman{background-image:url(characters/military/x60_y60/y60_marksman_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.phalanx{background-image:url(characters/military/x60_y60/y60_phalanx_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.mortar{background-image:url(characters/military/x60_y60/y60_mortar_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.catapult{background-image:url(characters/military/x60_y60/y60_catapult_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ram{background-image:url(characters/military/x60_y60/y60_ram_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.steamgiant{background-image:url(characters/military/x60_y60/y60_steamgiant_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.bombardier{background-image:url(characters/military/x60_y60/y60_bombardier_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.cook{background-image:url(characters/military/x60_y60/y60_cook_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.medic{background-image:url(characters/military/x60_y60/y60_medic_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.gyrocopter{background-image:url(characters/military/x60_y60/y60_gyrocopter_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_ram{background-image:url(characters/fleet/60x60/ship_ram_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_ballista{background-image:url(characters/fleet/60x60/ship_ballista_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_catapult{background-image:url(characters/fleet/60x60/ship_catapult_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_mortar{background-image:url(characters/fleet/60x60/ship_mortar_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_flamethrower{background-image:url(characters/fleet/60x60/ship_flamethrower_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_steamboat{background-image:url(characters/fleet/60x60/ship_steamboat_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_submarine{background-image:url(characters/fleet/60x60/ship_submarine_faceright.gif)}
+html #militaryAdvisorReportView #lost
+td.ship_transport{background-image:url(characters/fleet/60x60/ship_transport_faceright.gif)}
+html #militaryAdvisorReportView #reportInboxLeft
+a{color:#542c0f}
+html #militaryAdvisorReportView #mainview .content table#result
+td.navigationBottom{text-align:left}
+html #militaryAdvisorReportView #mainview .content table td.navigationBottom a.button,
+html #safehouseReports #mainview .content table td.navigationBottom
+a.button{line-height:30px}
+html #militaryAdvisorReportView #mainview .content table#result td.navigationBottom
+.back{float:left}
+html #militaryAdvisorReportView #mainview .content table#result td.navigationBottom
+.next{float:right}
+html #militaryAdvisorCombatReports
+.operations{margin:10px}
+html  #militaryAdvisorCombatReports .operations
+li{margin:5px
+0px;padding-left:10px}
+html  #militaryAdvisorCombatReports .operations li
+a{color:#542c0f}
+html #militaryAdvisorCombatReports .operations
+li.new{font-weight:bold}
+html #militaryAdvisorCombatReports .operations
+span.action{margin-right:60px}
+html #militaryAdvisorCombatReports .operations
+span.delete{background:url(advisors/military/icon_close_small.gif) no-repeat top left;padding-left:20px}
+html #militaryAdvisorCombatReports #mainview
+table.operations{margin:0px
+auto 10px auto;width:100%;border:0px}
+html #militaryAdvisorCombatReports #mainview table.operations
+a{color:#54490f}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.subject{width:335px}
+html #militaryAdvisorCombatReports #mainview table.operations tr
+td.new{font-weight:bold}
+html #militaryAdvisorCombatReports #mainview table.operations tr td.won a,
+html #militaryAdvisorCombatReports #mainview table.operations tr td.won a:hover{color:#0eaa03}
+html #militaryAdvisorCombatReports #mainview table.operations tr td.lost a,
+html #militaryAdvisorCombatReports #mainview table.operations tr td.lost a:hover{color:#aa0303}
+html #militaryAdvisorCombatReports #mainview table.operations tr td.running
+a{color:#333}
+html #militaryAdvisorCombatReports #mainview table.operations td.subject
+a.wonCombat{text-decoration:none;color:#008400}
+html #militaryAdvisorCombatReports #mainview table.operations td.subject
+a.lostCombat{text-decoration:none;color:#d50e04}
+html #militaryAdvisorCombatReports #mainview table.operations a:hover{color:#DF5843}
+html #militaryAdvisorCombatReports #mainview table.operations
+td{padding:3px
+5px}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.empty{width:10px}
+html #militaryAdvisorCombatReports #mainview table.operations tr.new
+td{font-weight:bold}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.date{text-align:left}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.action{text-align:left}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.all{padding:1px
+5px}
+html #militaryAdvisorCombatReports #mainview table.operations
+td.selection{padding:6px
+5px 3px 5px}
+html #militaryAdvisorCombatReports #mainview table.operations td.all
+a{font-size:11px;font-weight:bold}
+html #militaryAdvisorCombatReports #mainview table.operations td.delete
+img.del{padding-right:5px}
+html #militaryAdvisorCombatReports #mainview table.operations td.go
+input.button{display:inline;padding:0px
+5px;width:auto;margin:0px}
+html #militaryAdvisorReportView #container #mainview
+.data{width:648px;margin:10px
+auto 0px auto;border:1px
+solid #E4B873}
+html #militaryAdvisorReportView #container #mainview
+table.data{margin-bottom:10px;margin-top:10px}
+html #militaryAdvisorReportView #container #mainview table.data th,
+html #militaryAdvisorReportView #container #mainview table.data
+td{padding:3px
+6px;vertical-align:middle}
+html #militaryAdvisorReportView #container #mainview table.data
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}
+html #militaryAdvisorReportView #container #mainview table.data td,
+html #militaryAdvisorReportView #container #mainview table.data
+th{border:0px
+solid #FAEAC6;text-align:center}
+html #militaryAdvisorReportView #container #mainview table.data
+td.owner{height:auto;font-weight:bold;padding:5px;background-color:transparent;background:url(layout/th-bg-lost.gif) repeat-x;white-space:nowrap}
+html #militaryAdvisorReportView #container #mainview
+#vs{width:100px;margin:0
+auto;font-size:24px;font-weight:bold;text-align:center}
+html #militaryAdvisorReportView #container #mainview
+#command{border:1px
+solid #E2B977;font-size:11px;color:#542c0f;background-color:#fdf7dd}
+.militaryAdvisorTabs{background:transparent url(layout/bg_tabs.jpg) no-repeat scroll 0%;margin-bottom:5px;width:680px;height:36px}
+.militaryAdvisorTabs #tabz td
+a{color:#542c0f;display:block;width:250px;margin:0px
+auto;padding:5px
+0px 10px 0px}
+.militaryAdvisorTabs #tabz td.selected a,
+.militaryAdvisorTabs #tabz td a:hover{background:transparent url(layout/bg_tabs_single3.jpg) no-repeat scroll center -1px}
+#tabz
+td{text-align:center;width:50%}
+.militaryAdvisorTabs a
+em{font-weight:bold}
+.militaryAdvisorTabs
+li{}
+.militaryAdvisorTabs li
+em{}
+.militaryAdvisorTabs li
+a{vertical-align:bottom}
+.militaryAdvisorTabs li a
+em{}
+.militaryAdvisorTabs .selected a,
+.militaryAdvisorTabs a:hover{}
+html #militaryAdvisorReportView #mainview .content
+table#result{width:100%}
+html #militaryAdvisorReportView #mainview .content table#result
+td{padding:5px
+0px;text-align:center}
+html #militaryAdvisorReportView #mainview .content
+table#ergebnis{width:100%;border-collapse:collapse}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.battle{font-weight:bold;font-size:14px;vertical-align:middle}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.leftover{font-weight:bold;text-align:center}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.details{font-weight:bold;font-size:11px;text-align:center}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep td.details
+a{text-decoration:underline}
+html #militaryAdvisorReportView #mainview .content table#ergebnis
+td{padding:5px
+0px;text-align:center}
+html #militaryAdvisorReportView #mainview .content table#ergebnis
+a{color:#542c0f}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td{background-color:#fce9c5;text-align:left;border-bottom:2px solid #fdf7dd}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.sum{padding-left:5px}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.winner{font-weight:bold;font-size:14px;vertical-align:middle;text-align:center;background-color:#542C0F;color:#FCE9C5}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.own{color:#009736}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep td
+span.loss{color:#D20000;font-weight:bold}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.shortdesc{text-align:center}
+html #militaryAdvisorReportView #mainview .content table#ergebnis
+ul.resources{text-align:center}
+html #militaryAdvisorReportView #mainview .content table#ergebnis ul.resources
+li{display:inline}
+html #militaryAdvisorReportView #mainview .content table#ergebnis tr.rep
+td.units{padding-left:5px}
+html #militaryAdvisorReportView #mainview .content table#result td img,
+html #militaryAdvisorReportView #mainview .content table#ergebnis td
+img{vertical-align:middle}
+html #militaryAdvisorReportView #mainview .content
+table#result{margin:0px
+0px}
+html #militaryAdvisorReportView #mainview .content table#result
+a{text-decoration:none;color:#542c0f}
+html #militaryAdvisorReportView #mainview .content table#result a:hover{text-decoration:underline;color:#542c0f}
+html #militaryAdvisorReportView #mainview .content table#result
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;padding:3px
+6px}
+html #militaryAdvisorReportView #mainview .content table#result th.attacker,
+html #militaryAdvisorReportView #mainview .content table#result
+th.defender{text-align:center;font-weight:normal;background-color:#FADFAB}
+html #militaryAdvisorReportView #mainview .content table#result
+td.section{text-align:left;padding:4px
+0px 4px 5px;background-color:#542c0F;color:#fce9c5;font-weight:bold}
+html #militaryAdvisorReportView #mainview .content table#result
+td.value{width:30px}
+html #militaryAdvisorReportView #mainview .content table#result
+td.special{text-align:left}
+html #militaryAdvisorReportView #mainview .content table#result
+td.loot{padding-left:10px}
+html #militaryAdvisorReportView #mainview .content table#result td.loot
+span.round{font-weight:bold}
+html #militaryAdvisorReportView #mainview .contentBox01h h3.header a:link,
+html #militaryAdvisorReportView #mainview .contentBox01h h3.header a:visited,
+html #militaryAdvisorReportView #mainview .contentBox01h h3.header a:active{text-decoration:none;color:#542c0f}
+html #militaryAdvisorReportView #mainview .contentBox01h h3.header a:hover{text-decoration:underline}
+html #militaryAdvisorReportView #mainview .content table#result
+td{background-color:#FCE9C5;border-bottom:2px solid #fdf7dd}
+html #militaryAdvisorReportView #mainview .content table#result
+td.loot{text-align:left}
+html #militaryAdvisorReportView #mainview .content table#result
+td.winner{background-color:#542C0F;color:#FCE9C5;font-size:14px;font-weight:bold}
+html #militaryAdvisorReportView #mainview .content table#result
+ul.resources{text-align:center}
+html #militaryAdvisorReportView #mainview .content table#result ul.resources
+li{display:inline}
+@charset "utf-8";#branchOffice #container #mainview .tablekontor
+td{text-align:center;padding-top:0px}
+.iconimg{vertical-align:middle;padding-left:10px}
+#container #container2 #islandBoardOverview
+a{color:#542C0F;display:block;width:170px;padding:4px}
+.yui-overlay,.yui-panel-container{visibility:hidden;position:absolute;z-index:2}
+.yui-tt{visibility:hidden;position:absolute;color:#333;background-color:#FDFFB4;font-family:arial,helvetica,verdana,sans-serif;padding:2px;border:1px
+solid #FCC90D;font:100% sans-serif;width:auto}
+.yui-tt-shadow{display:none}
+* html body.masked
+select{visibility:hidden}
+* html div.yui-panel-container
+select{visibility:inherit}
+* html div.drag
+select{visibility:hidden}
+* html div.hide-select
+select{visibility:hidden}
+.mask{z-index:1;display:none;position:absolute;top:0;left:0;-moz-opacity:0.5;opacity:.50;filter:alpha(opacity=50);background-color:#CCC}
+.hide-scrollbars,
+.hide-scrollbars
+*{overflow:hidden}
+.hide-scrollbars
+select{display:none}
+.show-scrollbars{overflow:auto}
+.yui-panel-container.show-scrollbars{overflow:visible}
+.yui-panel-container.show-scrollbars
+.underlay{overflow:auto}
+.yui-panel-container.focused{}
+.yui-panel-container
+.underlay{position:absolute;top:0;right:0;bottom:0;left:0}
+.yui-panel-container.matte{padding:3px;background-color:#fff}
+.yui-panel-container.shadow
+.underlay{*/}
+.yui-panel{visibility:hidden;border-collapse:separate;position:relative;left:0;top:0;background-color:#fdf7dd;background-color:transparent;border:1px
+solid #e4b783;z-index:1;overflow:hidden}
+.yui-panel
+.hd{background-color:transparent;background:url(layout/bg-panel-head.gif) repeat-x;color:#7E4A21;font-size:100%;line-height:100%;border-bottom:1px solid #f3ddb2;font-weight:bold;padding:4px;white-space:nowrap;overflow:hidden}
+.yui-panel
+.bd{overflow:hidden;padding:4px}
+.yui-panel .bd
+p{margin:0
+0 1em}
+.yui-panel .container-close{position:absolute;top:5px;right:4px;z-index:6;height:12px;width:12px;margin:0px;padding:0px;background:url(layout/close12_1.gif) no-repeat;cursor:pointer;visibility:inherit}
+.yui-panel
+.ft{padding:4px;overflow:hidden}
+.yui-simple-dialog .bd .yui-icon{background-repeat:no-repeat;width:16px;height:16px;margin-right:10px;float:left}
+.yui-simple-dialog .bd
+span.blckicon{}
+.yui-simple-dialog .bd
+span.alrticon{}
+.yui-simple-dialog .bd
+span.hlpicon{}
+.yui-simple-dialog .bd
+span.infoicon{}
+.yui-simple-dialog .bd
+span.warnicon{}
+.yui-simple-dialog .bd
+span.tipicon{}
+.yui-dialog .ft,
+.yui-simple-dialog
+.ft{padding-bottom:5px;padding-right:5px;text-align:right}
+.yui-dialog form,
+.yui-simple-dialog
+form{margin:0}
+.button-group
+button{font:100 76% verdana;text-decoration:none;background-color:#E4E4E4;color:#333;cursor:hand;vertical-align:middle;border:2px
+solid #797979;border-top-color:#FFF;border-left-color:#FFF;margin:2px;padding:2px}
+.button-group
+button.default{font-weight:bold}
+.button-group button:hover,
+.button-group
+button.hover{border:2px
+solid #90A029;background-color:#EBF09E;border-top-color:#FFF;border-left-color:#FFF}
+.button-group button:active{border:2px
+solid #E4E4E4;background-color:#BBB;border-top-color:#333;border-left-color:#333}
+.yui-navset .yui-nav li a, .yui-navset .yui-content{color:#000}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-content{background:url(layout/bg_tabs_single.jpg) no-repeat 0px 4px;color:#906646}
+.yui-navset .yui-nav li
+em{padding:15px
+0px 0px 0px;text-align:center;font-weight:bold;width:199px}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li,
+.yui-navset .yui-navset-bottom .yui-nav
+li{height:32px;width:199px;margin:0px
+0px 0px 20px}
+#mainview #embassyGeneralTroops .yui-navset .yui-nav li,
+#embassyGeneralTroops .yui-navset .yui-navset-top .yui-nav li,
+#embassyGeneralTroops .yui-navset .yui-navset-bottom .yui-nav li,
+#workshop .yui-navset .yui-nav li,
+#workshop .yui-navset .yui-navset-top .yui-nav li,
+#workshop .yui-navset .yui-navset-bottom .yui-nav li,
+#militaryAdvisor .yui-navset .yui-nav li,
+#militaryAdvisor .yui-navset .yui-navset-top .yui-nav li,
+#militaryAdvisor .yui-navset .yui-navset-bottom .yui-nav li,
+#cityMilitary .yui-navset .yui-nav li,
+#cityMilitary .yui-navset .yui-navset-top .yui-nav li,
+#cityMilitary .yui-navset .yui-navset-bottom .yui-nav li,
+#cityMilitary-fleet .yui-navset .yui-nav li,
+#cityMilitary-fleet .yui-navset .yui-navset-top .yui-nav li,
+#cityMilitary-fleet .yui-navset .yui-navset-bottom .yui-nav li,
+#cityMilitary-army .yui-navset .yui-nav li,
+#cityMilitary-army .yui-navset .yui-navset-top .yui-nav li,
+#cityMilitary-army .yui-navset .yui-navset-bottom .yui-nav li,
+#militaryAdvisor .yui-navset .yui-nav li,
+#militaryAdvisor .yui-navset .yui-navset-top .yui-nav li,
+#militaryAdvisor .yui-navset .yui-navset-bottom .yui-nav li,
+#premiumMilitaryAdvisor .yui-navset .yui-nav li,
+#premiumMilitaryAdvisor .yui-navset .yui-navset-top .yui-nav li,
+#premiumMilitaryAdvisor .yui-navset .yui-navset-bottom .yui-nav
+li{height:32px;width:199px;margin:0px
+0px 0px 90px}
+ul.yui-nav{background:url(layout/bg_tabs.jpg) no-repeat;width:680px;margin-bottom:5px}
+.yui-nav,
+.yui-nav
+li{margin:0;padding:0;list-style:none}
+.yui-navset li
+em{font-style:normal}
+.yui-navset{position:relative;zoom:1}
+.yui-navset .yui-content{zoom:1}
+.yui-navset .yui-nav
+li{display:inline-block;display:-moz-inline-stack;*display:inline;vertical-align:bottom;cursor:pointer;zoom:1}
+.yui-navset .yui-nav
+a{outline:0;text-decoration:none}
+.yui-navset .yui-nav
+a{position:relative}
+.yui-navset .yui-nav li a,
+.yui-navset-top .yui-nav li a,
+.yui-navset-bottom .yui-nav li
+a{display:block;display:inline-block;vertical-align:bottom;zoom:1}
+.yui-navset .yui-nav li a em,
+.yui-navset-top .yui-nav li a em,
+.yui-navset-bottom .yui-nav li a
+em{display:block}
+@CHARSET "ISO-8859-1";html
+#avatarNotes{z-index:999999999999999999999999999;background-color:transparent}
+html #avatarNotes
+#messageBox{background-image:none;background-color:#f7e7c5;color:#000;margin:0
+6px 0 6px;height:100%;padding:0
+10px 0 10px}
+html #avatarNotes #messageBox
+textarea{border:1px
+dotted #C0C0C0;margin:0;padding:0;width:100%}
+html #avatarNotes
+.bd{background-color:transparent;background-image:url(layout/notes_left.gif);;background-position:left top;background-repeat:repeat-y;padding:0;margin:0;text-align:center}
+html #avatarNotes
+.ft{border:0;padding:0;margin:0;background-image:url(layout/notes_left.gif);;background-position:left top;background-repeat:repeat-y;height:20px}
+html #avatarNotes
+.rightborder{background-image:url(layout/notes_right.gif);;background-position:right top;background-repeat:repeat-y;width:100%;height:100%;padding:0;margin:0}
+html #avatarNotes
+#resizablepanel_h{background-color:transparent;height:39px;padding:0;margin:0}
+html #avatarNotes
+.div1{padding:0;margin:0;height:39px;background-image:url(layout/notes_top_left.gif);background-position:left top;background-repeat:no-repeat}
+html #avatarNotes
+.div2{padding:0;margin:0;height:39px;background-image:url(layout/notes_top_right.gif);background-position:right top;background-repeat:no-repeat}
+html #avatarNotes
+.bottom{border-bottom:3px solid #d2a860;border-left:2px solid #d2a860;background-color:#f7e7c5;padding:5px
+0 0 0;margin:0
+23px 0 3px}
+html #avatarNotes
+.chars{padding:0
+0 0 10px}
+html #avatarNotes .hd
+p{color:#811709;font-weight:bold;font-size:12px;padding:12px
+0 0 0;margin:0
+14px 0 38px;height:39px;background-image:url(layout/notes_top.gif);background-repeat:repeat-x;background-position:left top}
+html #avatarNotes .hd p
+span{text-align:right;display:block;padding:0;margin: -15px 0 0 0}
+html #avatarNotes
+.notice{position:absolute;bottom: -4px}
+html #avatarNotes
+.button2{text-align:center;display:inline-block;padding:0;margin:0;margin-left:0px}
+@charset "utf-8";#premiumTradeAdvisor #container #mainview
+table{margin:0px
+auto 1px auto;width:670px;border-collapse:collapse}
+@charset "utf-8";#unitdescription #mainview
+.description{background-color:#FFFBEC;border:1px
+solid #FBE7C0;margin:16px;margin-left:150px;padding:4px;position:relative}
+#unitdescription #mainview .description
+img{left:-150px;position:absolute;top:0px}
+#unitdescription #mainview .description
+#unitValues{width:280px;margin:10px
+0px 10px 15px}
+#unitdescription #mainview .description
+#unitCosts{width:175px;margin:10px
+0px 10px 15px;position:absolute;left:300px;top:0px}
+#unitdescription #mainview .description
+.valueTables{position:relative}
+#unitdescription #mainview .description #unitValues
+td.attribute{width:35px}
+#unitdescription #mainview .description #unitCosts
+td.attribute{font-size:11px}
+#unitdescription #mainview .description #unitValues
+td.attribute{width:55px}
+#unitdescription #mainview .description #unitValues
+img{position:relative;left:auto;top:auto}
+#unitdescription #mainview .description #unitValues
+td.value{vertical-align:middle;padding-right:20px}
+#unitdescription #mainview
+.weapons{background-color:#FFFBEC;border:1px
+solid #FBE7C0;margin:16px;padding:4px;position:relative}
+#unitdescription #mainview .weapons #unitValues,
+#unitdescription #mainview .weapons
+#unitCosts{width:605px;margin:10px
+0px 10px 15px}
+#unitdescription #mainview .weapons #unitValues
+td.attribute{width:35px}
+#unitdescription #mainview .weapons #unitCosts
+td.attribute{font-size:11px}
+#unitdescription #mainview .weapons #unitValues
+td.attribute{width:55px}
+#unitdescription #mainview .weapons #unitValues
+img{position:relative;left:auto;top:auto}
+#unitdescription #mainview .weapons #unitValues
+td.value{vertical-align:middle;padding-right:20px}
+#unitdescription #mainview .description ul.resources
+li{padding-bottom:10px}
+#unitdescription #mainview .description
+ul.resources{margin-left:30px}
+#unitdescription
+ul.specs{width:90px;margin:5px}
+#unitdescription ul.specs
+li{background-repeat:no-repeat;padding-left:40px;margin:5px
+0px}
+#unitdescription ul.specs
+.unitCharacterRange{background-image:url(unitdesc/unit_type.gif);height:28px;line-height:28px}
+#unitdescription ul.specs
+.unitAttackPower{background-image:url(unitdesc/unit_attack.gif);height:27px;line-height:27px}
+#unitdescription ul.specs
+.unitSpeed{background-image:url(unitdesc/unit_speed.gif);height:35px;line-height:35px}
+#unitdescription #mainview .costs #unitValues,
+#unitdescription #mainview .costs
+#unitCosts{width:280px;margin:10px
+0px 10px 15px}
+#unitdescription #mainview .costs #unitValues th,
+#unitdescription #mainview .costs #unitCosts
+th{height:20px;padding-bottom:5px;border-bottom:1px solid #fbe7c0;font-weight:bold}
+#unitdescription #mainview .costs #unitValues
+td.attribute{width:35px}
+#unitdescription #mainview .costs #unitCosts
+td.attribute{font-size:11px}
+#unitdescription #mainview .costs #unitValues
+td.attribute{width:55px}
+#unitdescription #mainview .costs #unitValues
+img{position:relative;left:auto;top:auto}
+#unitdescription #mainview .costs #unitValues
+td.value{vertical-align:middle;padding-right:20px}
+#unitdescription #mainview
+.costs{background-color:#FFFBEC;border:1px
+solid #FBE7C0;left:50px;margin:16px
+auto;padding:4px;position:relative;width:300px}
+#unitdescription #mainview .costs
+img{left:-150px;position:absolute;top:0px}
+#unitdescription
+#unit{width:255px;height:232px;float:left}
+#unitdescription
+#infoBox{float:right;padding:6px
+18px 0 0;line-height:18px;color:#542c0f}
+#unitdescription #infoBox
+.infoBoxHeader{width:374px;height:7px;background-image:url(ikipedia/infoBox_header.gif)}
+#unitdescription #infoBox
+.infoBoxFooter{width:374px;height:7px;background-image:url(ikipedia/infoBox_footer.gif)}
+#unitdescription #infoBox
+.infoBoxContent{border:1px
+solid #e5ba76;padding:5px
+5px 5px 25px;width:343px;height:320px;overflow:auto}
+#unitdescription .infoBoxContent
+h3{font-weight:bold;font-size:12px;color:#542c0f;background-image:url(ikipedia/helm.gif);background-repeat:no-repeat;height:34px;padding:8px
+0 0 25px}
+#unitdescription #infoBox
+.damageFocusContainer{width:150px;border:1px
+solid #4d0e0c;margin:5px
+0 5px 110px}
+#unitdescription #infoBox
+.damageFocus{background-color:#ff4646;height:6px}
+#unitdescription #infoBox
+span.textLabel{display:block;float:left;width:110px}
+#unitdescription #infoBox
+.weapon{background-image:url(workshop/angriff_gold.gif);background-repeat:no-repeat;padding:0
+0 0 70px;margin:0
+0 10px 0}
+#unitdescription #infoBox
+.weaponName{font-weight:bold;margin:10px
+0 0 0}
+#unitdescription #infoBox
+.req{font-weight:bold;display:block}
+#unitdescription #infoBox .available
+a{font-weight:bold;color:green}
+#unitdescription #infoBox
+.available{font-weight:bold;color:green;display:block;width:100%}
+#unitdescription #infoBox .notAvailable
+a{font-weight:bold;color:red}
+#unitdescription #infoBox
+.notAvailable{font-weight:bold;color:red;display:block}
+#unitdescription
+#unit.s301{background-image:url(ikipedia/301.gif)}
+#unitdescription
+#unit.s302{background-image:url(ikipedia/302.gif)}
+#unitdescription
+#unit.s303{background-image:url(ikipedia/303.gif)}
+#unitdescription
+#unit.s304{background-image:url(ikipedia/304.gif)}
+#unitdescription
+#unit.s305{background-image:url(ikipedia/305.gif)}
+#unitdescription
+#unit.s306{background-image:url(ikipedia/306.gif)}
+#unitdescription
+#unit.s307{background-image:url(ikipedia/307.gif)}
+#unitdescription
+#unit.s308{background-image:url(ikipedia/308.gif)}
+#unitdescription
+#unit.s309{background-image:url(ikipedia/309.gif)}
+#unitdescription
+#unit.s310{background-image:url(ikipedia/310.gif)}
+#unitdescription
+#unit.s311{background-image:url(ikipedia/311.gif)}
+#unitdescription
+#unit.s312{background-image:url(ikipedia/312.gif)}
+#unitdescription
+#unit.s313{background-image:url(ikipedia/313.gif)}
+#unitdescription
+#unit.s314{background-image:url(ikipedia/314.gif)}
+#unitdescription
+#unit.s315{background-image:url(ikipedia/315.gif)}
+#unitdescription
+#unit.s316{background-image:url(ikipedia/316.gif)}
+#unitdescription
+#unitRes{background-image:url(ikipedia/ressborder.gif);width:259px;height:71px;margin:284px
+0 0 15px}
+#unitdescription #mainview
+ul.resources{position:absolute}
+#unitdescription #mainview ul.resources
+li{overflow:visible;position:absolute}
+#unitdescription #mainview ul.resources
+li.firstpos{left:-1px;top:0px;width:35px;padding-left:33px}
+#unitdescription #mainview ul.resources
+li.secondpos{left:65px;top:0px;width:33px}
+#unitdescription #mainview ul.resources
+li.thirdpos{left:128px;top:0px;width:33px}
+#unitdescription #mainview ul.resources
+li.fourthpos{left:186px;top:0px;width:33px}
+#unitdescription #mainview ul.resources
+li.fifthpos{left:11px;top:27px;width:33px;padding-left:26px}
+#unitdescription #mainview ul.resources
+li.sixthpos{left:67px;top:27px;width:33px;padding-left:38px}
+#unitdescription #mainview ul.resources
+li.seventhpos{left:136px;top:27px;width:60px}
+#unitdescription #mainview ul.resources
+li{margin:3px
+8px 0 8px}
+#unitdescription #container ul.resources
+li.weight{background-image:url(ikipedia/weight.gif);background-position:5px 4px}
+#unitdescription #container ul.resources
+li.completionTime{background-image:url(resources/icon_time.gif);background-position:5px 4px}
+#unitdescription #mainview ul.resources
+li.building_level{background-image:url(unitdesc/level_green1.gif);background-position:5px 1px}
+#unitdescription #container ul.resources
+li.noData{width:250px;padding:0;margin:0;text-align:center}
+#unitdescription #container
+.shortdesc{padding:370px
+20px 30px 20px}
+#mainview #bonusBuilding
+div.green{background-image:url(bars/20px/bg_24px_lightgreen.gif);left:20px;border:1px
+solid #c99868;height:20px}
+#mainview #bonusBuilding
+div.cyan{background-image:url(bars/20px/bg_24px_lightcyan.gif);left:20px;border:1px
+solid #c99868;height:20px}
+#mainview #bonusBuilding
+div.violet{background-image:url(bars/20px/bg_24px_lightviolet.gif);left:20px;border:1px
+solid #c99868;height:20px}
+#mainview #bonusBuilding
+div.yellow{background-image:url(bars/20px/bg_24px_lightyellow.gif);left:20px;border:1px
+solid #c99868;height:20px}
+#mainview #bonusBuilding
+div.red{background-image:url(bars/20px/bg_24px_red.gif);left:20px;border:1px
+solid #c99868;height:20px}
+#mainview #bonusBuilding
+th.brownHeader{background-color:#FAEAC6;height:29px;left:20px;text-align:left}
+#mainview #bonusBuilding
+div.buildingPictureImg{position:absolute;top:8px;left:2px;width:70px;height:48px;overflow:visible;z-index:2}
+#mainview #bonusBuilding
+tr.buildingResult{border-top:1px dotted #c99868}
+#mainview #bonusBuilding
+td.col1Style{padding-top:5px;padding-bottom:5px;text-align:left;padding-left:5px}
+#mainview #bonusBuilding
+td.col2Style{padding-top:5px;padding-bottom:5px;text-align:right;padding-right:5px}
+#mainview #bonusBuilding
+td.col3Style{margin-top:1px;margin-bottom:1px;padding:2px
+5px 2px 5px}
+#mainview #bonusBuilding
+.info{text-align:center}
+#mainview #reductionBuilding
+div.greenBarDiv{background-image:url(bars/20px/bg_24px_lightgreen.gif);height:20px}
+#mainview #reductionBuilding
+div.brownBarDiv{background-image:url(bars/20px/bg_24px_lightbrown.gif);height:20px}
+#mainview #reductionBuilding
+div.barBorder{border:1px
+solid #CCA569}
+#mainview #reductionBuilding
+th.brownHeader{background-color:#FAEAC6;height:29px;left:20px;text-align:left}
+#mainview #reductionBuilding
+div.buildingPictureImg{position:absolute;top:8px;left:2px;width:70px;height:48px;overflow:visible;z-index:2}
+#mainview #reductionBuilding
+td.col1Style{padding-top:5px !important;padding-bottom:5px !important;text-align:left;padding-left:5px;width:200px}
+#mainview #reductionBuilding
+td.col2Style{padding-top:5px !important;padding-bottom:5px !important;text-align:right;padding-right:5px;width:55px}
+#mainview #reductionBuilding
+td.col3Style{padding-top:1px !important;padding-bottom:1px !important;margin-top:1px;margin-bottom:1px;padding-left:5px;width:%}
+@CHARSET "ISO-8859-1";.yui-overlay,.yui-panel-container{visibility:hidden;position:absolute;z-index:2}
+.yui-panel-container
+form{margin:0}
+.mask{z-index:1;display:none;position:absolute;top:0;left:0;right:0;bottom:0}
+.mask.block-scrollbars{overflow:auto}
+.masked select,.drag select,.hide-select
+select{_visibility:hidden}
+.yui-panel-container
+select{_visibility:inherit}
+.hide-scrollbars,.hide-scrollbars
+*{overflow:hidden}
+.hide-scrollbars
+select{display:none}
+.show-scrollbars{overflow:auto}
+.yui-panel-container.show-scrollbars,.yui-tt.show-scrollbars{overflow:visible}
+.yui-panel-container.show-scrollbars .underlay,.yui-tt.show-scrollbars .yui-tt-shadow{overflow:auto}
+.yui-panel-container.shadow .underlay.yui-force-redraw{padding-bottom:1px}
+.yui-effect-fade
+.underlay{display:none}
+.yui-tt-shadow{position:absolute}
+.yui-override-padding{padding:0
+!important}
+.yui-panel-container .container-close{overflow:hidden;text-indent: -10000em;text-decoration:none}
+.yui-skin-sam
+.mask{opacity: .25;*
+filter: alpha(opacity = 25)}
+.yui-skin-sam .yui-panel-container{padding:0
+1px;*
+padding: 2px}
+.yui-skin-sam .yui-panel{position:relative;left:0;top:0;border:0;z-index:1;*
+zoom: 1;_zoom:normal}
+.yui-skin-sam .yui-panel .hd,.yui-skin-sam .yui-panel .bd,.yui-skin-sam .yui-panel
+.ft{margin:0
+-1px;*
+margin: 0;*
+border: 0}
+.yui-skin-sam .yui-panel
+.hd{border-bottom:0}
+.yui-skin-sam .yui-panel .bd,.yui-skin-sam .yui-panel
+.ft{}
+.yui-skin-sam .yui-panel
+.hd{padding:0
+10px;font-size:93%;line-height:2;*
+line-height: 1.9;font-weight:bold;color:#000;background:none}
+.yui-skin-sam .yui-panel
+.bd{padding:10px}
+.yui-skin-sam .yui-panel
+.ft{border:0;padding:5px
+10px;font-size:77%}
+.yui-skin-sam .yui-panel-container.focused .yui-panel
+.hd{}
+.yui-skin-sam .container-close{display:none}
+.yui-skin-sam .yui-panel-container
+.underlay{right: -1px;left: -1px}
+.yui-skin-sam .yui-panel-container.matte{padding:9px
+10px}
+.yui-skin-sam .yui-panel-container.shadow{_padding:2px
+4px 0 2px}
+.yui-skin-sam .yui-panel-container.shadow
+.underlay{position:absolute;top:2px;left: -3px;right: -3px;bottom: -3px;*
+top: 4px;*
+left: -1px;*
+right: -1px;*
+bottom: -1px;_top:0;_left:0;_right:0;_bottom:0;_margin-top:3px;_margin-left: -1px;opacity: .12;*
+filter: alpha(opacity = 12)}
+.yui-skin-sam .yui-dialog
+.ft{border-top:none;padding:0
+10px 10px 10px;font-size:100%}
+.yui-skin-sam .yui-dialog .ft .button-group{display:block;text-align:right}
+.yui-skin-sam .yui-dialog .ft
+button.default{font-weight:bold}
+.yui-skin-sam .yui-dialog .ft
+span.default{border:0;background-position:0 -1400px}
+.yui-skin-sam .yui-dialog .ft span.default .first-child{border-color:#304369}
+.yui-skin-sam .yui-dialog .ft span.default
+button{color:#fff}
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled{background-position:0pt -1500px;border-color:#ccc}
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled .first-child{border-color:#ccc}
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled
+button{color:#a6a6a6}
+.yui-skin-sam .yui-simple-dialog .bd .yui-icon{background:url(sprite.png) no-repeat 0 0;width:16px;height:16px;margin-right:10px;float:left}
+.yui-skin-sam .yui-simple-dialog .bd
+span.blckicon{background-position:0 -1100px}
+.yui-skin-sam .yui-simple-dialog .bd
+span.alrticon{background-position:0 -1050px}
+.yui-skin-sam .yui-simple-dialog .bd
+span.hlpicon{background-position:0 -1150px}
+.yui-skin-sam .yui-simple-dialog .bd
+span.infoicon{background-position:0 -1200px}
+.yui-skin-sam .yui-simple-dialog .bd
+span.warnicon{background-position:0 -1900px}
+.yui-skin-sam .yui-simple-dialog .bd
+span.tipicon{background-position:0 -1250px}
+.yui-skin-sam .yui-tt
+.bd{position:relative;top:0;left:0;z-index:1;color:#000;padding:2px
+5px;border-color:#D4C237 #A6982B #A6982B #A6982B;border:0;border-style:solid}
+.yui-skin-sam .yui-tt.show-scrollbars
+.bd{overflow:auto}
+.yui-skin-sam .yui-tt-shadow{top:2px;right: -3px;left: -3px;bottom: -3px}
+.yui-skin-sam .yui-tt-shadow-visible{opacity: .12;*
+filter: alpha(opacity = 12)}
+.yui-resize{position:relative;zoom:1;z-index:0}
+.yui-resize-wrap{zoom:1}
+.yui-draggable{cursor:move}
+.yui-resize .yui-resize-handle{position:absolute;z-index:1;font-size:0;margin:0;padding:0;zoom:1;height:1px;width:1px}
+.yui-resize .yui-resize-handle-br{height:20px;width:29px;bottom:0;right:0;cursor:se-resize;z-index:2;zoom:1}
+.yui-resize .yui-resize-handle-bl{height:5px;width:5px;bottom:0;left:0;cursor:sw-resize;z-index:2;zoom:1}
+.yui-resize .yui-resize-handle-tl{height:5px;width:5px;top:0;left:0;cursor:nw-resize;z-index:2;zoom:1}
+.yui-resize .yui-resize-handle-tr{height:5px;width:5px;top:0;right:0;cursor:ne-resize;z-index:2;zoom:1}
+.yui-resize .yui-resize-handle-r{width:5px;height:100%;top:0;right:0;cursor:e-resize;zoom:1}
+.yui-resize .yui-resize-handle-l{height:100%;width:5px;top:0;left:0;cursor:w-resize;zoom:1}
+.yui-resize .yui-resize-handle-b{width:100%;height:5px;bottom:0;right:0;cursor:s-resize;zoom:1}
+.yui-resize .yui-resize-handle-t{width:100%;height:5px;top:0;right:0;cursor:n-resize;zoom:1}
+.yui-resize-proxy{position:absolute;border:1px
+dashed #000;visibility:hidden;z-index:1000}
+.yui-resize-hover .yui-resize-handle,.yui-resize-hidden .yui-resize-handle{opacity:0;filter:alpha(opacity = 0)}
+.yui-resize-ghost{opacity: .5;filter:alpha(opacity = 50)}
+.yui-resize-knob .yui-resize-handle{height:6px;width:6px}
+.yui-resize-knob .yui-resize-handle-tr{right: -3px;top: -3px}
+.yui-resize-knob .yui-resize-handle-tl{left: -3px;top: -3px}
+.yui-resize-knob .yui-resize-handle-bl{left: -3px;bottom: -3px}
+.yui-resize-knob .yui-resize-handle-br{right: -3px;bottom: -3px}
+.yui-resize-knob .yui-resize-handle-t{left:45%;top: -3px}
+.yui-resize-knob .yui-resize-handle-r{right: -3px;top:45%}
+.yui-resize-knob .yui-resize-handle-l{left: -3px;top:45%}
+.yui-resize-knob .yui-resize-handle-b{left:45%;bottom: -3px}
+.yui-resize-status{position:absolute;top: -999px;left: -999px;padding:2px;font-size:80%;display:none;zoom:1;z-index:9999}
+.yui-resize-status strong,.yui-resize-status
+em{font-weight:normal;font-style:normal;padding:1px;zoom:1}
+.yui-skin-sam .yui-resize .yui-resize-handle{}
+.yui-skin-sam .yui-resize .yui-resize-handle-active{zoom:1}
+.yui-skin-sam .yui-resize .yui-resize-handle-l,.yui-skin-sam .yui-resize .yui-resize-handle-r,.yui-skin-sam .yui-resize .yui-resize-handle-l-active,.yui-skin-sam .yui-resize .yui-resize-handle-r-active{height:100%}
+.yui-skin-sam .yui-resize-knob .yui-resize-handle{border:0}
+.yui-skin-sam .yui-resize-hover .yui-resize-handle-active{opacity:1;filter:alpha(opacity = 100)}
+.yui-skin-sam .yui-resize-proxy{border:0}
+.yui-skin-sam .yui-resize-status{border:1px
+solid #A6982B;border-top:1px solid #D4C237;color:#000}
+.yui-skin-sam .yui-resize-status strong,.yui-skin-sam .yui-resize-status
+em{float:left;display:block;clear:both;padding:1px;text-align:center}
+.yui-skin-sam .yui-resize .yui-resize-handle-inner-r,.yui-skin-sam .yui-resize .yui-resize-handle-inner-l{background:transparent url(layout_sprite.png) no-repeat 0 -5px;height:16px;width:5px;position:absolute;top:45%}
+.yui-skin-sam .yui-resize .yui-resize-handle-inner-t,.yui-skin-sam .yui-resize .yui-resize-handle-inner-b{background:transparent url(layout_sprite.png) no-repeat -20px 0;height:5px;width:16px;position:absolute;left:50%}
+.yui-skin-sam .yui-resize .yui-resize-handle-br{background-image:url(layout/notes_br.gif);background-repeat:no-repeat;background-position:6px 0px}
+.yui-skin-sam .yui-resize .yui-resize-handle-tr{background-image:url(layout_sprite.png);background-repeat:no-repeat;background-position: -22px -42px}
+.yui-skin-sam .yui-resize .yui-resize-handle-tl{background-image:url(layout_sprite.png);background-repeat:no-repeat;background-position: -22px -82px}
+.yui-skin-sam .yui-resize .yui-resize-handle-bl{background-image:url(layout_sprite.png);background-repeat:no-repeat;background-position: -22px -23px}
+.yui-skin-sam .yui-resize-knob .yui-resize-handle-t,.yui-skin-sam .yui-resize-knob .yui-resize-handle-r,.yui-skin-sam .yui-resize-knob .yui-resize-handle-b,.yui-skin-sam .yui-resize-knob .yui-resize-handle-l,.yui-skin-sam .yui-resize-knob .yui-resize-handle-tl,.yui-skin-sam .yui-resize-knob .yui-resize-handle-tr,.yui-skin-sam .yui-resize-knob .yui-resize-handle-bl,.yui-skin-sam .yui-resize-knob .yui-resize-handle-br,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-t,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-r,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-b,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-l,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-tl,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-tr,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-bl,.yui-skin-sam .yui-resize-knob .yui-resize-handle-inner-br{background-image:none}
+.yui-skin-sam .yui-resize-knob .yui-resize-handle-l,.yui-skin-sam .yui-resize-knob .yui-resize-handle-r,.yui-skin-sam .yui-resize-knob .yui-resize-handle-l-active,.yui-skin-sam .yui-resize-knob .yui-resize-handle-r-active{height:6px;width:6px}
+#information
+li{margin:2px
+10px;line-height:1em}
+#information
+.name{}
+#information .name
+.textLabel{float:left;width:80px}
+#information
+.owner{font-weight:bold}
+#information .owner
+.textLabel{float:left;width:80px}
+#information .owner .messageSend img, #information .owner .reportPlayer
+img{display:inline;vertical-align:middle}
+#information .ally
+a{color:#542c0f}
+#information .ally
+.textLabel{float:left;width:80px}
+#information .ally .messageSend
+img{display:inline;vertical-align:middle}
+#information
+.citylevel{}
+#information .citylevel
+.textLabel{float:left;width:80px}
+#information
+.spy{text-align:center}
+#information
+.footer{clear:left}
+}

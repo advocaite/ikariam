@@ -1,0 +1,32 @@
+body{background: #00376a url(bg_ie.jpg) no-repeat 50% top #01365e; }
+#sky, #water, #sunWrapper, .ship, .islands {display:none;}
+
+#container {width:800px;}
+#header #logo a {background-image:url(logo.gif)}
+#footer-wrapper #footer{ background: none; padding-top:15px;}
+#footer-wrapper #footer ul {width:400px;}
+#footer-wrapper #footer p {clear:both; width:400px;}
+#sidebar #major {background:url(major.gif) no-repeat}
+#agb, #fbagb, #rememberMe {background:transparent; border:none;}
+#content #lnkmenu a {padding-right:12px;}
+#sidebar .input-wrap {padding:1px 5px;}
+#sidebarWrapper {margin-right:-35px;}
+#sidebar .input-wrap {width:191px !important; overflow:hidden;}
+#contenTop {overflow:hidden;}
+#content #menuBox  {width:490px;}
+#content ul#menu li, #content .lnkmenu a {margin-right:2px;}
+
+#contentTop, #contentBottom, #sidebarTop, #sidebarBottom {background-image:url(sp-bg-content.gif); font-size:0;}
+#content h2 {background-image:url(sp-bg-content.gif);}
+#registerTop, #registerBottom, #pageContentTop, #pageContentBottom {font-size:0;}
+#content #pageContentTop, #content #pageContentBottom {background-image:url(sp-bg-content.gif);}
+#content #contentBottom {background:url(sp-bg-content.gif) no-repeat -253px -79px;}
+#content #pageContentBottom {background-image:url(sp-bg-content.gif);}
+#content #pageContent, .boxMiddle, #register  {background-image:url(sp-bg-content-repeat.gif);}
+#fbConnect, #registerTop, #registerBottom {background-image:url(sp-bg-content.gif);}
+#footer-wrapper  {background:url(bg_footer_ie6.gif) no-repeat; height:90px;}
+#sidebar #register h1 {background-image:url(sp-bg-content.gif);} 
+#registerForFree, #gameTourRegisterForFree {background:url(sp-bg-content.gif) no-repeat -322px -144px;}
+
+.valid-icon {background-image:url(sp-bg-content.gif); height:15px; line-height:15px;}
+a.btn-login {height:23px !important; overflow:hidden;}

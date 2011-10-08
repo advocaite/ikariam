@@ -1,0 +1,10 @@
+#transport
+ul.tradeRoute{height:60px;position:relative}
+#transport .tradeRoute
+li.text{position:absolute;top:10px;left:100px;width:50px;text-align:right;padding-top:5px}
+#transport .tradeRoute
+li.time{position:absolute;top:10px;left:150px}
+#transport .tradeRoute
+li.save{position:absolute;top:10px;left:290px}
+#transport .tradeRoute li.save
+input{margin:0px}

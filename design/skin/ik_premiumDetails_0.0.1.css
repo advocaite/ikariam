@@ -1,0 +1,90 @@
+#premiumDetails td.buy a:link{color:#542c0f;text-decoration:none}
+#premiumDetails td.buy a:hover{color:#b03937;text-decoration:none}
+#premiumDetails table td.desc,
+#premiumDetails table
+td.buy{font-size:11px}
+#premiumDetails
+td.ware{margin-top:10px}
+#premiumDetails
+td.buy{text-align:center;background-color:transparent;font-weight:bold;width:90px}
+#premiumDetails
+.product{margin:5px;border:3px
+solid #e4b873;padding:5px}
+#premiumDetails .product
+h2{font-weight:bold;font-size:14px;padding:5px
+0px}
+#premiumDetails .product
+.button{display:block;margin:5px
+0px}
+#premiumDetails .product
+h3{font-weight:bold;padding-left:20px}
+#premiumDetails .product
+table{margin:0px
+5px}
+#premiumDetails .product
+.until{color:red}
+#premiumDetails .product
+.desc{width:435px}
+#premiumDetails #mainview
+ul{margin-left:30px}
+#premiumDetails #mainview ul
+li{list-style-type:disc;margin-left:10px}
+#premiumDetails #premiumOffers table
+p{margin:0px;text-align:left}
+#premiumDetails #premiumOffers
+h4{font-weight:bold;text-align:left}
+#premiumDetails #premiumOffers
+td{padding:4px
+10px}
+#premiumDetails #premiumOffers
+.cost{width:60px}
+#premiumDetails #premiumOffers .cost
+img{vertical-align:middle}
+#premiumDetails #premiumOffers
+.buy{width:80px}
+#premiumDetails #premiumOffers
+td.feature{padding-left:100px}
+#premiumDetails #premiumOffers
+td.duration{font-weight:bold;text-align:right}
+#premiumDetails   #premiumOffers
+td.cost{font-weight:bold}
+#premiumDetails  #premiumOffers td.buy
+a{display:block}
+#premiumDetails  #premiumOffers tr.account
+td.feature{background:url(premium/premium_account.gif) no-repeat 10px 4px;padding-left:150px}
+#premiumDetails   #premiumOffers tr.woodbonus
+td.feature{background:url(premium/premium_wood.gif) no-repeat 10px top}
+#premiumDetails  #premiumOffers tr.marblebonus
+td.feature{background:url(premium/premium_marble.gif) no-repeat 10px top}
+#premiumDetails   #premiumOffers tr.sulfurbonus
+td.feature{background:url(premium/premium_sulfur.gif) no-repeat 10px top}
+#premiumDetails   #premiumOffers tr.crystalbonus
+td.feature{background:url(premium/premium_crystal.gif) no-repeat 10px top}
+#premiumDetails   #premiumOffers tr.winebonus
+td.feature{background:url(premium/premium_wine.gif) no-repeat 10px top}
+#premiumDetails     #ambrosia
+.content{text-align:center}
+#premiumDetails   #ambrosia
+.ambrosiaCount{padding-top:100px;background:url(premium/ambrosia.gif) no-repeat top center;color:#906646;font-weight:bold;font-size:24px}
+#premiumDetails
+.content{overflow:auto}
+#premiumDetails  .content div,
+#premiumDetails  .content h4,
+#premiumDetails
+.footer{clear:both}
+#premiumDetails  .content
+a.enlarge{float:right;width:300px;text-align:center;margin:10px;text-decoration:none}
+#premiumDetails  .content
+h4{font-weight:bold;margin:20px
+30px 10px 40px;;font-size:1.2em}
+#premiumDetails  .content
+ul{margin:8px
+30px}
+#premiumDetails  .content
+li{list-style:inside disc;margin:4px}
+#premiumDetails #premiumOffers
+h4{font-size:1em;font-weight:bold;text-align:left;margin:0}
+#premiumDetails
+#premiumOffers{clear:both;margin-top:20px}
+#premiumDetails #premiumOffers tr.account
+td.feature{background:none;padding-left:50px}

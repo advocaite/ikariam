@@ -1,0 +1,147 @@
+#informations
+.buildingDescription{}
+#informations #container #mainview div.informations
+h1{padding:0;margin:0}
+#informations #container #container2 #mainview
+.contentWithImage{padding-bottom:15px}
+#informations #container #container2 #mainview
+.slot{position:absolute;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:14px;color:#91846a;background-image:url(ikipedia/slot.png);background-repeat:no-repeat;background-position:bottom right;height:45px;width:45px;line-height:40px;text-align:center}
+#informations #container #container2 #mainview
+.slot1{left:0px;top:0px}
+#informations #container #container2 #mainview
+.slot2{left:45px;top:0px}
+#informations #container #container2 #mainview
+.slot3{left:90px;top:0px}
+#informations #container #container2 #mainview
+.slot4{left:135px;top:0px}
+#informations #container #container2 #mainview
+.slot5{left:180px;top:0px}
+#informations #container #container2 #mainview
+.slot6{left:225px;top:0px}
+#informations #container #container2 #mainview
+.slot7{left:270px;top:0px}
+#informations #container #container2 #mainview
+.side{position:relative;width:535px;height:215px;margin:0
+auto}
+#informations #container #container2 #mainview
+.attacker{background-color:#ffe5e5;border:1px
+solid #f00}
+#informations #container #container2 #mainview
+.defender{background-color:#e5e7ff;border:1px
+solid #00f}
+#informations #container #container2 #mainview .attacker
+.textLabel{color:#f00;bottom:5px;left:5px}
+#informations #container #container2 #mainview .defender
+.textLabel{color:#00f;top:5px;left:5px}
+#informations #container #container2 #mainview .side
+div{position:absolute}
+#informations #container #container2 #mainview .attacker .location
+.textLabel{left:0px;top:45px;color:inherit}
+#informations #container #container2 #mainview .defender .location
+.textLabel{left:0px;top:-20px;color:inherit}
+#informations #container #container2 #mainview
+.hkl{width:315px;height:45px;color:#f00;background-color:#f7b3b2;border:1px
+solid #f00}
+#informations #container #container2 #mainview
+.fkl{width:315px;height:45px;color:#06ff00;background-color:#e3e5cb;border:1px
+solid #06ff00}
+#informations #container #container2 #mainview
+.flank1{width:90px;height:45px;color:#eebe00;background-color:#f6e1c7;border:1px
+solid #eebe00}
+#informations #container #container2 #mainview
+.flank2{width:90px;height:45px;color:#eebe00;background-color:#f6e1c7;border:1px
+solid #eebe00}
+#informations #container #container2 #mainview
+.arty{width:135px;height:45px;color:#00f;background-color:#d4c8d9;border:1px
+solid #00f}
+#informations #container #container2 #mainview
+.air{width:45px;height:45px;color:#00fff0;background-color:#e5e5e2;border:1px
+solid #00fff0}
+#informations #container #container2 #mainview .attacker
+.flank1{top:5px}
+#informations #container #container2 #mainview .attacker
+.hkl{top:5px}
+#informations #container #container2 #mainview .attacker
+.flank2{top:5px}
+#informations #container #container2 #mainview .attacker
+.fkl{top:75px}
+#informations #container #container2 #mainview .attacker
+.arty{top:145px}
+#informations #container #container2 #mainview .attacker
+.air{top:145px}
+#informations #container #container2 #mainview .defender
+.flank1{top:165px}
+#informations #container #container2 #mainview .defender
+.hkl{top:165px}
+#informations #container #container2 #mainview .defender
+.flank2{top:165px}
+#informations #container #container2 #mainview .defender
+.fkl{top:95px}
+#informations #container #container2 #mainview .defender
+.arty{top:25px}
+#informations #container #container2 #mainview .defender
+.air{top:25px}
+#informations #container #container2 #mainview #bf_open
+.hkl{left:110px}
+#informations #container #container2 #mainview #bf_open
+.fkl{left:110px}
+#informations #container #container2 #mainview #bf_open
+.flank1{left:10px}
+#informations #container #container2 #mainview #bf_open
+.flank2{left:435px}
+#informations #container #container2 #mainview #bf_open
+.arty{left:200px}
+#informations #container #container2 #mainview #bf_open
+.air{left:400px}
+#informations #container #container2 #mainview #bf_citysmall
+.hkl{width:135px}
+#informations #container #container2 #mainview #bf_citysmall
+.fkl{width:135px}
+#informations #container #container2 #mainview #bf_citysmall
+.arty{width:45px}
+#informations #container #container2 #mainview #bf_citysmall
+.air{width:45px}
+#informations #container #container2 #mainview #bf_citysmall
+.hkl{left:200px}
+#informations #container #container2 #mainview #bf_citysmall
+.fkl{left:200px}
+#informations #container #container2 #mainview #bf_citysmall
+.arty{left:245px}
+#informations #container #container2 #mainview #bf_citysmall
+.air{left:400px}
+#informations #container #container2 #mainview #bf_citymedium
+.hkl{width:225px}
+#informations #container #container2 #mainview #bf_citymedium
+.fkl{width:225px}
+#informations #container #container2 #mainview #bf_citymedium
+.flank1{width:45px}
+#informations #container #container2 #mainview #bf_citymedium
+.flank2{width:45px}
+#informations #container #container2 #mainview #bf_citymedium
+.arty{width:90px}
+#informations #container #container2 #mainview #bf_citymedium
+.air{width:45px}
+#informations #container #container2 #mainview #bf_citymedium
+.hkl{left:155px}
+#informations #container #container2 #mainview #bf_citymedium
+.fkl{left:155px}
+#informations #container #container2 #mainview #bf_citymedium
+.flank1{left:100px}
+#informations #container #container2 #mainview #bf_citymedium
+.flank2{left:390px}
+#informations #container #container2 #mainview #bf_citymedium
+.arty{left:222px}
+#informations #container #container2 #mainview #bf_citymedium
+.air{left:400px}
+#informations #container #container2 #mainview #bf_citylarge
+.hkl{left:110px}
+#informations #container #container2 #mainview #bf_citylarge
+.fkl{left:110px}
+#informations #container #container2 #mainview #bf_citylarge
+.flank1{left:10px}
+#informations #container #container2 #mainview #bf_citylarge
+.flank2{left:435px}
+#informations #container #container2 #mainview #bf_citylarge
+.arty{left:200px}
+#informations #container #container2 #mainview #bf_citylarge
+.air{left:400px}

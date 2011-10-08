@@ -1,0 +1,22 @@
+#buildingDetail #container #mainview
+table#overview{width:600px;margin:10px
+auto;border:1px
+solid #FAE0AE}
+#buildingDetail #container #mainview table#overview th,
+#buildingDetail #container #mainview table#overview
+td{padding:4px
+8px}
+#buildingDetail #container #mainview table#overview
+tr.alt{background-color:#FDF1D4}
+#buildingDetail #container #mainview table#overview
+td.level{text-align:left;padding-right:30px}
+#buildingDetail #container #mainview table#overview
+td.allow{text-align:left}
+#buildingDetail #container #mainview table#overview
+td.warehouseMaterial{text-align:center}
+#buildingDetail #container #mainview table#overview
+th.warehouseCapacity{text-align:center}
+#buildingDetail #container #mainview table#overview td.costs ul.resources
+li{display:inline;padding-bottom:7px}
+#buildingDetail #container #mainview table#overview
+th{text-align:left;font-weight:bold;background-color:#FAE0AE;border-bottom:1px solid #FAE0AE;border-top:1px solid #FAE0AE;color:#906646;font-size:15px;font-weight:bold;padding:5px}

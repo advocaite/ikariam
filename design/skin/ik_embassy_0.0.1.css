@@ -1,0 +1,72 @@
+#embassy
+.buildingDescription{background:url(buildings/y100/embassy.gif) no-repeat right 10px}
+#embassy #container #mainview table.table01 td.online,
+#embassy #container #mainview table.table01
+td.offline{width:14px;background-position:center;background-repeat:no-repeat;padding:0;margin:0}
+#embassy #container #mainview
+table#memberList{margin:0px
+auto 10px auto;width:100%;border:0px}
+#embassy #container #mainview table#memberList
+td.empty{width:10px}
+#embassy #container #mainview table#memberList
+td.score{text-align:right;padding-right:20px}
+#embassy #container #mainview .contentBox01h .content table#memberList th.action, #embassy #container #mainview .contentBox01h .content table#memberList
+td.action{width:80px;text-align:center}
+#embassy #container #mainview .contentBox01h .content table#memberList td.action a.promote,
+#embassy #container #mainview .contentBox01h .content table#memberList td.action a.degrade,
+#embassy #container #mainview .contentBox01h .content table#memberList td.action a.message,
+#embassy #container #mainview .contentBox01h .content table#memberList td.action
+a.kick{background-repeat:no-repeat;background-position:center;padding:0px
+3px}
+#embassy #container #mainview #charges td.charge,
+#embassy #container #mainview #charges
+td.member{text-align:left;padding-left:30px}
+#embassy #container #mainview #charges
+td.member{}
+#embassy #container #mainview
+#editRanks{text-align:left}
+#embassy #container #mainview #editRanks
+.confirm{text-align:center}
+#embassy #container #mainview #editRanks td.name,
+#embassy #container #mainview #editRanks
+td.type{padding-left:30px}
+#embassy #container #mainview #editRanks
+td.permission{padding-left:30px}
+#embassy #container #mainview #editRanks td.permission
+span.description{padding-left:5px}
+#embassy #container #mainview #editRanks
+td.rankdesc{text-align:center}
+#embassy #container #mainview #editRanks td.rankdesc
+textarea.textfield{width:80%}
+#embassy #container #mainview table.table01
+td.online{background-image:url(layout/bulb-on.gif)}
+#embassy #container #mainview table.table01
+td.offline{background-image:url(layout/bulb-off.gif)}
+#embassy #foundAlliance .tag,
+#embassy #foundAlliance
+.allianceName{text-align:left}
+#embassy #mainview table#newLeaders
+td.city{background:url(layout/icon-city2.gif) no-repeat 3px center;padding-left:10px}
+#embassy #container #mainview .contentBox01h
+#infoText{text-align:center;padding:20px
+15px;font-weight:bold}
+#embassy #container #mainview .contentBox01h #infoText
+p{padding-bottom:15px}
+#embassy #mainview .contentBox01h table
+td{padding:3px
+5px;border-bottom:1px dotted #faE1b0;font-size:12px}
+#embassy #mainview .contentBox01h table
+td.desc{font-weight:bold;vertical-align:top;width:200px}
+#embassy #mainview .contentBox01h table td
+a{color:#542c0f;text-decoration:underline}
+#embassy #mainview .contentBox01h
+table{width:100%}
+#embassy #mainview .contentBox01h table td
+.iconButton{float:left;width:20px}
+#embassy #container .contentBox01h .content #mainview #rank .alt,
+#embassy #container .contentBox01h .content #mainview .alt,
+#embassy #container .contentBox01h .content #mainview #rank .default,
+#embassy #container .contentBox01h .content #mainview .default,
+#embassyEditRanks #container #mainview #rank .alt,
+#embassyEditRanks #container #mainview
+.alt{background-color:#fdf1d4;height:35px}

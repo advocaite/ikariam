@@ -1,0 +1,75 @@
+#finances
+.buildingDescription{}
+#finances #balance th,
+#finances #balance
+td{}
+#finances #container #mainview table#balance
+td{vertical-align:top;padding-right:60px;text-align:right}
+#finances #container #mainview table#balance
+td.sigma{text-align:left;padding:4px
+10px}
+#finances #container #mainview table#balance td.result,
+#finances #container #mainview table#balance
+td.calc{text-align:left}
+#finances #container #mainview table#balance td.result td,
+#finances #container #mainview table#balance td.calc
+td{padding:1px
+3px}
+#finances #container #mainview table#balance td.calc
+td.value{text-align:right}
+#finances #container #mainview table#balance td.calc td.desc,
+#finances table#sum
+td.desc{font-weight:bold}
+#finances #sum td.exp,
+#finances #container #mainview table#balance td.calc
+td.exp{background-color:#ff9090}
+#finances #sum td.rev,
+#finances #container #mainview table#balance td.calc
+td.rev{background-color:#90ff90}
+#finances #sum td.res,
+#finances #container #mainview table#balance td.calc
+td.res{border-top:1px solid #000;font-weight:bold}
+#finances #container #mainview table#balance
+td.result{font-weight:bold;height:24px;padding:4px;background-color:#FAEAC6;text-align:center}
+#finances table#sum
+td{text-align:left}
+#finances table #sum
+td.value{text-align:right}
+#finances #container #mainview table#balance
+td.city{text-align:left;padding:4px
+10px}
+#finances #container #mainview table#balance tr.result
+td{border-top:1px dotted #c49873}
+#finances
+div.greenBarDiv{background-image:url(bars/20px/bg_24px_lightgreen.gif);height:20px;text-align:left}
+#finances
+div.redBarDiv{background-image:url(bars/20px/bg_24px_red.gif);height:20px;text-align:left}
+#finances
+div.brownBarDiv{background-image:url(bars/20px/bg_24px_lightbrown.gif);height:20px;text-align:left}
+#finances
+div.barBorder{border:1px
+solid #CCA569}
+#finances #upkeepReductionTable
+td.reason{width:25%;text-align:left}
+#finances #upkeepReductionTable
+td.value{width:5%}
+#finances #upkeepReductionTable
+td.costs{width:10%;text-align:right}
+#finances #upkeepReductionTable
+td.hidden{width:10%;border-left:1px solid #C49873;background-color:#FDF7DD;text-align:right}
+#finances #upkeepReductionTable
+td.boldcosts{width:10%;font-weight:bold;text-align:right}
+#finances #upkeepReductionTable tr.result
+td{border-top:1px dotted #C49873}
+#finances #upkeepReductionTable tr.result
+td{font-weight:bold}
+#finances
+tr.bottomLine{border-bottom:1px dotted #C49873}
+#finances
+tr.alt{background-color:#FDF1D4}
+#finances
+tr.altbottomLine{background-color:#FDF1D4;border-bottom:1px dotted #C49873}
+#finances .result
+img{margin-top:4px}
+#finances #balance.table01 tr.result
+td{padding-top:8px}

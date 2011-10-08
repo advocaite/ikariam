@@ -1,0 +1,1002 @@
+﻿/* 	--------------------------------------------------
+*
+* 	CLEAR LAYOUT
+*  	------------
+*	You can delete the following lines if you want to
+*	build on your own
+*
+--------------------------------------------------- */
+/* --- CONTAINER --- */
+html {height:100%;}
+body {
+	font:100 12px/16px  Arial, Helvetica, sans-serif; 
+	color:#612d04;
+	background:url(pt-water-bg.jpg) repeat;
+	height:100%;
+border:1px solid #0ff0;
+}
+
+h1, h2, h3, h4 {font-family:Arial, Helvetica, sans-serif;}
+#rapper {height:100%!important; min-height:900px;  }
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -89px !important; /* the bottom margin is the negative value of the footer's height */  
+	position:relative; 
+	min-width:845px; 
+	width:100%;
+}
+
+
+#page {position:relative; width:795px; z-index:100; margin:0 auto; padding:40px 0;}
+
+#header {height:150px; position:relative; z-index:300}
+
+a#btn-fb {margin:0 10px; position:absolute; right:123px; width:197px; z-index:20;}
+#fbConnect {display:none; overflow:hidden; position:absolute; right:125px; top:-7px; width:214px; z-index:200;}
+#fbConnect #fbForm {width:202px;}
+#fbConnect #fbForm .btn {background:none; border:none; cursor:pointer; width:188px;}
+#fbConnect #fbForm a.btn {margin:0 auto; border:0 none; width:176px; display:block; color:none;}
+#fbConnect #fbForm a.btn:hover; {background:none transparent;}
+#fbConnect .boxTop {padding-top:5px; height:35px; width:214px;}
+#fbConnect .boxTop .boxMiddle {height:27px;}
+
+a:link,
+button {color:#861b0d; outline:none}
+button:active, a:active {position:relative; top:1px;}
+
+a.btn-small, a.btn-login, button.btn-login {
+	background:url(sp-bg-content.png) no-repeat -201px -200px; 
+	border:none; 
+	color:#F6EBBC;
+	cursor: pointer;
+	float:right; 
+	font-size:14px; 
+	font-weight:700; 
+	height:23px; 
+	line-height:25px;
+	padding:0 0 4px; 
+	position:relative; 
+	text-align:center; 
+	text-shadow:-1px -1px #000000; 
+	width:120px;
+	z-index:301;
+}
+a.btn-login:hover, button.btn-login:hover {background-position:-201px -227px; text-decoration:none;}
+a.btn-small {background:url(sp-bg-content.png) no-repeat -201px -145px; color:#612D04; float:left; margin:0 20px 15px; text-shadow:-1px -1px #FFF;}
+a.btn-small:hover {background-position:-201px -172px; text-decoration:none;}
+
+button.btn-big {
+	background:url("sp-bg-content.png") no-repeat 0 -241px;
+    border:none;
+    height:27px;
+    margin:12px 8px 12px 0;
+    width:190px;
+}
+button.btn-big:hover {background-position:0 -268px;}
+a#tour-button {
+    float: none;
+    display: block;
+    margin: 15px auto;
+}
+.fbBtn {display:block; height:29px; overflow:hidden; margin:4px 0; cursor:pointer;}
+.fbBtn .btn-fb {background:url(fb-conect-btn.png) no-repeat 0 0; padding-left:24px; cursor:pointer;}
+.fbBtn .btn-fb-text{background:url("fb-conect-btn.png") no-repeat scroll right -29px transparent; color:#FFF; font-weight:700; height:29px; line-height:28px; padding:0 3px; text-align:center;}
+a.fbBtn:hover{text-decoration:none;}
+
+#loginWrapper {display:none; overflow:hidden; position:absolute; right:-8px; top:-8px; width:213px; z-index:300;}
+.boxTop, .boxBottom {background:url("sp-bg-content.png") no-repeat -322px -309px; height:35px; width:213px;}
+.boxMiddle {background:url(sp-bg-content-repeat.png) repeat-y 0 0 transparent; padding:4px 6px;}
+.boxBottom {background-position:-322px -303px; height:5px; font-size:0;}
+#loginWrapper .boxTop {background-position:-322px -267px;}
+#login #loginForm {width:202px;}
+#login #loginForm #rememberMeWrapper input {
+    width:20px;
+    margin:6px 0 0 6px;
+}
+#loginForm a.login-lnk {clear:both; color:#612d04; background:url(bg_label.gif) no-repeat left center; padding-left:10px; display:block; font-size:11px; line-height:13px; margin-left:10px; margin-left:5px; margin-top:3px;}
+#header #logo {position:relative; top:50px; left:240px; text-indent:-99999px; width:561px}
+#header #logo a {background:url(logo.png) no-repeat; display:block; height:87px; width:561px;}
+
+#container {position:relative; margin-bottom:100px; width:795px; z-index:100;}
+
+#sidebarWrapper {float:left; height:400px; margin-right:-25px; margin-top:52px; width:265px;}
+#sidebarTop, #sidebarBottom {background:url(sp-bg-content.png) no-repeat; height:34px; width:275px;}
+#sidebar {background:url(sp-bg-box-repeat.png) repeat-y 1px 0 transparent; margin-left:9px; padding:0 20px 0 23px; width:213px;}
+#sidebarBottom {background-position:-1px -35px; height:43px;}
+
+#registerTop, #registerBottom {background:url(sp-bg-content.png) no-repeat -322px -309px; height:5px; width:213px;}
+#register {background:url(sp-bg-content-repeat.png) repeat-y 0 0 transparent; padding:4px 6px;}
+#registerBottom {background-position:-322px -303px;}
+
+#sidebar #major {background:url(major.png) no-repeat; height:228px; left:45px; position:absolute; top:-133px; z-index:1;}
+#sidebar #register h1 {background:url(sp-bg-content.png) no-repeat 1px -213px; font-family:Arial, Helvetica, sans-serif; font-size:14px; height:18px; margin:0 0 4px 0; padding:5px 0 3px; text-align:center;} 
+.input-wrap {background:url(bg_detail.jpg) no-repeat left bottom; padding:3px 5px;}
+#sidebar .input-wrap {padding:2px 5px 5px;}
+label {color:#612d04; background:url(bg_label.gif) no-repeat left center; padding-left:10px; margin-bottom:2px; display:block;}
+input, select {color:#612d04; background-color:#fff7e1; border:1px solid #7e512a; width:190px;}
+input {padding:2px 5px; width:180px;}
+input[type=checkbox] {background:none !important; border:none !important;}
+#inputAGB:hover {backgound:none;}
+#sidebar #register form#registerForm div label a,
+#sidebar #register form#fbRegisterForm label a {color:#861b0d; font-weight:bold;}
+#sidebar #register form#registerForm div label.agb,
+#sidebar #register form#fbRegisterForm label.agb {width:auto; display:inline; background:none; padding-left:0;}
+#sidebar #register form#registerForm div input.agb,
+#sidebar #register form#fbRegisterForm input.agb {width:auto;}
+#sidebar #register form#registerForm div .reg-btn, #loginForm .reg-btn {
+	background:url(sp-bg-content.png) no-repeat 0 -80px; 
+	border:none; 
+	display:block; 
+	height:40px; 
+	width:194px; 
+	color:#F6EBBC; 
+	cursor:pointer; 
+	font-size:18px; 
+	font-weight:700;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center; 
+	line-height:20px;  
+	bottom:10px; 
+	text-shadow:-1px -1px #000;
+}
+#sidebar #register form#registerForm div .reg-btn {margin:8px auto ;}
+#sidebar #register form#registerForm div .reg-btn:hover {background-position:0 -120px; color:#FDF7DD; text-decoration:none;}
+
+#sidebar #register form#fbRegisterForm {display:none;}
+#sidebar #register form#fbRegisterForm a.btn_reg-fb {width:176px; margin:10px  0 auto; display:block;}
+#sidebar #register form#fbRegisterForm a#regularRegister {color:#612d04; background:url(bg_label.gif) no-repeat left center; padding-left:10px; margin-bottom:2px; display:block; font-weight:700;}
+
+#content {float:left; position:relative; width:553px;}
+#contentTop{background:url(sp-bg-content.png) no-repeat -253px 0; height:72px; width:553px;}
+#contentMiddle {background:url(sp-bg-box-repeat.png) repeat-y -257px 0; margin:0 10px; min-height:450px; padding:0 20px; width:496px;}
+#contentBottom {background:url(sp-bg-content-bottom.png) no-repeat; height:65px; width:553px;}
+
+#content #menuBox {height:35px; overflow:hidden; padding:31px 33px 0; width:500px;}
+#content ul#menu, #content .lnkmenu {float:left;}
+#content ul#menu li.last {margin-right:0;}
+#content ul#menu li, #content .lnkmenu a {float:left; margin-right:4px; width:120px;}
+#content ul#menu li a, #content .lnkmenu a {text-shadow:0 1px 0 #DFB26F; font-family:Arial, Helvetica, sans-serif; display:block; background:url(sp-bg-content.png) no-repeat -201px -255px; width:108px; height:15px; padding:10px 5px; overflow:hidden; text-align:center; font-size:18px; color:#612d04; font-weight:700; top:0px;}
+#content ul#menu li a:hover, #content ul#menu li a.current, #content .lnkmenu a.current, #content .lnkmenu a:hover {background-position:-201px -290px; text-decoration:none; text-shadow:0 1px 0 #FFFFFF; top:0px;}
+#content .lnkmenu a {padding-right:12px; width:102px;}
+
+#content #pageContentTop, #content #pageContentBottom {background:url(sp-bg-content.png) no-repeat -322px -317px; height:3px; width:498px;}
+#content #pageContent {background:url(sp-bg-content-repeat.png) repeat-y -215px 0; min-height:450px;}
+#content #pageContentBottom {background-position:-322px -321px;}
+
+/* === Inhalte === */
+#content .page-content, #content .extraContent {padding:0 3px; background:url(bg_page-content.jpg) no-repeat; overflow:hidden; width:483px;}
+#content #extraContent {display:none;}
+#content h2 {background:url(sp-bg-content.png) no-repeat -322px -237px; height:29px; font-size:16px; line-height:30px; padding:0 10px; width:463px; margin-bottom:0;}
+#content .page-content div.txt {background:url(bg_txt.jpg) repeat-x top; padding:10px; padding-bottom:15px;}
+#content .page-content div.txt #flash-trailer {background:url(bg_trailer.jpg) no-repeat; padding:2px; height:284px; margin:0 auto; width:459px;  margin-bottom:10px;}
+#content .page-content div.txt a.trailer {color:#612d04; background:url(bg_label.gif) no-repeat left center; padding-left:10px; display:block; font-size:11px; line-height:13px;}
+#content .page-content div.txt ul li {background:url(bg_label.gif) no-repeat left 4px; padding-left:15px; padding-bottom:15px;}
+#content .page-content div.screenshots {width:458px; overflow:hidden; margin:0 auto;}
+#content .page-content div.screenshots-wrapper a.screenshot {background:url(bg_wallpaper.jpg) no-repeat; padding:3px; display:block; float:left; width:140px; height:93px; margin-right:10px;}
+#content .page-content div.screenshots-wrapper .last {margin-right:0px!important;}
+#content .page-content div.wallpaper-wrapper .wallpaper {background:url(bg_wallpaper.jpg) no-repeat; width:140px; height:161px; padding:3px; float:left; margin:4px;}
+#content .page-content div.wallpaper-wrapper .wallpaper a {display:block; text-align:center; font-size:11px;}
+#content .page-content  #passwordLost, #content .page-content  #resendLink {background:url("bg2_txt.jpg") repeat-x scroll 0 0 transparent; height:461px; width:483px;}
+#content .page-content  #resendLinkForm, #content .page-content #pwLostForm, #content .page-content #pwLostFormFb  {float:left; height:200px; margin:10px; width:205px;}
+#content .page-content  #resendLinkInfo, #content .page-content  #pwLostInfo {background:#EFD7A9; border:1px solid #DAB57E; float:right; margin:15px; padding:15px; width:160px;}
+
+/* === Footer === */
+#footer-wrapper, .push {height: 89px; /* .push must be the same height as .footer */}	
+#footer-wrapper {background:url(pt_footer.png) repeat-x; height:89px; width:100%; z-index:115; position:relative; overflow:hidden;}
+#footer-wrapper #footer {background:url(bg_footer.png) no-repeat 50% top; padding-top:25px; width:auto; margin:0 auto; font-size:11px; color:#549dd5;}
+#footer-wrapper #footer a {color:#86c4f4;}
+#footer-wrapper #footer a:hover {text-decoration:underline;}
+#footer-wrapper #footer #footer-inner {height:89px; idth:780px; margin:0 auto;}
+#footer-wrapper #footer #footer-inner .logo {float:left; margin:auto;}
+#footer-wrapper #footer #footer-inner #footer-menu {float:right; margin-right:20px; position:relative; text-align:right;}
+#footer-wrapper #footer #footer-inner #footer-menu ul li {float:left; padding:0 5px; font-weight:100;}
+#footer-wrapper #footer #footer-inner #footer-menu ul li#language {width:90px;}
+#footer-wrapper #footer #footer-inner #footer-menu .copyright {margin-top:10px}
+
+
+object#player_api {
+	border:1px solid #DFB77C;
+}
+
+#awardOverlay,
+#rulesOverlay,
+#credits {
+	background:url("bg_txt.jpg") repeat-x scroll center top #FDF7DD;
+	padding:0 1px;
+	width:480px;
+}
+
+#awardOverlay { width:600px;}
+
+#awardOverlay h1,
+#rulesOverlay h1,
+#credits h1 {
+	margin:0;
+	padding:15px 0;
+	text-align:center;
+}
+
+#rulesOverlay h1 a {font-size:12px;}
+
+#rulesOverlay li {margin:0 10px 10px;}
+
+#awardOverlay h2,
+#rulesOverlay h2,
+#credits h2 {
+	background:url("bg_h2.jpg") no-repeat scroll -1px 0 transparent;
+	font-size:14px;
+	height:29px;
+	line-height:30px;
+	margin:10px 0 5px;
+	padding:0 10px;
+}
+#awardText {width:480px; padding:15px;}
+#awardText td {vertical-align:middle; padding:10px;}
+#rulesText,
+#creditNames {width: 480px; height:394px; overflow-y:scroll;overflow-x:hidden}
+
+#credits p {
+	background-color:#F1DDA6;
+	margin:0 10px;
+	padding:2px 25px;
+}
+
+/* === Backgrounds === */
+/* Parallax = Sky */
+
+
+#sky{height: 265px; position: absolute; top: 0; z-index: 2; overflow: hidden; width: 100%;}
+#sky #baloon{background: url('bg_balloon.png') no-repeat 95% 0; height: 100%; width:120%; position: absolute;top: 0; z-index:7;}
+#sky #clouds-1{background: url('pt_clouds.png') repeat-x 0 0; width: 110%;height: 100%;position: absolute;top: 0;z-index:5;}
+#sky #clouds-2{background: url('pt_clouds.png') repeat-x 0 -265px; width: 120%;height: 100%;position: absolute;top: 0;z-index:4;}
+#sky #clouds-3{background: url('pt_clouds.png') repeat-x 0 -530px; width: 130%;height: 100%;position: absolute;top: 0;z-index:3;}
+#sky #birds{background: url('pt-birds.png') no-repeat; width: 120%;height: 100%;position: absolute;top: 0;z-index:6;}
+
+#sunWrapper {background: url('bg_sky.jpg' ) repeat-x; height:267px; overflow:hidden; position:absolute; top:0px; width:100%; z-index:2;}
+#sun {background:url(sun.png) no-repeat; height:264px; margin:0 auto; width:1235px;}
+#water {height:637px; position:absolute; top:265px; width:100%; background:url(pt-water-top.jpg) repeat-x; z-index:1;}
+
+/* Inseln */
+.islands {position:absolute; z-index:3;}
+#island-left {background:url(sp-bg-islands.png) no-repeat 0 0; width:316px; height:333px; top:215px; left:0;}
+#island-right {background:url(sp-bg-islands.png) no-repeat -317px 0; width:292px; height:307px; top:185px; right:0;}
+
+.ship {position:absolute; z-index:5;}
+#ship-1 {background:url(sp-bg-ships.png) no-repeat 0 0; height:192px; width:345px; bottom:10%; left:10%;}
+#ship-2 {background:url(sp-bg-ships.png) no-repeat -346px 0; height:224px; width:280px; bottom:6%; left:0%;}
+#submarine {background:url(sp-bg-ships.png) no-repeat -626px 0; height:174px; width:260px; bottom:2%; right:0;}
+
+/* 	--------------------------------------------------
+*
+* 	additions by development department
+*  	------------
+*
+*
+--------------------------------------------------- */
+
+/* === Show the Hand Cursor === */
+.showHand {
+    cursor: pointer;
+}
+
+/* === radio buttons for alternative name suggestions === */
+
+#altNames input {
+    width: 15px ;
+    vertical-align: text-top;
+}
+
+#altNames label.altName {
+    background-image: none ;
+    display: inline ;
+    padding-left: 0;
+}
+
+/* === highlight of in_use servers === */
+
+.inUse {
+    font-weight: bold ;
+}
+
+#mmonetbar .mmoGame label {
+    background:none;
+    padding:0;
+}
+
+/* === password lost forms for facebook === */
+
+form#pwLostFormFb { display: none; }
+
+/* === Success/fail message highlight === */
+
+.error, .success { border: none; }
+
+/* === agb for login === */
+.acceptAgbWithLogin {margin-left: 6px ;}
+#registerForFree {
+	background:url("sp-banderole.png") no-repeat;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	height:72px;
+	line-height:29px;
+	margin:10px 0 20px 12px;
+	padding:10px 5px;
+	text-align:center;
+	text-shadow:-1px -1px #F4DBB2;
+	width:451px;
+}
+
+#javaScriptNeeded {
+	background:#FFF url(warning.png) no-repeat 10px 10px;
+	border:1px dotted red;
+	font-size:16px;
+	margin:15px;
+	padding:25px 25px 25px 70px;
+}
+
+#gameTourWallImg {
+    padding-left:10px;
+}
+
+#gameTourRegisterForFree {
+    background:url(registerforfree-bg.png) no-repeat scroll 0 0 transparent;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	height:65px;
+	line-height:29px;
+    margin: 20px 0 20px 1px;
+    padding:10px 5px;
+	text-align:center;
+	text-shadow:-1px -1px #F4DBB2;
+	width:450px;
+}
+
+/* === gamtour slides === */
+
+#tour {
+
+    padding: 0 0 15px 0 ;
+}
+
+.tour-slide {
+    height: 360px;
+    display: none ;
+}
+
+.current-slide {
+
+}
+
+#controlls {
+
+    margin-bottom: 20px;
+}
+
+#tour a.back {
+    display:block;
+    width:100px;
+    float:left;
+    margin-left:30px;
+}
+#tour a.next {
+    margin-right:30px;
+    margin-left:auto;
+    width:100px;
+    display:block;
+    text-align:right;
+}
+
+#tour a.back,
+#tour a.next {
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#811b0b;
+}
+#tour a.back:hover,
+#tour a.next:hover {
+    color:#DF5843;
+    text-decoration:underline;
+}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at:http://fancybox.net
+ *
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ *
+ * Version:1.3.1 (05/03/2010)
+ * Requires:jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+*/
+
+#fancybox-loading {
+    position:fixed;
+    top:50%;
+    left:50%;
+    height:40px;
+    width:40px;
+    margin-top:-20px;
+    margin-left:-20px;
+    cursor:pointer;
+    overflow:hidden;
+    z-index:1104;
+    display:none;
+}
+
+* html #fancybox-loading {	/* IE6 */
+	position:absolute;
+	margin-top:0;
+}
+
+#fancybox-loading div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height:480px;
+    background-image:url('fancybox/fancybox.png');
+}
+
+#fancybox-overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:#000;
+    z-index:1100;
+    display:none;
+}
+
+* html #fancybox-overlay {	/* IE6 */
+	position:absolute;
+	width:100%;
+}
+
+#fancybox-tmp {
+    padding:0;
+    margin:0;
+    border:0;
+    overflow:auto;
+    display:none;
+}
+
+#fancybox-wrap {
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0;
+    padding:20px;
+    z-index:1101;
+    display:none;
+}
+
+#fancybox-outer {
+	background:url(fancybox/fancy-outer-bg.png) repeat-x;
+	border:1px solid #772200;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+#fancybox-inner {
+    position:absolute;
+    top:0;
+    left:0;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:0;
+    outline:none;
+    overflow:hidden;
+}
+
+#fancybox-hide-sel-frame {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:transparent;
+}
+
+#fancybox-close {
+    position:absolute;
+    top:-29px;
+    right:-4px;
+    width:30px;
+    height:30px;
+    background-image:url('fancybox/fancy_close.png');
+    cursor:pointer;
+    z-index:1103;
+    display:none;
+}
+
+#fancybox_error {
+    color:#444;
+    font:normal 12px/20px Arial;
+    padding:7px;
+    margin:0;
+}
+
+#fancybox-content {
+    height:auto;
+    width:auto;
+    padding:0;
+    margin:0;
+}
+
+#fancybox-img {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    border:none;
+    outline:none;
+    line-height:0;
+    vertical-align:top;
+    -ms-interpolation-mode:bicubic;
+}
+
+#fancybox-frame {
+    position:relative;
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+}
+
+#fancybox-title {
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    z-index:1102;
+}
+
+.fancybox-title-inside {
+    padding:10px 0;
+    text-align:center;
+    color:#333;
+}
+
+.fancybox-title-outside {
+    padding-top:5px;
+    color:#FFF;
+    text-align:center;
+    font-weight:bold;
+}
+
+.fancybox-title-over {
+    color:#FFF;
+    text-align:left;
+}
+
+#fancybox-title-over {
+    padding:10px;
+    background-image:url('fancybox/fancy_title_over.png');
+    display:block;
+}
+
+#fancybox-title-wrap {
+    display:inline-block;
+}
+
+#fancybox-title-wrap span {
+    height:32px;
+    float:left;
+}
+
+#fancybox-title-left {
+    padding-left:15px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-40px -90px;
+    background-repeat:no-repeat;
+}
+
+#fancybox-title-main {
+    font-weight:bold;
+    line-height:29px;
+    background-image:url('fancybox/fancybox-x.png');
+    background-position:0px -40px;
+    color:#FFF;
+}
+
+#fancybox-title-right {
+    padding-left:15px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-55px -90px;
+    background-repeat:no-repeat;
+}
+
+#fancybox-left, #fancybox-right {
+    position:absolute;
+    bottom:0px;
+    height:100%;
+    width:35%;
+    cursor:pointer;
+    outline:none;
+    background-image:url('blank.gif');
+    z-index:1102;
+    display:none;
+}
+
+#fancybox-left {
+    left:0px;
+}
+
+#fancybox-right {
+    right:0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+    position:absolute;
+    top:50%;
+    left:-9999px;
+    width:33px;
+    height:33px;
+    margin-top:-15px;
+    cursor:pointer;
+    z-index:1102;
+    display:block;
+}
+
+#fancybox-left-ico {
+    background-image:url('fancybox/fancy_nav_left.png');
+}
+
+#fancybox-right-ico {
+    background-image:url('fancybox/fancy_nav_right.png');
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+    visibility:visible; /* IE6 */
+}
+
+#fancybox-left:hover span {
+    left:0px;
+}
+
+#fancybox-right:hover span {
+    left:auto;
+    right:0px;
+}
+
+.fancy-bg {
+    position:absolute;
+    padding:0;
+    margin:0;
+    border:0;
+    width:20px;
+    height:20px;
+    z-index:1001;
+}
+
+#fancy-bg-n {
+    top:-20px;
+    left:0;
+    width:100%;
+    background-image:url('fancybox/fancybox-x.png');
+}
+
+#fancy-bg-ne {
+    top:-20px;
+    right:-20px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-40px -162px;
+}
+
+#fancy-bg-e {
+    top:0;
+    right:-20px;
+    height:100%;
+    background-image:url('fancybox/fancybox-y.png');
+    background-position:-20px 0px;
+}
+
+#fancy-bg-se {
+    bottom:-20px;
+    right:-20px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-40px -182px;
+}
+
+#fancy-bg-s {
+    bottom:-20px;
+    left:0;
+    width:100%;
+    background-image:url('fancybox/fancybox-x.png');
+    background-position:0px -20px;
+}
+
+#fancy-bg-sw {
+    bottom:-20px;
+    left:-20px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-40px -142px;
+}
+
+#fancy-bg-w {
+    top:0;
+    left:-20px;
+    height:100%;
+    background-image:url('fancybox/fancybox-y.png');
+}
+
+#fancy-bg-nw {
+    top:-20px;
+    left:-20px;
+    background-image:url('fancybox/fancybox.png');
+    background-position:-40px -122px;
+}
+
+/* IE */
+
+#fancybox-loading.fancybox-ie div	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_loading.png', sizingMethod='scale');}
+.fancybox-ie #fancybox-close		 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_close.png', sizingMethod='scale');}
+
+.fancybox-ie #fancybox-title-over	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_title_over.png', sizingMethod='scale'); zoom:1;}
+.fancybox-ie #fancybox-title-left	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.fancybox/fancy_title_left.png', sizingMethod='scale');}
+.fancybox-ie #fancybox-title-main	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_title_main.png', sizingMethod='scale');}
+.fancybox-ie #fancybox-title-right	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_title_right.png', sizingMethod='scale');}
+
+.fancybox-ie #fancybox-left-ico		 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_nav_left.png', sizingMethod='scale');}
+.fancybox-ie #fancybox-right-ico	 { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_nav_right.png', sizingMethod='scale');}
+
+.fancybox-ie .fancy-bg { background:transparent !important;}
+
+.fancybox-ie #fancy-bg-n	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_n.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-ne	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_ne.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-e	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_e.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-se	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_se.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-s	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_s.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-sw	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_sw.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-w	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_w.png', sizingMethod='scale');}
+.fancybox-ie #fancy-bg-nw	 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./fancybox/fancy_shadow_nw.png', sizingMethod='scale');}
+
+
+/* register-box secure pwd end */
+/*register end*/
+
+/*################################################
+########SEBYS ÄNDERUNGEN VALIDATION PLUGIN########
+################################################*/
+
+/* register-box secure pwd */
+#securePwd {
+	display:none;
+    height:39px;
+    overflow:hidden;
+    position:relative;
+    width:200px;
+}
+.invalid-char {height:15px;}
+#validChar {
+    color:#AF1B03;
+    font-weight:bold;
+}
+.valid-icon {
+    background:transparent url(sp-bg-content.png) no-repeat -196px -78px;
+    display:inline;
+    float:left;
+    height:16px;
+    margin:2px 5px 5px 10px;
+    width:16px;
+}
+
+.invalid {background-position:-196px -94px;}
+#securePwd .securePwdBarBox {
+    float:left;
+    margin:0px 10px 2px;
+    width:180px;
+}
+#securePwd .securePwdBarBox, #securePwd #securePwdBar { /* has IE-fix */
+	background:transparent url(secure-pwd-bar.gif) no-repeat 0 -13px;
+	height:13px;
+	font-size:1px;
+}
+#securePwd #securePwdBar {background-position:0 0;}
+#securePwd #securePwdBar {float:left;}
+#pwdWarning {
+    float:right;
+    display:none;
+    margin-top:32px;
+    padding:0;
+    position:relative;
+    width:180px;
+}
+#pwdWarning label {font-weight:700}
+
+#securePwd p {
+    margin:5px 0 0;
+    float:left;
+    width:165px;
+}
+
+.nodisplay {
+    display:none;
+}
+
+.formError {
+    position:absolute;
+    top:300px;
+    left:300px;
+    display:block;
+    padding:0 0 0 15px;
+    text-align:left;
+    width:260px;
+    z-index:5000;
+
+}
+#debugMode {
+    background:#000;
+    position:fixed;
+    width:100%;
+    height:200px;
+    top:0;
+    left:0;
+    overflow:scroll;
+    opacity:0.8;
+    display:block;
+    padding:10px;
+    color:#fff;
+    font-size:14px;
+    z-index:100000;
+}
+.ajaxSubmit {
+    padding:20px;
+    background:#55ea55;
+    border:1px solid #999;
+    display:none
+}
+.formError .formErrorContent {
+    background:#5C0400 url(tooltip-bg.png) repeat-x;
+    border:1px solid #111;
+    box-shadow:0px 0px 4px #000;
+    -moz-box-shadow:0px 0px 4px #000;
+    -webkit-box-shadow:0px 0px 4px #000;
+    color:#ddc494;
+    width:200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:normal;
+    width:100%;
+}
+.agbformError {
+    left:406px !important;
+}
+
+.greenPopup .formErrorContent {
+    width:235px;
+}
+.blackPopup .formErrorContent {
+    background:#393939;
+    color:#FFF;
+}
+.formError .formErrorArrow {
+    background:url(tooltip-arrow.gif) no-repeat;
+    height:15px;
+    left:2px;
+    position:absolute;
+    top:5px;
+    width:15px;
+    z-index:5001;
+}
+
+body .loginNameformError,
+body .loginPasswordformError {
+	margin:0 0 0 -460px;
+	padding:0 15px 0 0;
+}
+body .loginNameformError .formErrorArrow,
+body .loginPasswordformError .formErrorArrow { 
+	background:url(tooltip-arrow-rtl.gif) no-repeat;
+	left:auto;
+	right:0 !important;
+}
+
+.formError .formErrorArrowBottom {
+    top:0;
+    margin:-6px;
+}
+.loginNameformError .formErrorArrowBottom, .loginPasswordformError .formErrorArrowBottom {
+    background:url(tooltip-arrow-top.gif) no-repeat 0 0 transparent;
+    left:15px;
+    top:-12px;
+    margin:0px;
+}
+.formError .formErrorArrow div {
+    font-size:0px;
+    height:1px;
+    margin:0 auto;
+    line-height:0px;
+    font-size:0px;
+    display:block;
+}
+.formError .formErrorArrowBottom div {
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.blackPopup .formErrorArrow div {
+    background:#393939;
+    color:#FFF;
+}
+.formError .icon {
+    background:url(warning_16.gif) no-repeat scroll 5px 2px;
+    padding:4px 10px 4px 25px;
+}
+.valid .icon {background:url(info.gif) no-repeat scroll 5px 2px;}
+.valid .formErrorContent,
+.ajaxed .formErrorContent {background:#028e09 url(tooltip-bg-green.png) repeat-x;}
+.valid .formErrorArrow,
+.ajaxed .formErrorArrow {background:url(tooltip-arrow-green.gif) no-repeat;}
+#content .page-content #fbLoginBox {
+    float:left;
+    width:270px;
+}
+#content .page-content #fbLoginImg {
+    float:right;
+    width:175px;
+}
+#content .page-content #fbLoginImg img {
+    margin-bottom:10px;
+}
+#fbLoginBox a {color:#861b0d; font-weight:bold;}
+#fbLoginBox .fbBtn {
+    background:url(fb-conect-btn.gif) no-repeat;
+    height:29px;
+    margin:15px 0;
+}
+#fbLoginBox .fbBtn .fbBtnMiddle {
+    background:url(fb-conect-btn.gif) repeat-x 0 -29px;
+    color:#fff;
+    display:block;
+    font-size:14px;
+    font-weight:700;
+    height:23px;
+    margin:0 25px;
+    padding:6px 8px 0;
+    top:0px !important;
+}
+#fbLoginBox .fbBtn .fbBtnEnd {
+    background:url(fb-conect-btn.gif) no-repeat right -58px;
+    height:29px;
+}
+#fbLoginBox .fbBtn a:hover {text-decoration:none}
+#loginArrow {
+    background:url(login-arrow.png) no-repeat;
+    display:none;
+    height:71px;
+    width:70px;
+    position:absolute;
+    z-index:999;
+}
+/* always last parameter */
+.clearfloat {
+    clear:both;
+    height:0px;
+}
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+.clearfix { display:inline-block;}
+/* hide from IE Mac \*/
+* html .clearfix { height:1%;}
+.clearfix { display:block;}
+

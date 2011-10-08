@@ -1,0 +1,29 @@
+#takeOffer
+.buildingDescription{background:url(buildings/y100/branchOffice.gif) no-repeat right 27px;height:130px}
+#takeOffer
+table{position:relative}
+#takeOffer table
+td{height:40px;vertical-align:middle}
+#takeOffer table td.input,
+#takeOffer table
+td.icon{text-align:center}
+#takeOffer table td.input
+input{text-align:right}
+#takeOffer table td.input
+a{margin-left:5px}
+#takeOffer table td.amount,
+#takeOffer table
+td.costs{text-align:right}
+#takeOffer
+.increaseInput{position:relative;width:60px;margin:0
+auto}
+#takeOffer .increaseInput
+input{display:block;width:30px;text-align:center}
+#takeOffer .increaseInput
+a.increase{background:url(interface/btn_increase.gif) no-repeat center center;position:absolute;width:15px;height:13px;left:40px;top:-5px}
+#takeOffer .increase
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#takeOffer
+.decrease{background:url(interface/btn_decrease.gif) no-repeat center center;position:absolute;width:15px;height:13px;left:40px;top:10px}
+#takeOffer .decrease
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}

@@ -1,0 +1,106 @@
+#wall
+.buildingDescription{background:url(layout/stadtmauer_icon.gif) no-repeat right 10px}
+#wall #container #mainview
+.contentBox01{margin:10px
+0px 10px 10px}
+#wall #container #mainview
+.border1{border:1px
+solid #f3ddb2;padding:1px}
+#wall #container #mainview
+.border2{border:1px
+solid #e4b873}
+#wall #mainview .contentBox01h .content .bgWall
+.wallTable{width:180px;margin:5px;background:transparent}
+#wall #mainview .contentBox01h .content .bgWall .wallTable
+td{padding:2px
+0 0 5px;font-weight:bold}
+#wall #mainview .contentBox01h .content .bgWall .wallTable
+.wallValue{text-align:right}
+#wall #container #mainview .bg-wall{background:url(layout/bg-wall.jpg) no-repeat;width:649px;height:231px}
+#wall #container #mainview
+.buildingDescription{background-repeat:no-repeat;height:auto}
+#wall #mainview #wall-info{width:645px;margin:3px
+auto}
+#wall #mainview #wall-info th,
+#wall #mainview #wall-info
+td{height:23px;line-height:23px;text-align:center;font-weight:bold;border:3px
+solid #fdf7dd}
+#wall #mainview #wall-info
+th{background-color:#fbe5bb;color:#612d04}
+#wall #mainview #wall-info
+td{background-color:#fefced;color:#7d0d0b}
+#wall #container
+#resUpgrade{color:#580404}
+#wall #container #resUpgrade
+img{display:block;margin:6px
+auto}
+#wall #container #resUpgrade
+.buildingLevel{text-align:center;font:bold 36px Arial, Helvetica, sans-serif;height:70px}
+#wall #container #resUpgrade .buildingLevel
+.textLabel{display:block;font:normal 12px Arial, Helvetica, sans-serif}
+#wall #container #resUpgrade
+h4{font-weight:normal;text-align:center;margin:6px
+0px;padding:4px;background-color:#fffbdb}
+#wall #container #resUpgrade
+.resources{margin:0
+0 0 30px}
+#wall #container #resUpgrade
+#donateForm{border:1px
+solid #fffbdb;border-bottom-color:#dfcea2;border-right-color:#dfcea2;background-color:#fcf1d2;margin:10px
+8px}
+#wall #resUpgrade
+#donate{text-align:center}
+#wall #container #resUpgrade #donate
+label{display:block;text-align:center;margin:2px
+0px;padding:4px
+2px}
+#wall #container #resUpgrade #donate
+input.textfield{width:120px;text-align:center;vertical-align:middle}
+#wall #container #resUpgrade #donate
+a{margin-left:4px;padding:0px
+4px;line-height:26px;font-weight:bold;text-decoration:none}
+#wall #container #resUpgrade #donate a:hover{text-decoration:underline}
+#wall #container #mainview
+.content{}
+#wall
+.bgWall{background:url(layout/wall675.jpg) no-repeat;width:674px;height:231px;margin:0
+auto}
+#wall
+#wallInfoBox{float:left;padding:6px
+18px 0 6px;line-height:18px;color:#542c0f}
+#wall #wallInfoBox
+.infoBoxHeader{height:7px;background-image:url(ikipedia/infoBox_header.gif)}
+#wall #wallInfoBox
+.infoBoxFooter{height:7px;background-image:url(ikipedia/infoBox_footer.gif)}
+#wall #wallInfoBox
+.infoBoxContent{border:1px
+solid #e5ba76;padding:5px
+5px 5px 25px;width:230px;height:140px;overflow:auto;background:#FDF7DD}
+#wall #wallInfoBox .infoBoxContent
+h3{font-weight:bold;font-size:12px;color:#542c0f;background-image:url(ikipedia/helm.gif);background-repeat:no-repeat;height:34px;padding:8px
+0 0 25px}
+#wall #wallInfoBox
+.damageFocusContainer{width:40px;border:1px
+solid #4d0e0c;margin:5px
+0 5px 110px}
+#wall #wallInfoBox
+.damageFocus{background-color:#ff4646;height:6px}
+#wall #wallInfoBox
+span.textLabel{display:block;float:left;width:110px}
+#wall #wallInfoBox
+.weapon{background-image:url(workshop/angriff_gold.gif);background-repeat:no-repeat;padding:0
+0 0 70px;margin:0
+0 10px 0}
+#wall #wallInfoBox
+.weaponName{font-weight:bold;margin:10px
+0 0 0}
+#wall #wallInfoBox
+.req{font-weight:bold;display:block}
+#wall #wallInfoBox .available
+a{font-weight:bold;color:green}
+#wall #wallInfoBox
+.available{font-weight:bold;color:green;display:block;width:100%}
+#wall #wallInfoBox .notAvailable
+a{font-weight:bold;color:red}
+#wall #wallInfoBox
+.notAvailable{font-weight:bold;color:red;display:block}

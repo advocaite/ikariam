@@ -1,0 +1,172 @@
+#workshop
+.buildingDescription{background:url(buildings/y100/workshop.gif) no-repeat right 10px}
+#workshop #mainview #demo
+.content{margin:10px
+auto}
+#workshop #container #mainview
+.object{background:none}
+#workshop #mainview #demo
+.units{width:660px;margin:0px
+auto;border-collapse:collapse}
+#workshop #container #mainview #demo table.units
+td{background-repeat:no-repeat;background-position:center left;border-top:2px solid #F3DDB5;border-bottom:2px solid #F3DDB5;padding:5px
+0px}
+#workshop #container #mainview #demo table.units
+table.inside{background-color:#FdE8C3;border:1px
+solid #e4b873}
+#workshop #container #mainview #demo table.units table.inside:hover{border:1px
+solid #f8cfa2}
+#workshop #container #mainview #demo table.units table.inside
+td{border:0px;vertical-align:top}
+#workshop #container #mainview #demo table.units table.inside td
+img{margin-left:5px}
+#workshop #container #mainview #demo table.units
+td.empty{width:10px}
+#workshop #container #mainview #demo
+td.object{width:70px;position:relative}
+#workshop #container #mainview #demo td.object
+.textLabel{display:none}
+#workshop #container #mainview #demo .units
+td.upgrade{border-right:0px solid #F3DDB5;width:160px}
+#workshop #container #mainview #demo .units td.upgrade
+a.inactive{background:#e0e0e0;color:#8a8a8a}
+#workshop #container #mainview #demo .units td.upgrade
+div.info{position:relative;margin:10px
+0px 13px 0px;width:137px}
+#workshop #container #mainview #demo .units
+td.pad{padding-left:10px}
+#workshop #container #mainview #demo .units
+div.progressbar{height:10px;width:100px;border:1px
+solid #775726;background-color:#FEFBE8;margin:5px
+0px}
+#workshop #container #mainview #demo .units div.progressbar
+div.bar{height:10px;background-color:#73443E;overflow:hidden}
+#workshop #container #mainview #demo .units
+div.time{width:120px;text-align:center}
+#workshop #container #mainview #demo .units td.upgrade
+div.value{position:absolute;width:30px;height:15px;top:-2px;left:105px}
+#workshop #mainview #demo .units .inside
+td.res{width:55px}
+#workshop #mainview #demo .units .inside
+td.upgrade{vertical-align:top}
+#workshop #mainview #demo .units .inside ul.resources
+li{padding-bottom:5px;font-size:11px;padding-left:30px;width:55px;margin-left:5px}
+#workshop #container #mainview #demo table.units
+td.swordsmen{background-image:url(characters/military/x60_y60/y60_swordsman_faceright.gif)}
+#workshop #container #mainview #demo table.units
+td.offenseBronze{background-image:url(workshop/angriff_bronze.gif)}
+#workshop #container #mainview #demo table.units
+td.contour{border-left:0px solid #F3DDB5}
+#workshop #container #mainview #demo table.units table.upgrade
+td.upgradeDesc{font-size:11px;font-weight:normal}
+#workshop #container #mainview #demo table.units
+td.upgrade{font-weight:bold;vertical-align:top}
+#workshop #container #mainview #demo table.units
+span.effect{font-size:10px}
+#workshop #container #mainview #demo table.units td.attack,
+#workshop #container #mainview #demo table.units td.defense,
+#workshop #container #mainview #demo table.units
+td.other{width:175px}
+#workshop #container #mainview #demo table.units
+tr.alt{background-color:#fdf1d4}
+#workshop #container #mainview #demo ul.units li
+a.offenseBronze{background-image:url(workshop/angriff_bronze.gif)}
+#workshop #container #mainview #demo ul.units li
+a.upgradeSilber{background-image:url(workshop/angriff_silber.gif)}
+#workshop #container #mainview #demo ul.units li
+a.upgradeGold{background-image:url(workshop/angriff_gold.gif)}
+#workshop #container #mainview #demo ul.units
+li.swordsmen{background-image:url(characters/military/x60_y60/y60_swordsman_faceright.gif)}
+#workshop .yui-panel{left:5px;top:5px;z-index:9999}
+#workshop .yui-panel
+.bd{width:175px;font-size:11px;font-family:Arial,Verdana,Helvetica,sans-serif}
+#workshop .yui-panel .bd
+p{padding:3px;margin:0}
+#workshop #mainview .content .units td.object img.att-icon{position:absolute;top:95px;left:7px}
+#workshop #mainview .content .units td.object .def-icon{position:absolute;top:95px;left:25px}
+#workshop
+.buildingDescription{height:140px}
+#workshop #mainview #demo
+.content{margin:10px
+auto}
+#workshop #container #mainview
+.object{background:none}
+#workshop #mainview #demo
+.units{width:660px;margin:0px
+auto;border-collapse:collapse}
+#workshop #container #mainview #demo table.units
+td{background-repeat:no-repeat;background-position:center left;border-top:2px solid #F3DDB5;border-bottom:2px solid #F3DDB5;padding:5px
+0px}
+#workshop #container #mainview #demo table.units
+table.inside{background-color:#FdE8C3;border:1px
+solid #e4b873}
+#workshop #container #mainview #demo table.units table.inside:hover{border:1px
+solid #f8cfa2}
+#workshop #container #mainview #demo table.units table.inside
+td{border:0px;vertical-align:top}
+#workshop #container #mainview #demo table.units table.inside td
+img{margin-left:5px}
+#workshop #container #mainview #demo table.units
+td.empty{width:10px}
+#workshop #container #mainview #demo
+td.object{width:70px;position:relative}
+#workshop #container #mainview #demo td.object
+.textLabel{display:none}
+#workshop #container #mainview #demo .units
+td.upgrade{border-right:0px solid #F3DDB5;width:160px}
+#workshop #container #mainview #demo .units td.upgrade
+a.inactive{background:#e0e0e0;color:#8a8a8a}
+#workshop #container #mainview #demo .units td.upgrade
+div.info{position:relative;margin:10px
+0px 13px 0px;width:137px}
+#workshop #container #mainview #demo .units
+td.pad{padding-left:10px}
+#workshop #container #mainview #demo .units
+div.progressbar{height:10px;width:100px;border:1px
+solid #775726;background-color:#FEFBE8;margin:5px
+0px}
+#workshop #container #mainview #demo .units div.progressbar
+div.bar{height:10px;background-color:#73443E;overflow:hidden}
+#workshop #container #mainview #demo .units
+div.time{width:120px;text-align:center}
+#workshop #container #mainview #demo .units td.upgrade
+div.value{position:absolute;width:30px;height:15px;top:-2px;left:105px}
+#workshop #mainview #demo .units .inside
+td.res{width:55px}
+#workshop #mainview #demo .units .inside
+td.upgrade{vertical-align:top}
+#workshop #mainview #demo .units .inside ul.resources
+li{padding-bottom:5px;font-size:11px;padding-left:30px;width:55px;margin-left:5px}
+#workshop #container #mainview #demo table.units
+td.swordsmen{background-image:url(characters/military/x60_y60/y60_swordsman_faceright.gif)}
+#workshop #container #mainview #demo table.units
+td.offenseBronze{background-image:url(workshop/angriff_bronze.gif)}
+#workshop #container #mainview #demo table.units
+td.contour{border-left:0px solid #F3DDB5}
+#workshop #container #mainview #demo table.units table.upgrade
+td.upgradeDesc{font-size:11px;font-weight:normal}
+#workshop #container #mainview #demo table.units
+td.upgrade{font-weight:bold;vertical-align:top}
+#workshop #container #mainview #demo table.units
+span.effect{font-size:10px}
+#workshop #container #mainview #demo table.units td.attack,
+#workshop #container #mainview #demo table.units td.defense,
+#workshop #container #mainview #demo table.units
+td.other{width:175px}
+#workshop #container #mainview #demo table.units
+tr.alt{background-color:#fdf1d4}
+#workshop #container #mainview #demo ul.units li
+a.offenseBronze{background-image:url(workshop/angriff_bronze.gif)}
+#workshop #container #mainview #demo ul.units li
+a.upgradeSilber{background-image:url(workshop/angriff_silber.gif)}
+#workshop #container #mainview #demo ul.units li
+a.upgradeGold{background-image:url(workshop/angriff_gold.gif)}
+#workshop #container #mainview #demo ul.units
+li.swordsmen{background-image:url(characters/military/x60_y60/y60_swordsman_faceright.gif)}
+#workshop .yui-panel{left:5px;top:5px;z-index:9999}
+#workshop .yui-panel
+.bd{width:175px;font-size:11px;font-family:Arial,Verdana,Helvetica,sans-serif}
+#workshop .yui-panel .bd
+p{padding:3px;margin:0}
+#workshop #mainview .content .units td.object img.att-icon{position:absolute;top:95px;left:7px}
+#workshop #mainview .content .units td.object .def-icon{position:absolute;top:95px;left:25px}

@@ -1,0 +1,40 @@
+#branchOffice
+.buildingDescription{background:url(buildings/y100/branchOffice.gif) no-repeat right 10px}
+#branchOffice
+.buildingDescription{height:150px}
+#branchOffice
+.tablekontor{width:100%;margin:0px
+auto 10px auto;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;border:0px
+solid #e4b873;background-color:#fdf7dd}
+#branchOffice #container #mainview table.tablekontor
+tr{font-weight:normal}
+#branchOffice #container #mainview table.tablekontor
+tr.alt{background-color:#fdf1d4}
+#branchOffice #container #mainview .content table.tablekontor
+th{background-color:#faeac6;text-align:center}
+#branchOffice #container #mainview table.tablekontor2
+th{background-color:#faeac6;text-align:center;height:24px;padding:4px;font-weight:bold}
+#branchOffice #container #mainview table.tablekontor
+th{height:24px;padding:4px;font-weight:bold;background-color:#faeac6}
+#branchOffice #container #mainview table.tablekontor
+td.icon{width:40px;margin:auto}
+#branchOffice #container #mainview table.tablekontor
+td.select{text-align:left;padding-left:20px;width:160px}
+#branchOffice #container #mainview #contentBox01
+h3.header{background-image:url(layout/bg_contentBox01h_header.gif);height:20px;padding:10px
+6px 0px 6px;margin:0;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;text-align:center}
+#branchOffice #container #mainview .content
+div{text-align:center;padding:0px
+0px}
+#branchOffice #container #mainview .content div
+div{clear:left;display:inline;direction:ltr}
+#branchOffice td.paginator
+a{color:#542c0f}
+#branchOffice #container #mainview .content
+table.search{width:auto}
+#branchOffice #container #mainview .content table.search
+td{padding-left:3px;vertical-align:middle}
+#branchOffice #container #mainview .content table.search
+td.text{padding-right:10px}
+#branchOffice #container #mainview .content table.search td
+input{margin-top:5px}

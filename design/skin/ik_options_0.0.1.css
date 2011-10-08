@@ -1,0 +1,26 @@
+#options #mainview #emailInvalidWarning h3, #options #mainview #emailInvalidWarning
+p{color:#900}
+#options
+p.error{color:#900;font-weight:bold;margin:8px
+10px}
+#options #mainview #vacationMode
+a.button{display:block;width:300px;margin:8px
+auto}
+#options
+table{width:500px;margin:0
+auto}
+#options #mainview .content
+div{margin-top:8px}
+#options ul.errors
+li{color:#C00;font-weight:bold;margin:4px
+100px;list-style:disc inside}
+#options #mainview .content
+p{text-align:center}
+#options #mainview .content h3, #options
+caption{padding:10px
+6px 0px 6px;margin:0;color:#612d04;font:bold 12px Arial, Helvetica, sans-serif;text-align:center;border-bottom:1px solid #f1d198}
+#options table
+th{text-align:right;padding-right:10px;width:200px}
+#options table td, #options table
+th{padding:4px
+8px}

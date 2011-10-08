@@ -1,0 +1,38 @@
+#changeResearch #container #mainview
+ul{margin-left:35px}
+#changeResearch #container #mainview ul
+li{position:relative;right:0px;height:62px;margin:4px
+0px;background-repeat:no-repeat;background-position:0px 0px}
+#changeResearch #mainview ul
+li.military{background:url(layout/changeResearchMilitary.jpg) no-repeat}
+#changeResearch #mainview ul
+li.knowledge{background:url(layout/changeResearchKnowledge.jpg) no-repeat}
+#changeResearch #mainview ul
+li.seafaring{background:url(layout/changeResearchSeafaring.jpg) no-repeat}
+#changeResearch #mainview ul
+li.economy{background:url(layout/changeResearchEconomy.jpg) no-repeat}
+#changeResearch #container #mainview ul li
+.progress{position:absolute;left:160px;top:0px;width:480px;color:#580404;font-weight:bold;text-align:left}
+#changeResearch #container #mainview ul li .progress
+a{color:#542c0f}
+#changeResearch #container #mainview ul li .progress a:hover{color:#DF5843;text-decoration:underline}
+#changeResearch #container #mainview ul li
+.statusBar{position:absolute;left:160px;top:22px;width:205px;height:20px;border:1px
+solid #775726;background-color:#fefbe8}
+#changeResearch #container #mainview ul li .statusBar
+.bar{height:100%;background-color:#deaf64;border-right:1px solid #960}
+#changeResearch #container #mainview ul li .statusBar .bar
+.percentage{position:absolute;width:130px;top:5px;left:210px;text-align:left}
+#changeResearch #container #mainview ul
+li.active{background-color:#ffe}
+#changeResearch #researchFocus.dynamic,
+#researchOverview
+#researchFocus.dynamic{text-align:center}
+#changeResearch #researchFocus.dynamic h4,
+#researchOverview #researchFocus.dynamic
+h4{font-weight:bold;font-size:18px;margin:4px;color:#906646}
+#changeResearch #researchLibrary.dynamic,
+#researchOverview
+#researchLibrary.dynamic{text-align:center}
+#changeResearch #container #mainview ul li
+a.button{margin:0px;left:450px;position:absolute;top:23px;width:130px}

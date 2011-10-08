@@ -1,0 +1,103 @@
+#advisors #advCities a.normal { background-image:url(specials/easter/layout/advisors/mayor.gif); }
+#advisors #advCities a.normalactive {	background-image:url(specials/easter/layout/advisors/mayor_active.gif);	}
+#advisors #advCities a.premium { background-image:url(specials/easter/layout/advisors/mayor_premium.gif); }
+#advisors #advCities a.premiumactive { background-image:url(specials/easter/layout/advisors/mayor_premium_active.gif); }
+
+#advisors #advMilitary a.normal {	background-image:url(specials/easter/layout/advisors/general.gif);	}
+#advisors #advMilitary a.normalactive {	background-image:url(specials/easter/layout/advisors/general_active.gif);	}
+#advisors #advMilitary a.normalalert {	background-image:url(specials/easter/layout/advisors/general_alert.gif);	}
+#advisors #advMilitary a.premium {	background-image:url(specials/easter/layout/advisors/general_premium.gif);	}
+#advisors #advMilitary a.premiumactive {	background-image:url(specials/easter/layout/advisors/general_premium_active.gif);	}
+#advisors #advMilitary a.premiumalert {	background-image:url(specials/easter/layout/advisors/general_premium_alert.gif);	}
+
+#advisors #advResearch a.normal {	background-image:url(specials/easter/layout/advisors/scientist.gif);	}
+#advisors #advResearch a.normalactive {	background-image:url(specials/easter/layout/advisors/scientist_active.gif);	}
+#advisors #advResearch a.premium {	background-image:url(specials/easter/layout/advisors/scientist_premium.gif);	}
+#advisors #advResearch a.premiumactive {	background-image:url(specials/easter/layout/advisors/scientist_premium_active.gif);	}
+
+#advisors #advDiplomacy a.normal {	background-image:url(specials/easter/layout/advisors/diplomat.gif);	}
+#advisors #advDiplomacy a.normalactive {	background-image:url(specials/easter/layout/advisors/diplomat_active.gif);	}
+#advisors #advDiplomacy a.premium {	background-image:url(specials/easter/layout/advisors/diplomat_premium.gif);	}
+#advisors #advDiplomacy a.premiumactive {	background-image:url(specials/easter/layout/advisors/diplomat_premium_active.gif);	}
+
+#city #container .phase1 {
+    background-image:url(specials/easter/img/city/city_level1.jpg);
+}
+#city #container .phase2{
+    background-image:url(specials/easter/img/city/city_level2.jpg);
+}
+
+#city #container .phase3 {
+    background-image:url(specials/easter/img/city/city_level3.jpg);
+}
+#city #container .phase4{
+    background-image:url(specials/easter/img/city/city_level4.jpg);
+}
+#city #container .phase5{
+    background-image:url(specials/easter/img/city/city_level5.jpg);
+}
+#city #container .phase6 {
+    background-image:url(specials/easter/img/city/city_level6.jpg);
+}
+#city #container .phase7{
+    background-image:url(specials/easter/img/city/city_level7.jpg);
+}
+#city #container .phase8{
+    background-image:url(specials/easter/img/city/city_level8.jpg);
+}
+#city #container .phase9 {
+    background-image:url(specials/easter/img/city/city_level9.jpg);
+}
+#city #container .phase10{
+    background-image:url(specials/easter/img/city/city_level10.jpg);
+}
+#city #container .phase11{
+    background-image:url(specials/easter/img/city/city_level11.jpg);
+}
+#city #container .phase12 {
+    background-image:url(specials/easter/img/city/city_level12.jpg);
+}
+#city #container .phase13{
+    background-image:url(specials/easter/img/city/city_level13.jpg);
+}
+#city #container .phase14{
+    background-image:url(specials/easter/img/city/city_level14.jpg);
+}
+#city #container .phase15 {
+    background-image:url(specials/easter/img/city/city_level15.jpg);
+}
+#city #container .phase16{
+    background-image:url(specials/easter/img/city/city_level16.jpg);
+}
+#city #container .phase17 {
+    background-image:url(specials/easter/img/city/city_level17.jpg);
+}
+#city #container .phase18{
+    background-image:url(specials/easter/img/city/city_level18.jpg);
+}
+#city #container .phase19
+ {
+    background-image:url(specials/easter/img/city/city_level19.jpg);
+}
+#city #container .phase20 {
+    background-image:url(specials/easter/img/city/city_level20.jpg);
+}
+#city #container .phase21 {
+    background-image:url(specials/easter/img/city/city_level21.jpg);
+}
+#city #container .phase22 {
+    background-image:url(specials/easter/img/city/city_level22.jpg);
+}
+#city #container .phase23 {
+    background-image:url(specials/easter/img/city/city_level23.jpg);
+}
+
+#city #container .phase24,
+#city #container .phase25,
+#city #container .phase26,
+#city #container .phase27,
+#city #container .phase28,
+#city #container .phase29,
+#city #container .phase30 {
+    background-image:url(specials/easter/img/city/city_level24.jpg);
+}

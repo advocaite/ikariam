@@ -1,0 +1,163 @@
+#militaryAdvisorMilitaryMovements #combatsInProgress
+li{}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.locationheader{position:relative;width:100%;height:38px;background-image:url(advisors/military/miladv_ui_sprite.jpg);left:0;top:0}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+*{background-repeat:no-repeat}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.seaimg{width:168px;height:38px;position:absolute;left:510px;top:0px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-510px -38px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.landimg{width:168px;height:38px;position:absolute;left:0px;top:0px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:0px -38px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+h4{position:absolute;left:163px;top:0px;width:348px;height:38px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-163px -38px;font-size:14px;text-align:center;line-height:36px}
+#militaryAdvisorMilitaryMovements #combatsInProgress h4
+.coords{width:274px;font-size:14px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.battle{position:relative;width:672px;height:30px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:0px -75px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .battle
+.name{position:absolute;top:0px;left:0px;width:110px;height:30px;text-align:center;line-height:28px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.powerbar{position:absolute;top:0px;left:110px;width:470px;height:30px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-110px -105px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .landbattle
+.boomcover{position:absolute;top:-3px;right:-16px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .seabattle
+.boomcover{position:absolute;top:-1px;right:-16px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .powerbar
+.friendly{position:absolute;top:0px;left:0px;width:50%;height:30px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-110px -75px;z-index:100}
+#militaryAdvisorMilitaryMovements #combatsInProgress .powerbar .units,
+#militaryAdvisorMilitaryMovements #combatsInProgress .powerbar
+.players{display:inline;color:#fdf7dd;font-size:11px;height:22px;line-height:22px;margin-top:3px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .friendly
+.units{float:left}
+#militaryAdvisorMilitaryMovements #combatsInProgress .friendly
+.players{float:left;padding-right:22px;margin-left:10px;background-image:url(advisors/military/general_blue.jpg);background-position:right top}
+#militaryAdvisorMilitaryMovements #combatsInProgress .hostile
+.units{float:right}
+#militaryAdvisorMilitaryMovements #combatsInProgress .hostile
+.players{float:right;padding-left:22px;margin-right:10px;background-image:url(advisors/military/general_red.jpg);background-position:left top}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#militaryAdvisorMilitaryMovements #combatsInProgress .powerbar
+.hostile{position:absolute;top:0px;right:0px;width:100%;height:30px;z-index:90;text-align:right}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.btnViewBattle{position:absolute;top:3px;right:52px;width:40px;height:24px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-200px -6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .btnViewBattle:hover{background-position:-240px -6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .battle
+.btnViewBattle_down{background-position:-280px -6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.btnEventLog{position:absolute;top:3px;right:4px;width:40px;height:24px;background-image:url(advisors/military/miladv_ui_sprite.jpg);background-position:-320px -6px;color:#6b4628;line-height:22px;text-align:right;padding-right:6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .btnEventLog:hover{background-position:-366px -6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .battle
+.btnEventLog_down{background-position:-412px -6px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.events{position:relative;background-image:url(interface/x674_shadow.gif);background-position:0px bottom}
+#militaryAdvisorMilitaryMovements #combatsInProgress .events
+table{background-image:url(interface/x674_shadow.gif);background-position:0px 0px}
+#militaryAdvisorMilitaryMovements #combatsInProgress
+.eventbar{position:relative;height:22px;line-height:22px;background-image:url(interface/x674_dropdown.gif);background-position:0px 0px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .events
+.eventbar_hover{background-position:0px -23px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .events
+.eventbar_extended{background-position:0px -46px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .events
+.eventbar_extended_hover{background-position:0px -69px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .eventbar
+.status{display:inline;float:left;margin-left:20px;font-size:11px}
+#militaryAdvisorMilitaryMovements #combatsInProgress .eventbar
+.nextEventETA{display:inline;float:right;margin-right:20px;font-size:12px}
+#militaryAdvisorMilitaryMovements table.locationEvents
+tr{height:35px}
+#militaryAdvisorMilitaryMovements #container #container2 #mainview
+.buildingDescription{background:transparent url(layout/military_logo.gif) no-repeat scroll right 20px;min-height:0px}
+#militaryAdvisorMilitaryMovements tr.own td,#militaryAdvisorMilitaryMovements tr.own td
+a{color:#1f09f8}
+#militaryAdvisorMilitaryMovements tr.hostile td,#militaryAdvisorMilitaryMovements tr.hostile td
+a{color:#f71f1f}
+#militaryAdvisorMilitaryMovements
+.info{padding:8px}
+#militaryAdvisorMilitaryMovements ul#battleReports
+a{color:#542c0f;text-decoration:underline}
+#militaryAdvisorMilitaryMovements ul#battleReports a:hover{color:#DF5843}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .type,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight
+.type{background-position:8px 15px;height:65px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight
+.type{background-image:url(advisors/military/ship-attack.gif);background-repeat:no-repeat}
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight
+.type{background-image:url(advisors/military/troop-attack.gif);background-repeat:no-repeat;background-position:8px 15px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle .type,
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .type,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight .type,
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.type{width:15%}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .report,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight .report,
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle .report,
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.report{width:65%;text-align:center}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .action,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight .action,
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle .action,
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.action{width:20%}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .report,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight
+.report{padding:0px
+auto}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .action,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight
+.action{background:url(advisors/military/icon-watch-battle.gif) no-repeat left 20px;height:65px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight .action .watchBattle,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight .action
+.watchBattle{margin-left:70px;padding-top:20px}
+#militaryAdvisorMilitaryMovements ul#battleReports
+li{border:1px
+solid #E4B873;margin:0px
+5px 5px 5px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.seafight,
+#militaryAdvisorMilitaryMovements ul#battleReports li.groundfight,
+#militaryAdvisorMilitaryMovements ul#battleReports
+li.battle{height:73px}
+#militaryAdvisorMilitaryMovements ul#battleReports
+li.enroute{height:43px}
+#militaryAdvisorMilitaryMovements ul#battleReports .type,
+#militaryAdvisorMilitaryMovements ul#battleReports .report,
+#militaryAdvisorMilitaryMovements ul#battleReports
+.action{float:left}
+#militaryAdvisorMilitaryMovements ul#battleReports
+.repTable{margin:5px
+auto;width:300px}
+#militaryAdvisorMilitaryMovements ul#battleReports .repTable
+th{text-align:center;font-weight:bold;padding:0px
+0px 5px 0px}
+#militaryAdvisorMilitaryMovements ul#battleReports .repTable
+td{padding-top:5px}
+#militaryAdvisorMilitaryMovements ul#battleReports .repTable th
+span.duration{font-size:10px}
+#militaryAdvisorMilitaryMovements ul#battleReports
+li.battle{padding:5px
+0px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle
+.type{background:url(advisors/military/icon-attack.gif) no-repeat;background-position:20px 3px;height:30px;margin:auto}
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle .report,{padding-top:5px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle
+.action{background:url(advisors/military/icon-surrender.gif) no-repeat;background-position:20px 5px;height:30px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.battle .action
+.surrender{margin-left:70px;padding-top:10px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.type{background:url(advisors/military/icon-time.gif) no-repeat;height:40px;background-position:25px 1px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute .type
+.time{padding:25px
+0px 0px 15px}
+#militaryAdvisorMilitaryMovements ul#battleReports
+li.enroute{padding:5px
+0px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+a{color:#542c0f;text-decoration:none;font-weight:bold}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute a:hover{color:#542c0f;text-decoration:underline;font-weight:bold}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.action{background:url(advisors/military/icon-back.gif) no-repeat left 12px;height:30px}
+#militaryAdvisorMilitaryMovements ul#battleReports li.enroute
+.return{margin-left:40px;padding-top:10px}
+#militaryAdvisorMilitaryMovements #container #container2 #mainview
+.buildingDescription{height:auto;background:none}

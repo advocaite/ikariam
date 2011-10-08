@@ -1,0 +1,135 @@
+#militaryAdvisorReportView #container #container2 #mainview
+.buildingDescription{background:transparent url(layout/military_logo.gif) no-repeat scroll right 20px;min-height:0px}
+#militaryAdvisorReportView #troopsReport
+h4{background-color:#faeac6;height:24px;font-size:12px;font-weight:bold;color:#612d04;padding:8px
+0 0 11px}
+#militaryAdvisorReportView #troopsReport h3
+span.date{font-weight:normal}
+#militaryAdvisorReportView #mainview .contentBox01h .content table
+td{padding-top:7px}
+#militaryAdvisorReportView #troopsReport
+.attacker{background-image:url(unitdesc/unit_attack.gif);background-position:8px 10px;background-repeat:no-repeat;padding:8px
+0 0 50px}
+#militaryAdvisorReportView #troopsReport
+.defender{background-image:url(unitdesc/unit_defend.gif);background-position:13px 10px;background-repeat:no-repeat;padding:8px
+0 0 50px}
+#militaryAdvisorReportView .content
+a{color:#542C0F}
+#militaryAdvisorReportView #troopsReport
+label{display:block;width:100px}
+#militaryAdvisorReportView
+.textred{color:#950000}
+#militaryAdvisorReportView #troopsReport
+h5{background-color:#542c0f;color:#faeac6;font-size:12px;font-weight:bold;padding:8px
+0 8px 11px;margin:10px
+0 0 0}
+#militaryAdvisorReportView #troopsReport
+table.overview{background-color:#faeac6;width:670px}
+#militaryAdvisorReportView #troopsReport table.overview
+th.col1{font-weight:bold;padding:44px
+0 0 11px;text-align:left}
+#militaryAdvisorReportView .textgreen, #militaryAdvisorReportView .textgreen
+a{color:#007000}
+#militaryAdvisorReportView #troopsReport table.overview
+td.col1{font-weight:bold;padding:10px
+0 0 11px;text-align:left}
+#militaryAdvisorReportView #troopsReport table.overview th
+div.army{background-image:url(characters/military/buttons_sprite.gif);width:50px;height:50px;background-repeat:none;margin:0
+0 0 17px}
+#militaryAdvisorReportView #troopsReport table.overview th
+div.fleet{background-image:url(characters/fleet/buttons_sprite.gif);width:50px;height:50px;background-repeat:none;margin:0
+0 0 17px}
+#militaryAdvisorReportView #troopsReport table.overview
+td.firstCol{padding:8px
+0 0px 11px}
+#militaryAdvisorReportView #troopsReport table.overview
+th{width:77px}
+#militaryAdvisorReportView #troopsReport
+td{background-color:#fdf7dd;border:2px
+solid #faeac6;padding:0}
+#militaryAdvisorReportView #troopsReport
+td.numbers{text-align:center}
+#militaryAdvisorReportView #troopsReport tr.line
+td{padding:150px
+0 0 0;background-color:#FAEAC6}
+#militaryAdvisorReportView #troopsReport
+td.nobg{background-color:#faeac6}
+#militaryAdvisorReportView #troopsReport
+.result{border:2px
+solid #fedc9c;background-color:#f9e3aa;width:80%;margin:auto;margin-bottom:10px;background-image:url('combatreport/resultbg.gif');background-repeat:repeat-x}
+#militaryAdvisorReportView #troopsReport .result
+div{padding:10px}
+#militaryAdvisorReportView #troopsReport .result
+ul{padding:0;margin:0}
+#militaryAdvisorReportView
+.s301{}
+#militaryAdvisorReportView
+.s302{background-position: -50px 0px}
+#militaryAdvisorReportView
+.s303{background-position: -100px 0px}
+#militaryAdvisorReportView
+.s304{background-position: -200px 0px}
+#militaryAdvisorReportView
+.s305{background-position: -550px 0px}
+#militaryAdvisorReportView
+.s306{background-position: -500px 0px}
+#militaryAdvisorReportView
+.s307{background-position: -600px 0px}
+#militaryAdvisorReportView
+.s308{background-position: -350px 0px}
+#militaryAdvisorReportView
+.s309{background-position: -450px 0px}
+#militaryAdvisorReportView
+.s310{background-position: -300px 0px}
+#militaryAdvisorReportView
+.s311{background-position: -250px 0px}
+#militaryAdvisorReportView
+.s312{background-position: -400px 0px}
+#militaryAdvisorReportView
+.s313{background-position: -150px 0px}
+#militaryAdvisorReportView
+.s314{background-position: -650px 0px}
+#militaryAdvisorReportView
+.s315{background-position: -750px 0px}
+#militaryAdvisorReportView
+.s316{background-position: -700px 0px}
+#militaryAdvisorReportView
+.s201{}
+#militaryAdvisorReportView
+.s202{background-position: -50px 0px}
+#militaryAdvisorReportView
+.s210{background-position: -50px 0px}
+#militaryAdvisorReportView
+.s211{background-position: -150px 0px}
+#militaryAdvisorReportView
+.s212{background-position: -350px 0px}
+#militaryAdvisorReportView
+.s213{background-position: -100px 0px}
+#militaryAdvisorReportView
+.s214{background-position: -200px 0px}
+#militaryAdvisorReportView
+.s215{background-position: -300px 0px}
+#militaryAdvisorReportView
+.s216{background-position: -250px 0px}
+#militaryAdvisorReportView
+p.link{text-align:center;padding:5px
+0 10px 0}
+#militaryAdvisorReportView #troopsReport
+li{display:inline}
+#militaryAdvisorReportView #troopsReport .result
+.winners{background-image:url(layout/medallie32x32_gold.gif);background-position:8px 12px;background-repeat:no-repeat;font-size:14px;font-weight:bold;padding-left:46px}
+#militaryAdvisorReportView #troopsReport .result
+.losers{padding-left:46px;background-image:url(combatreport/losers.gif);background-position:8px 12px;background-repeat:no-repeat}
+#militaryAdvisorReportView #troopsReport
+ul.units{margin:20px
+0}
+#militaryAdvisorReportView #troopsReport ul.units
+li{background-image:url(characters/military/buttons_sprite.gif);background-repeat:no-repeat;text-align:center;width:50px;height:14px;background-repeat:none;padding:50px
+0 0 0;margin:0
+0 0 17px;display:block}
+#militaryAdvisorReportView #troopsReport ul.fleets
+li{background-image:url(characters/fleet/buttons_sprite.gif)}
+#militaryAdvisorReportView #troopsReport ul.units
+li{}
+#militaryAdvisorReportView #container #container2 #mainview
+.buildingDescription{height:auto;background:none}

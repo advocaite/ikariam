@@ -1,0 +1,110 @@
+#academy
+.buildingDescription{background:url(buildings/y100/academy.gif) no-repeat right 10px}
+#academy
+.bulbs{width:140px;height:21px;z-index:5}
+#academy
+.bulbsOn{background:url(layout/bulb-on.gif) repeat-x;height:21px;z-index:6}
+#academy
+.buildingDescription{height:auto}
+#academy
+#researchFocus.dynamic{text-align:center}
+#academy #researchFocus.dynamic
+img{}
+#academy #researchFocus.dynamic
+h4{font-weight:bold;font-size:18px;margin:4px;color:#906646}
+#academy
+#researchLibrary.dynamic{text-align:center}
+#academy #mainview #setScientists
+div.content{height:178px;color:#612d04}
+#academy #mainview #setScientists div.content
+ul{height:50px;background-image:url(layout/assignworkers_bg_stats.gif)}
+#academy #mainview #setScientists
+.citizens{position:absolute;top:16px;left:12px;width:100px;height:120px;background:url(characters/y100_citizen_faceright.gif) no-repeat 30px 16px}
+#academy #mainview #setScientists .citizens
+.value{position:absolute;top:123px;left:14px;width:72px;height:24px;background-image:url(interface/bg_count.gif);line-height:24px;text-align:center;font-size:12px;color:#612D04}
+#academy #mainview #setScientists .citizens
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#academy #mainview #setScientists
+.scientists{position:absolute;top:16px;left:538px;width:100px;height:120px;background:url(characters/y100_scientist_faceleft.gif) no-repeat 11px 16px}
+#academy #mainview #setScientists .scientists
+.value{position:absolute;top:123px;left:14px;width:72px;height:24px;background-image:url(img/resource/bg_count.gif);line-height:24px;text-align:center;font-size:12px;color:#612D04}
+#academy #mainview #setScientists .scientists
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#academy #mainview #setScientists
+.gain{position:absolute;top:4px;left:126px;width:250px}
+#academy #mainview #setScientists .gain
+.textLabel{display:block;text-align:center;line-height:18px;height:18px;font-size:11px}
+#academy #mainview #setScientists
+.costs{position:absolute;top:4px;left:404px;width:120px}
+#academy #mainview #setScientists .costs
+.textLabel{display:block;text-align:center;line-height:18px;height:18px;font-size:11px}
+#academy #mainview #setScientists .costs
+#valueResearchCosts{font-weight:bold;color:#2d8f37}
+#academy #mainview #setScientists .costs
+#valueResearchCosts.negative{color:#c61d1a}
+#academy #mainview #setScientists
+.setMin{position:absolute;display:block;width:24px;height:24px;top:88px;left:114px;background-image:url(img/resource/btn_min.gif)}
+#academy #mainview #setScientists .setMin
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#academy #mainview #setScientists
+.setMax{position:absolute;display:block;width:24px;height:24px;top:88px;left:512px;background-image:url(img/resource/btn_max.gif)}
+#academy #mainview #setScientists .setMax
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#academy #mainview #setScientists
+#overchargeMsg.status{position:absolute;left:200px;top:60px;width:250px;height:20px;font-weight:bold;text-align:center}
+#academy #mainview #setScientists
+#overchargeMsg.nooc{display:none}
+#academy #mainview #setScientists
+#overchargeMsg.ocready{color:#d30c0c}
+#academy #mainview #setScientists
+#overchargeMsg.oced{font-style:italic;color:#d30c0c}
+#academy #mainview #setScientists
+#sliderbg{position:absolute;top:84px;left:140px;width:350px;height:35px;padding:0px
+10px;background-image:url(img/resource/bg_slider.gif)}
+#academy #mainview #setScientists #sliderbg
+#actualValue{position:absolute;left:0;top:0;width:100%;height:100%;clip:rect(0px 0px auto 0px);background:url(img/resource/bg_slider_lightblue.gif) no-repeat 10px 6px}
+#academy #mainview #setScientists #sliderbg
+#overcharge{position:absolute;left:0;top:0;width:100%;height:100%;clip:rect(0px auto auto 370px);background:url(img/resource/bg_slider_darkred.gif) no-repeat 10px 6px}
+#academy #mainview #setScientists #sliderbg
+#sliderthumb{position:absolute;width:16px;height:35px;background-image:url(img/resource/bg_slider_thumb.gif)}
+#academy #mainview #setScientists
+input.textfield{width:90px;height:20px;text-align:center;margin:0;padding:2px
+0;position:absolute;top:130px;left:260px}
+#academy #mainview #setScientists input.button,
+#academy #mainview #setScientists
+input.buttonChanged{height:26px;margin:0;padding:0
+10px;position:absolute;top:130px;left:360px}
+#academy #mainview div#currentResearch
+.content{position:relative;margin-left:30px;width:360px;padding-left:160px;height:120px;background:url(research/bg_currentresearch.gif) no-repeat left top;text-align:center}
+#academy #mainview div#currentResearch
+.researchName{font-weight:bold;font-size:18px;color:#580404;margin:10px}
+#academy #mainview div#currentResearch .researchName
+.textLabel{font-weight:normal;font-size:12px;vertical-align:middle}
+#academy #mainview div#currentResearch
+.progressBar{margin:10px
+auto 10px 0px;width:320px;height:24px;border:1px
+solid #775726;background-color:#fefbe8}
+#academy #mainview div#currentResearch .progressBar
+.bar{background-color:#73443e;height:24px}
+#academy #mainview div#currentResearch
+.percentage{font-weight:bold;font-size:18px;color:#580404;position:absolute;top:35px;left:500px}
+#academy #mainview div#currentResearch
+.time{font-weight:bold;color:#580404}
+#academy #mainview
+div#accelerateResearch{}
+#academy #mainview div#accelerateResearch
+p{margin:6px
+20px}
+#academy #mainview div#accelerateResearch ul, #academy #mainview div#accelerateResearch
+li{margin:6px
+20px;list-style-type:disc;list-style:disc outside}
+#academy #mainview div#accelerateResearch
+label{float:left;line-height:26px;width:250px;margin-right:4px;text-align:right}
+#academy #mainview div#accelerateResearch
+input.textField{line-height:26px;text-align:center}
+#academy #mainview div#accelerateResearch
+a{margin-left:4px;padding:0px
+4px;line-height:26px;font-weight:bold;text-decoration:none}
+#academy #mainview div#accelerateResearch a:hover{text-decoration:underline}
+#academy #mainview li.gain
+#gainPoints{width:140px;height:20px;line-height:20px;overflow:hidden}

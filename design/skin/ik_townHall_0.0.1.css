@@ -1,0 +1,131 @@
+#townHall
+.buildingDescription{background:url(buildings/y100/townHall.gif) no-repeat right 10px}
+#townHall #container div#abandon
+.button{display:block;width:120px;margin:0
+auto}
+#townHall   #CityOverview h3
+a{display:block;position:absolute;top:8px;right:20px;width:148px;height:20px;line-height:18px;background-image:url(buttons/btn_heading.gif);font-size:11px;color:#9d8e74}
+#townHall   #CityOverview
+img.citizen{position:absolute;top:-4px;left:20px}
+#townHall   #CityOverview
+.stats{height:126px}
+#townHall   #CityOverview .stats
+.happiness{position:absolute;top:16px;right:20px;width:140px;background-position:center top;padding:84px
+0px 0px 0px;text-align:center}
+#townHall   #CityOverview .stats .happiness
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#townHall
+#PopulationGraph{position:relative;height:78px;background-color:#ffeeca;border:1px
+solid #f3ddb5}
+#townHall   #PopulationGraph
+h4{position:absolute;top:-18px;left:30px;color:#906646;font-weight:bold}
+#townHall  #PopulationGraph .citizens,
+#townHall  #PopulationGraph .woodworkers,
+#townHall  #PopulationGraph .specialworkers,
+#townHall  #PopulationGraph .priests,
+#townHall  #PopulationGraph
+.scientists{position:absolute;top:28px;height:24px;border:1px
+solid #c99868}
+#townHall  #PopulationGraph
+.citizens{left:20px;width:160px;background-image:url(bars/bg_24px_lightviolet.gif)}
+#townHall  #PopulationGraph
+.woodworkers{left:180px;width:100px;background-image:url(bars/bg_24px_lightgreen.gif)}
+#townHall  #PopulationGraph
+.specialworkers{left:280px;width:80px;background-image:url(bars/bg_24px_lightbrown.gif)}
+#townHall  #PopulationGraph
+.scientists{left:360px;width:60px;background-image:url(bars/bg_24px_lightyellow.gif)}
+#townHall  #PopulationGraph
+.priests{left:360px;width:60px;background-image:url(bars/bg_24px_lightcyan.gif)}
+#townHall  #PopulationGraph .type
+img{position:absolute;right:2px;top:4px}
+#townHall  #PopulationGraph .type
+.count{float:right;margin-right:40px;line-height:22px}
+#townHall  #PopulationGraph
+.production{display:block;position:absolute;text-align:center;width:100%;bottom:26px}
+#townHall  #PopulationGraph .production
+img{vertical-align:middle}
+#townHall  #PopulationGraph .production
+.textLabel{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#townHall  #CityOverview .stats
+li{position:absolute;width:180px;height:24px;padding-left:26px;line-height:22px;background-position::top left;background-repeat:no-repeat}
+#townHall  #CityOverview .stats
+.space{left:100px;top:16px;background-image:url(icons/livingspace_24x24.gif)}
+#townHall  #CityOverview .stats
+.garrisonLimit{left:100px;top:44px;background-image:url(icons/livingspace_24x24.gif)}
+#townHall  #CityOverview .stats
+.growth{left:100px;top:72px}
+#townHall  #CityOverview .stats
+.growth_positive{background-image:url(icons/growth_positive.gif)}
+#townHall  #CityOverview .stats
+.growth_negative{background-image:url(icons/growth_negative.gif)}
+#townHall  #CityOverview .stats
+.actions{left:320px;top:16px;background-image:url(resources/icon_actionpoints.gif)}
+#townHall  #CityOverview .stats .actions
+.value{font-weight:bold}
+#townHall  #CityOverview .stats
+.incomegold{left:320px;top:44px}
+#townHall  #CityOverview .stats
+.incomegold_positive{background-image:url(icons/income_positive.gif)}
+#townHall  #CityOverview .stats .incomegold_positive
+.value{color:#4fa253}
+#townHall  #CityOverview .stats
+.incomegold_negative{background-image:url(icons/income_negative.gif)}
+#townHall  #CityOverview .stats .incomegold_negative
+.value{color:#b03937}
+#townHall  #CityOverview .stats
+.corruption{left:320px;top:72px;background-image:url(icons/corruption_24x24.gif)}
+#townHall  #CityOverview .stats .corruption
+.value_high{font-weight:bold;color:#b03937}
+#townHall
+#SatisfactionOverview{position:relative}
+#townHall  #SatisfactionOverview *
+h5{width:90px;text-align:left;padding:0px
+10px;font-weight:bold;color:#906646}
+#townHall  #SatisfactionOverview .positives,
+#townHall  #SatisfactionOverview
+.negatives{margin-right:160px;border-right:1px solid #c99868;padding-top:10px;overflow:hidden}
+#townHall  #SatisfactionOverview
+div.cat{position:relative;height:32px;margin:12px
+0px}
+#townHall  #SatisfactionOverview .negatives
+div.cat{margin:4px
+0px}
+#townHall  #SatisfactionOverview .cat
+.value{float:right;margin-right:4px;line-height:22px}
+#townHall  #SatisfactionOverview div.cat
+div{position:absolute;top:0px;height:24px;border:1px
+solid #c99868;text-align:center;min-width:60px}
+#townHall  #SatisfactionOverview div.cat
+p{position:absolute;top:0px;left:100px;height:24px;width:400px;margin:0}
+#townHall  #SatisfactionOverview .basic
+.base{left:100px;width:80px;background-image:url(bars/bg_24px_lightviolet.gif)}
+#townHall  #SatisfactionOverview .basic
+.research1{left:180px;width:60px;background-image:url(bars/bg_24px_lightcyan.gif)}
+#townHall  #SatisfactionOverview .basic
+.capital{left:240px;width:80px;background-image:url(bars/bg_24px_yellow.gif)}
+#townHall  #SatisfactionOverview .wine
+.tavern{left:100px;width:120px;background-image:url(bars/bg_24px_violet.gif)}
+#townHall  #SatisfactionOverview .wine
+.serving{left:220px;width:260px;background-image:url(bars/bg_24px_redblue.gif)}
+#townHall  #SatisfactionOverview .culture
+.museum{left:100px;width:140px;background-image:url(bars/bg_24px_lightbrown.gif)}
+#townHall  #SatisfactionOverview .culture
+.treaties{left:240px;width:260px;background-image:url(bars/bg_24px_whiteyellow.gif)}
+#townHall  #SatisfactionOverview .negatives .overpopulation
+.bar{left:100px;width:236px;background-image:url(bars/bg_24px_red.gif)}
+#townHall  #SatisfactionOverview .negatives .corruption
+.bar{left:100px;width:116px;background-image:url(bars/bg_24px_red.gif)}
+#townHall  #SatisfactionOverview .negatives .punishment
+.bar{left:100px;width:400px;background-image:url(bars/bg_24px_red.gif)}
+#townHall  #SatisfactionOverview
+img{position:absolute;top:-10px;left:10%}
+#townHall  #SatisfactionOverview
+.happiness{position:absolute;top:16px;right:10px;width:140px;background-position:center 20px;padding:0px;text-align:center}
+#townHall  #SatisfactionOverview .happiness
+h4{width:auto;text-align:center;font-weight:bold;color:#906646;margin:0px
+0px 90px 0px}
+#townHall  #SatisfactionOverview .happiness
+.value{text-align:center;font-weight:bold;color:#4FA253;margin:2px}
+#townHall  #SatisfactionOverview .positives h4,
+#townHall  #SatisfactionOverview .negatives
+h4{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}-9999px;width:1px;height:1px;overflow:hidden}

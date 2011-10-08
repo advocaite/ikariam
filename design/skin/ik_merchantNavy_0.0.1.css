@@ -1,0 +1,47 @@
+#merchantNavy
+.buildingDescription{background:url(characters/fleet/120x100/ship_transport_r_120x100.gif) no-repeat right 10px}
+#merchantNavy #container #mainview
+table.table01{border:0px;width:100%}
+#merchantNavy #container #mainview table.table01 td
+a{text-decoration:underline;font-weight:bold;color:#542c0f}
+#merchantNavy #container #mainview table.table01 td a:hover{color:#DF5843}
+#merchantNavy #mainview table
+td.pulldown{padding:0}
+#merchantNavy #mainview table td.pulldown
+table{background:none}
+#merchantNavy #mainview table td.pulldown table
+td{padding:0}
+#merchantNavy #mainview table div.pulldown
+div.content{text-align:left;margin:0;background:url(interface/pulldown_bg.gif) repeat-x top left}
+#merchantNavy #mainview table div.pulldown
+div.btn{width:674;height:7px;background:url(interface/pulldown_contentbox.gif) no-repeat}
+#merchantNavy #mainview table
+td.transports{font-size:14px;font-weight:bold;color:#906646;text-align:right;padding-right:10px;width:30px}
+#merchantNavy #mainview table th.transports
+img{display:block;margin-top:-20px}
+#merchantNavy #mainview table
+td.eta{text-align:right;width:70px}
+#merchantNavy #mainview table
+td.return{text-align:right;width:70px}
+#merchantNavy #mainview table
+td.mission{width:90px;font-weight:bold;text-align:center}
+#merchantNavy #mainview table
+td.gotoforeign{padding-right:14px;background:url(icons/stage_gotoforeign.gif) no-repeat right center}
+#merchantNavy #mainview table
+td.gotoown{padding-right:14px;background:url(icons/stage_gotoown.gif) no-repeat right center}
+#merchantNavy #mainview table
+td.returning{padding-left:14px;background:url(icons/stage_returning.gif) no-repeat left center}
+#merchantNavy #mainview table td.mission
+a{font-weight:bold;color:#542c0f}
+#merchantNavy #mainview table td.mission a:hover{color:#DF5843}
+#merchantNavy #mainview #plunderingTransports table td.mission
+a{font-weight:bold;color:#900}
+#merchantNavy #mainview table
+.payload{width:500px;font-weight:bold;color:#906646;margin-left:10px}
+#merchantNavy #mainview table .payload
+.textLabel{float:left;text-align:right;padding:2px
+8px}
+#merchantNavy #mainview table
+.space{width:120px;color:#906646}
+#merchantNavy #mainview table .space
+img{vertical-align:middle}

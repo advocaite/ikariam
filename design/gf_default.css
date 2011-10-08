@@ -1,0 +1,56 @@
+
+/*--------- TOOLS ---------- */
+.left 				{float: left; }
+.right				{float: right; }
+
+.clear				{clear: both; }
+.clearDiv 			{clear: both; overflow: hidden; height: 0px!important;}
+.clearTop 			{clear: top;}
+.clearLeft 			{clear: left;}
+.clearRight 		{clear: right;}
+
+.layoutCenter		{margin: 0 auto;}
+.textCenter			{text-align: center;}
+.textRight			{text-align: right;}
+.textLeft			{text-align: left;}
+.textJustify 		{text-align: justify}
+.italic 			{font-style: italic;}
+strong, .bold 		{font-weight: 700;}
+.uppercase 			{text-transform: uppercase;}
+.lowercase 			{text-transform: lowercase;}
+
+/*--------- PRINT TOOLS ---------- */
+.page-break 			{ page-break-before: always;}
+
+/*--------- TYPOGRAPHIC TOOLS ---------- */
+p{margin-bottom: 1em;}
+var, dfn		 			{font-style: italic;}
+.error, .warning, .success	{border: 1px solid; padding: 3px;}
+.error						{border-color: #fb4343; color: #fb4343;}
+.warning					{border-color: #d4ac0a; color: #d4ac0a; }
+.success					{border-color: #149b0d; color: #149b0d; }
+.callOut					{font-size: 125%; font-weight: bold; }
+del, .strikeOut				{text-decoration: line-through; }
+.underline					{text-decoration: underline; }
+
+/* --------- STYLING EXTRAS ---------- */
+a 					{text-decoration: none;}
+a:hover				{text-decoration: underline;}
+a[href^="mailto"]	{background: url(img/emailIcon.png) left center no-repeat; padding-left: 10px; }
+a[href~=".pdf"]		{background: url(img/pdfIcon.png) left center no-repeat; padding-left: 10px; }
+
+/* --------- DISPLAY VALUES ---------- */
+.hide				{display: none;}
+.show				{display: block;}
+.invisible			{visibility: hidden;}
+.inline				{display: inline;}
+
+/* --------- HEADLINES ---------- */
+h1, h2, h3, h4, h5, h6{font-weight: 700; font-family:Georgia, "Times New Roman", Times, serif; margin-bottom: 1em;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{text-decoration: none;}
+
+/* --------- NAVIGATION ---------- */
+ul#navi li							{list-style-type: none;}
+ul#navi li a, ul#navi li a:hover 	{text-decoration: none;}
+
+.noBG{background: none!important;}

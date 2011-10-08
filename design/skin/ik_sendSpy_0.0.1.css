@@ -1,0 +1,24 @@
+#sendSpy
+.buildingDescription{background:url(buildings/y100/safehouse.gif) no-repeat right 10px}
+#sendSpy #mainview .statusBar
+.bar{background:url(layout/bg-spy-detection-bar.gif) no-repeat}
+#sendSpy
+.buildingDescription{background:url(buildings/y100/safehouse.gif) no-repeat right 10px;height:auto}
+#sendSpy
+p.desc{min-height:120px;padding-left:130px;background:url(characters/spy_espionage.gif) no-repeat 10px 0px}
+#sendSpy
+.risk{position:relative;width:400px;margin-left:150px}
+#sendSpy .risk
+.textLabel{font-weight:bold}
+#sendSpy .risk
+.statusBar{width:300px;height:20px;border:1px
+solid #775726;background-color:#fefbe8;overflow:hidden}
+#sendSpy .risk .statusBar
+.bar{height:100%;background-color:#deaf64;border-right:1px solid #960;background:url(layout/bg-spy-detection-bar-205.gif) no-repeat}
+#sendSpy .risk
+.percentage{position:absolute;text-align:left;top:16px;left:308px;font-size:16px;font-weight:bold}
+#sendSpy
+.costs{position:relative;margin-left:150px;margin-bottom:10px;line-height:22px;background:url(resources/icon_gold.gif) no-repeat 2px top;padding-left:26px}
+#sendSpy #missionSummary
+.common{position:relative;margin:0px
+auto;width:350px;float:none}

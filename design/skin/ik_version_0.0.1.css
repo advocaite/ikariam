@@ -1,0 +1,8 @@
+#version #container #mainview .table01
+td.desc{text-align:left}
+#version #container #mainview .table01
+td.version{vertical-align:top}
+#version #container #mainview
+.table01{width:660px}
+#version #container
+li{padding-bottom:10px}

@@ -1,0 +1,17 @@
+#researchOverview #container #mainview
+h4{color:#7E4A21;font-weight:bold;padding:5px
+0px 5px 0px}
+#researchOverview .content
+h4{padding:5px
+0 0 10px}
+#researchOverview #container #mainview
+ul{padding-top:5px;padding-bottom:5px}
+#researchOverview #container #mainview
+li{padding-left:5px;list-style:disc;margin-left:20px}
+#researchOverview #container #mainview div.contentBox01h div.content ul
+li.explored{}
+#researchOverview #container #mainview div.contentBox01h div.content ul li.unexplored,
+#researchOverview #container #mainview div.contentBox01h div.content ul li.unexplored
+a{color:#e3ae87}
+#researchOverview #container #mainview div.contentBox01h div.content
+a{color:#542c0f}

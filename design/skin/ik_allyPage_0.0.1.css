@@ -1,0 +1,9 @@
+#allyPage #container #mainview
+a{color:#542c0f;font-weight:bold;text-decoration:none}
+#allyPage #container #mainview a:hover{color:#542c0f;text-decoration:underline}
+#allyPage #container .dynamic
+.content{padding-left:10px}
+#allyPage #container .dynamic .content
+a{color:#542c0f}
+#allyPage #container #mainview .content table, #embassyViewRanks #container #mainview .content
+table{width:100%}

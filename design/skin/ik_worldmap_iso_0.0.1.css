@@ -1,0 +1,329 @@
+#worldmap_iso #container .dynamic table#islandInfos
+a{color:#542c0f;font-size:11px;font-weight:bold}
+#worldmap_iso #container
+#mapShortcutInput{background-image:url(layout/bg_mapnav_coord.jpg);background-repeat:repeat;height:28px;padding-top:3px;position:relative;padding-left:18px}
+#worldmap_iso .citySpecialSelect
+.dropbutton{background-position:0px -25px;padding-left:8px;height:25px;line-height:25px;cursor:default}
+#worldmap_iso
+.islandShortInfo{vertical-align:center;width:50%}
+#worldmap_iso #container #navigation
+.content{margin-top:0px;margin-bottom:0px}
+#worldmap_iso #container #navigation
+.footer{clear:both}
+#worldmap_iso #container
+#mapCoordInput{position:relative;height:25px;padding-top:4px;background-image:url(layout/bg_mapnav_coord.jpg);background-repeat:repeat-x}
+#worldmap_iso #container #mapCoordInput
+label{font-size:12px;font-weight:bold;color:#d8c17b}
+#worldmap_iso #container #mapCoordInput
+input{background:url(layout/btns_mapnav.jpg) no-repeat -152px -162px;border:none;color:#5a0606;font-size:14px;height:18px;width:42px;text-align:center;padding-top:2px}
+#worldmap_iso #container #mapCoordInput
+label.x{margin-left:56px}
+#worldmap_iso #container #mapCoordInput
+.submitButton{position:absolute;width:22px;height:20px;top:4px;right:10px;cursor:pointer;background:url(layout/btns_mapnav.jpg) no-repeat -123px -164px}
+#worldmap_iso #container #mapCoordInput .submitButton:hover{background-position: -93px -164px}
+#worldmap_iso #container #mapControls
+.visibility{position:absolute;top:0px;left:0px;width:50px;height:170px;background-color:#f7eccc}
+#worldmap_iso #container #mapControls .visibility
+#buttonTradegood{position:absolute;top:8px;left:5px;width:40px;height:40px;background:url(layout/btns_mapnav.jpg) no-repeat -200px -160px}
+#worldmap_iso #container #mapControls .visibility
+#buttonTradegood.deactivated{background-position: -240px -160px}
+#worldmap_iso #container #mapControls .visibility
+#buttonCities{position:absolute;top:50px;left:5px;width:40px;height:40px;background:url(layout/btns_mapnav.jpg) no-repeat -280px -160px}
+#worldmap_iso #container #mapControls .visibility
+#buttonCities.deactivated{background-position: -320px -160px}
+#worldmap_iso #container
+#mapControls{position:relative;padding:1px}
+#worldmap_iso #container #mapControls
+.scrolling{position:relative;margin:6px
+0px 4px 54px;width:160px;height:160px;background:url(layout/btns_mapnav.jpg) no-repeat -200px 0px}
+#worldmap_iso #container #mapControls .scrolling
+a{position:absolute;display:block;background:url(layout/btns_mapnav.jpg) no-repeat}
+#worldmap_iso #container #mapControls .scrolling .nw
+a{width:50px;height:50px;top:0px;left:0px;background-position: -200px 0px}
+#worldmap_iso #container #mapControls .scrolling .nw a:hover{background-position:0px 0px}
+#worldmap_iso #container #mapControls .scrolling .nw
+a.down{background-position:0px -50px}
+#worldmap_iso #container #mapControls .scrolling .n
+a{width:60px;height:40px;top:0px;left:50px;background-position: -250px 0px}
+#worldmap_iso #container #mapControls .scrolling .n a:hover{background-position: -360px 0px}
+#worldmap_iso #container #mapControls .scrolling .n
+a.down{background-position: -360px -100px}
+#worldmap_iso #container #mapControls .scrolling .ne
+a{width:50px;height:50px;top:0px;left:110px;background-position: -310px 0px}
+#worldmap_iso #container #mapControls .scrolling .ne a:hover{background-position: -50px 0px}
+#worldmap_iso #container #mapControls .scrolling .ne
+a.down{background-position: -50px -50px}
+#worldmap_iso #container #mapControls .scrolling .w
+a{width:50px;height:60px;top:50px;left:0px;background-position: -200px -50px}
+#worldmap_iso #container #mapControls .scrolling .w a:hover{background-position:0px -100px}
+#worldmap_iso #container #mapControls .scrolling .w
+a.down{background-position: -100px -100px}
+#worldmap_iso #container #mapControls .scrolling .e
+a{width:50px;height:60px;top:50px;left:110px;background-position: -310px -50px}
+#worldmap_iso #container #mapControls .scrolling .e a:hover{background-position: -50px -100px}
+#worldmap_iso #container #mapControls .scrolling .e
+a.down{background-position: -150px -100px}
+#worldmap_iso #container #mapControls .scrolling .sw
+a{width:50px;height:50px;top:110px;left:0px;background-position: -200px -110px}
+#worldmap_iso #container #mapControls .scrolling .sw a:hover{background-position: -100px 0px}
+#worldmap_iso #container #mapControls .scrolling .sw
+a.down{background-position: -100px -50px}
+#worldmap_iso #container #mapControls .scrolling .s
+a{width:60px;height:50px;top:110px;left:50px;background-position: -250px -110px}
+#worldmap_iso #container #mapControls .scrolling .s a:hover{background-position: -360px -150px}
+#worldmap_iso #container #mapControls .scrolling .s
+a.down{background-position: -360px -50px}
+#worldmap_iso #container #mapControls .scrolling .se
+a{width:50px;height:50px;top:110px;left:110px;background-position: -310px -110px}
+#worldmap_iso #container #mapControls .scrolling .se a:hover{background-position: -150px 0px}
+#worldmap_iso #container #mapControls .scrolling .se
+a.down{background-position: -150px -50px}
+#worldmap_iso
+#islandInfos{margin-left:10px;display:none}
+#worldmap_iso
+#islandInfos.nohidden{display:block}
+#worldmap_iso #islandInfos th,#worldmap_iso #islandInfos
+td{padding:2px
+3px}
+#worldmap_iso
+#actions{position:relative}
+#worldmap_iso #actions
+ul{position:relative}
+#worldmap_iso #actions
+li{position:relative;float:left;margin:4px
+0px;width:100px;font-size:10px}
+#worldmap_iso #actions li
+a{display:block;padding-top:36px}
+#worldmap_iso #actions li a
+.textLabel{display:block;text-align:center}
+#worldmap_iso #actions
+.disabled{width:100px;padding-top:36px}
+#worldmap_iso #actions .disabled
+.textLabel{display:block;text-align:center}
+#worldmap_iso #actions
+.footer{clear:left}
+#worldmap_iso
+#islandActions.nohidden{display:inline}
+#worldmap_iso
+#mainview{padding:0}
+#worldmap_iso
+#scrollcover{position:relative;overflow:hidden;height:440px}
+#worldmap_iso
+#worldmap{position:relative;height:440px}
+#worldmap_iso #worldmap
+.ocean1{background-image:url(world/tile_ocean01.gif)}
+#worldmap_iso #worldmap
+.ocean2{background-image:url(world/tile_ocean02.gif)}
+#worldmap_iso #worldmap
+.ocean3{background-image:url(world/tile_ocean03.gif)}
+#worldmap_iso #worldmap
+.ocean_feature1{background-image:url(world/tile_ocean_feature01.gif)}
+#worldmap_iso #worldmap
+.ocean_feature2{background-image:url(world/tile_ocean_feature02.gif)}
+#worldmap_iso #worldmap
+.ocean_feature3{background-image:url(world/tile_ocean_feature03.gif)}
+#worldmap_iso #worldmap
+.ocean_feature4{background-image:url(world/tile_ocean_feature04.gif)}
+#worldmap_iso #worldmap .island1,
+#worldmap_iso #worldmap
+.island6{background-image:url(world/_1.gif)}
+#worldmap_iso #worldmap .island1own,
+#worldmap_iso #worldmap
+.island6own{background-image:url(world/_1_blue.gif)}
+#worldmap_iso #worldmap .island1ally,
+#worldmap_iso #worldmap
+.island6ally{background-image:url(world/_1_green.gif)}
+#worldmap_iso #worldmap .island1treaty,
+#worldmap_iso #worldmap
+.island6treaty{background-image:url(world/_1_yellow.gif)}
+#worldmap_iso #worldmap .island2,
+#worldmap_iso #worldmap
+.island7{background-image:url(world/_2.gif)}
+#worldmap_iso #worldmap .island2own,
+#worldmap_iso #worldmap
+.island7own{background-image:url(world/_2_blue.gif)}
+#worldmap_iso #worldmap .island2ally,
+#worldmap_iso #worldmap
+.island7ally{background-image:url(world/_2_green.gif)}
+#worldmap_iso #worldmap .island2treaty,
+#worldmap_iso #worldmap
+.island7treaty{background-image:url(world/_2_yellow.gif)}
+#worldmap_iso #worldmap .island3,
+#worldmap_iso #worldmap
+.island8{background-image:url(world/_3.gif)}
+#worldmap_iso #worldmap .island3own,
+#worldmap_iso #worldmap
+.island8own{background-image:url(world/_3_blue.gif)}
+#worldmap_iso #worldmap .island3ally,
+#worldmap_iso #worldmap
+.island8ally{background-image:url(world/_3_green.gif)}
+#worldmap_iso #worldmap .island3treaty,
+#worldmap_iso #worldmap
+.island8treaty{background-image:url(world/_3_yellow.gif)}
+#worldmap_iso #worldmap .island4,
+#worldmap_iso #worldmap
+.island9{background-image:url(world/_4.gif)}
+#worldmap_iso #worldmap .island4own,
+#worldmap_iso #worldmap
+.island9own{background-image:url(world/_4_blue.gif)}
+#worldmap_iso #worldmap .island4ally,
+#worldmap_iso #worldmap
+.island9ally{background-image:url(world/_4_green.gif)}
+#worldmap_iso #worldmap .island4treaty,
+#worldmap_iso #worldmap
+.island9treay{background-image:url(world/_4_yellow.gif)}
+#worldmap_iso #worldmap .island5,
+#worldmap_iso #worldmap
+.island10{background-image:url(world/_5.gif)}
+#worldmap_iso #worldmap .island5own,
+#worldmap_iso #worldmap
+.island10own{background-image:url(world/_5_blue.gif)}
+#worldmap_iso #worldmap .island5ally,
+#worldmap_iso #worldmap
+.island10ally{background-image:url(world/_5_green.gif)}
+#worldmap_iso #worldmap .island5treaty,
+#worldmap_iso #worldmap
+.island10treaty{background-image:url(world/_5_yellow.gif)}
+#worldmap_iso #worldmap
+.tradegood1{background-image:url(resources/icon_worldmap_wine.gif);width:24px;height:20px;position:absolute}
+#worldmap_iso #worldmap
+.tradegood2{background-image:url(resources/icon_worldmap_marble.gif);width:24px;height:20px;position:absolute}
+#worldmap_iso #worldmap
+.tradegood3{background-image:url(resources/icon_worldmap_glass.gif);width:24px;height:20px;position:absolute}
+#worldmap_iso #worldmap
+.tradegood4{background-image:url(resources/icon_worldmap_sulfur.gif);width:24px;height:20px;position:absolute}
+#worldmap_iso #worldmap
+.wonder1{background-image:url(world/w1.gif);width:19px;height:30px;position:absolute}
+#worldmap_iso #worldmap
+.wonder2{background-image:url(world/w2.gif);width:21px;height:27px;position:absolute}
+#worldmap_iso #worldmap
+.wonder3{background-image:url(world/w3.gif);width:23px;height:27px;position:absolute}
+#worldmap_iso #worldmap
+.wonder4{background-image:url(world/w4.gif);width:18px;height:44px;position:absolute}
+#worldmap_iso #worldmap
+.wonder5{background-image:url(world/w5.gif);width:17px;height:43px;position:absolute}
+#worldmap_iso #worldmap
+.wonder6{background-image:url(world/w6.gif);width:19px;height:39px;position:absolute}
+#worldmap_iso #worldmap
+.wonder7{background-image:url(world/w7.gif);width:23px;height:28px;position:absolute}
+#worldmap_iso #worldmap
+.wonder8{background-image:url(world/w8.gif);width:19px;height:45px;position:absolute}
+#worldmap_iso #worldmap .island1 .wonder,
+#worldmap_iso #worldmap .island1own .wonder,
+#worldmap_iso #worldmap .island1ally .wonder,
+#worldmap_iso #worldmap .island1treaty .wonder,
+#worldmap_iso #worldmap .island6 .wonder,
+#worldmap_iso #worldmap .island6own .wonder,
+#worldmap_iso #worldmap .island6ally .wonder,
+#worldmap_iso #worldmap .island6treaty
+.wonder{bottom:45px;left:120px}
+#worldmap_iso #worldmap .island1 .tradegood,
+#worldmap_iso #worldmap .island1own .tradegood,
+#worldmap_iso #worldmap .island1ally .tradegood,
+#worldmap_iso #worldmap .island1treaty .tradegood,
+#worldmap_iso #worldmap .island6 .tradegood,
+#worldmap_iso #worldmap .island6own .tradegood,
+#worldmap_iso #worldmap .island6ally .tradegood,
+#worldmap_iso #worldmap .island6treaty
+.tradegood{bottom:65px;left:80px}
+#worldmap_iso #worldmap .island2 .wonder,
+#worldmap_iso #worldmap .island2own .wonder,
+#worldmap_iso #worldmap .island2ally .wonder,
+#worldmap_iso #worldmap .island2treaty .wonder,
+#worldmap_iso #worldmap .island7 .wonder,
+#worldmap_iso #worldmap .island7own .wonder,
+#worldmap_iso #worldmap .island7ally .wonder,
+#worldmap_iso #worldmap .island7treaty
+.wonder{bottom:55px;left:94px}
+#worldmap_iso #worldmap .island2 .tradegood,
+#worldmap_iso #worldmap .island2own .tradegood,
+#worldmap_iso #worldmap .island2ally .tradegood,
+#worldmap_iso #worldmap .island2treaty .tradegood,
+#worldmap_iso #worldmap .island7 .tradegood,
+#worldmap_iso #worldmap .island7own .tradegood,
+#worldmap_iso #worldmap .island7ally .tradegood,
+#worldmap_iso #worldmap .island7treaty
+.tradegood{bottom:60px;left:130px}
+#worldmap_iso #worldmap .island3 .wonder,
+#worldmap_iso #worldmap .island3own .wonder,
+#worldmap_iso #worldmap .island3ally .wonder,
+#worldmap_iso #worldmap .island3treaty .wonder,
+#worldmap_iso #worldmap .island8 .wonder,
+#worldmap_iso #worldmap .island8own .wonder,
+#worldmap_iso #worldmap .island8ally .wonder,
+#worldmap_iso #worldmap .island8treaty
+.wonder{bottom:35px;left:75px}
+#worldmap_iso #worldmap .island3 .tradegood,
+#worldmap_iso #worldmap .island3own .tradegood,
+#worldmap_iso #worldmap .island3ally .tradegood,
+#worldmap_iso #worldmap .island3treaty .tradegood,
+#worldmap_iso #worldmap .island8 .tradegood,
+#worldmap_iso #worldmap .island8own .tradegood,
+#worldmap_iso #worldmap .island8ally .tradegood,
+#worldmap_iso #worldmap .island8treaty
+.tradegood{bottom:65px;left:130px}
+#worldmap_iso #worldmap .island4 .wonder,
+#worldmap_iso #worldmap .island4own .wonder,
+#worldmap_iso #worldmap .island4ally .wonder,
+#worldmap_iso #worldmap .island4treaty .wonder,
+#worldmap_iso #worldmap .island9 .wonder,
+#worldmap_iso #worldmap .island9own .wonder,
+#worldmap_iso #worldmap .island9ally .wonder,
+#worldmap_iso #worldmap .island9treaty
+.wonder{bottom:55px;left:130px}
+#worldmap_iso #worldmap .island4 .tradegood,
+#worldmap_iso #worldmap .island4own .tradegood,
+#worldmap_iso #worldmap .island4ally .tradegood,
+#worldmap_iso #worldmap .island4treaty .tradegood,
+#worldmap_iso #worldmap .island9 .tradegood,
+#worldmap_iso #worldmap .island9own .tradegood,
+#worldmap_iso #worldmap .island9ally .tradegood,
+#worldmap_iso #worldmap .island9treaty
+.tradegood{bottom:45px;left:105px}
+#worldmap_iso #worldmap .island5 .wonder,
+#worldmap_iso #worldmap .island5own .wonder,
+#worldmap_iso #worldmap .island5ally .wonder,
+#worldmap_iso #worldmap .island5treaty .wonder,
+#worldmap_iso #worldmap .island10 .wonder,
+#worldmap_iso #worldmap .island10own .wonder,
+#worldmap_iso #worldmap .island10ally .wonder,
+#worldmap_iso #worldmap .island10treaty
+.wonder{bottom:65px;left:97px}
+#worldmap_iso #worldmap .island5 .tradegood,
+#worldmap_iso #worldmap .island5own .tradegood,
+#worldmap_iso #worldmap .island5ally .tradegood,
+#worldmap_iso #worldmap .island5treaty .tradegood,
+#worldmap_iso #worldmap .island10 .tradegood,
+#worldmap_iso #worldmap .island10own .tradegood,
+#worldmap_iso #worldmap .island10ally .tradegood,
+#worldmap_iso #worldmap .island10treaty
+.tradegood{bottom:40px;left:70px}
+#worldmap_iso #worldmap
+.islandMarked{position:absolute;bottom:70px;left:100px;width:39px;height:60px;background-image:url(img/worldmap/pfeil.gif);z-index:2000}
+#worldmap_iso #worldmap
+.ownIslandMarked{background:url(img/worldmap/border-island-own.gif) no-repeat top center;height:100%;width:100%;z-index:9}
+#worldmap_iso #worldmap
+.foreignIslandMarked{position:absolute;top:0px;left:0px;width:240px;height:120px;background:url(img/worldmap/border-island-foreign.gif) no-repeat top center;height:100%;width:100%;z-index:9}
+#worldmap_iso #worldmap
+.allyIslandMarked{position:absolute;top:0px;left:0px;width:240px;height:120px;background:url(img/worldmap/border-island-ally.gif) no-repeat top center;height:100%;width:100%;z-index:9}
+#worldmap_iso #worldmap
+.militaryIslandMarked{position:absolute;top:0px;left:0px;width:240px;height:120px;background:url(img/worldmap/border-island7.gif) no-repeat top center;height:100%;width:100%;z-index:9}
+#worldmap_iso #worldmap
+.cities{position:absolute;bottom:20px;left:98px;width:22px;height:18px;text-align:center;background-image:url(img/worldmap/worldmap_cities.jpg);background-repeat:no-repeat;padding-top:2px}
+#worldmap_iso
+.islandLink{display:block;position:absolute;top:20px;left:55px;width:130px;height:80px;cursor:pointer;z-index:20001;margin:0px}
+#worldmap_iso .islandLinkMarked
+a{margin-top:-20px;height:100px}
+#worldmap_iso .islandLinkMarked a:hover{cursor:url(magnify.ico), pointer}
+#worldmap_iso
+.magnify{z-index:3000}
+#worldmap_iso #worldmap
+.ownIslandMarked{position:absolute;top:0px;left:0px;width:240px;height:120px}
+#worldmap_iso #worldmap
+.loading{background-image:url(icons/loading_blue.gif);background-position:50% 50%;background-repeat:no-repeat}
+#worldmap_iso #worldmap
+.island{position:absolute;width:240px;height:120px}
+#worldmap_iso #worldmap
+.wonder{z-index:1000}
+#worldmap_iso #worldmap
+.ocean{position:absolute;width:240px;height:120px}

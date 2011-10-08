@@ -1,0 +1,87 @@
+#safehouse
+.buildingDescription{background:url(buildings/y100/safehouse.gif) no-repeat right 10px}
+#safehouse #container #mainview .content ul#units li.unit
+ul.resources{text-align:left}
+#safehouse #container #mainview .content ul#units li.unit ul.resources
+li.gold{float:none;left:200px}
+#safehouse #container #mainview .content ul#units li.unit ul.resources
+li.glass{float:none;left:200px}
+#safehouse #container #mainview .content ul#units li.unit ul.resources
+li.time{float:none;left:260px;position:absolute}
+#safehouse #container #mainview td.subject
+a{color:#542c0f;text-decoration:underline}
+#safehouse #container #mainview
+div.spyinfo{background:url(layout/spy-test.jpg) no-repeat 10px -10px;position:relative;border:1px
+solid #f3ddb2;padding-bottom:15px;margin:1px}
+#safehouse #container #reportInboxLeft .content
+ul{padding-left:10px}
+#safehouse #container #mainview .spyinfo
+li{padding:5px
+0px 5px 25px;font-weight:bold}
+#safehouse #container #mainview .spyinfo
+li.city{background:url(layout/icon-city2.gif) no-repeat left center}
+#safehouse #container #mainview .spyinfo
+li.status{background:url(layout/icon-status-small.gif) no-repeat 2px center;width:260px}
+#safehouse #container #mainview .spyinfo
+ul{margin-left:130px}
+#safehouse #container #mainview ul
+li.risk{position:relative}
+#safehouse #container #mainview ul li.risk
+div.percentage{width:30px;text-align:left;position:absolute;top:18px;left:240px;font-weight:bold;display:inline}
+#safehouse #container #mainview .spyinfo
+div.missionButton{width:54px;height:50px;position:absolute;top:10px;left:455px}
+#safehouse #container #mainview .spyinfo div.missionButton
+a{background:url(layout/icon-mission.gif) no-repeat center top;display:block;text-align:center;padding-top:35px;color:#542c0f;margin-top:2px;text-decoration:none}
+#safehouse #container #mainview .spyinfo div.missionButton a:hover{background-color:#fff5d6;font-weight:bold}
+#safehouse #container #mainview .spyinfo
+div.missionAbort{width:75px;height:50px;position:absolute;top:10px;left:555px}
+#safehouse #container #mainview .spyinfo div.missionAbort
+a{background:url(layout/icon-missionAbort.gif) no-repeat center top;display:block;text-align:center;padding-top:35px;color:#542c0f;margin-top:2px;text-decoration:none}
+#safehouse #container #mainview .spyinfo div.missionAbort a:hover{background-color:#fff5d6;font-weight:bold}
+#safehouse #container #mainview
+table.spyMessages{margin-top:10px}
+#safehouse #container #mainview .spyinfo
+table.spyMessages{margin-top:10px;width:400px;font-size:11px}
+#safehouse #container #mainview .spyinfo
+table.table01{margin:5px
+0px}
+#safehouse #container #mainview table.spyMessages
+td.icon{width:20px;height:20px;background-position:center;background-repeat:no-repeat}
+#safehouse #container #mainview table.spyMessages
+td.time{background-image:url(layout/icon-clock.gif)}
+#safehouse #container #mainview table.spyMessages
+td.money{background-image:url(layout/gold.gif)}
+#safehouse #container #mainview table.spyMessages
+td.garrison{background-image:url(layout/icon-spyreport-garrison.gif)}
+#safehouse #container #mainview table.spyMessages
+td.arrived{background-image:url(layout/icon-city2.gif)}
+#safehouse #container #mainview table.spyMessages
+td.return{background-image:url(layout/icon-backx20.gif)}
+#safehouse #container #mainview table.spyMessages
+td.message{background-image:url(layout/icon-message.gif)}
+#safehouse #container #mainview table.spyMessages
+td.fleet{background-image:url(layout/icon-spyreport-fleet.gif)}
+#safehouse #container #mainview table.spyMessages
+td.research{background-image:url(layout/icon-spyreport-research.gif)}
+#safehouse #container #mainview table.spyMessages
+td.online{background-image:url(layout/icon-status-small.gif)}
+#safehouse #container #mainview table.spyMessages
+td.spy{}
+#safehouse #container #mainview table.spyMessages
+td.subject{padding:3px
+5px;text-align:left}
+#safehouse #container #mainview .spyinfo
+a{color:#542c0f}
+#safehouse #container #mainview .spyinfo a:hover{color:#DF5843}
+#safehouse #container #mainview .spyinfo table.spyMessages
+a{color:#542c0f;text-decoration:none;display:block}
+#safehouse #container #mainview .spyinfo table.spyMessages a:hover{text-decoration:underline}
+#safehouse #mainview
+.buildingDescription{height:150px;margin-bottom:15px}
+#safehouse #container #mainview
+.unit{background:transparent url(interface/bg_build.gif) repeat-y scroll right top;height:100px;padding:10px
+0px;position:relative;min-height:0px}
+#safehouse #container
+#spyCount{background:transparent none repeat scroll 0% 50%;border:medium none;color:#906646;font-size:18px;margin-left:0pt;padding-left:0pt;text-align:right;width:30px}
+#safehouse #container
+.summary{color:#906646;font-size:18px;text-align:left}

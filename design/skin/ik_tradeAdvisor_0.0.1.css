@@ -1,0 +1,39 @@
+#tradeAdvisor
+.buildingDescription{height:auto;background:none}
+#tradeAdvisor #container #container2 #mainview
+.buildingDescription{height:auto;background:none;min-height:0}
+#tradeAdvisor #mainview
+table.table01{border:0px;margin:0px
+auto 10px auto;width:100%}
+#tradeAdvisor
+.empty{width:9px}
+#tradeAdvisor #mainview div.contentBox01h div.content #inboxCity
+td.wichtig{background-image:url(icons/wichtig.gif);background-position:center 8px;background-repeat:no-repeat;width:9px}
+#tradeAdvisor #mainview .content #inboxCity
+a{color:#542c0f;font-weight:bold}
+#tradeAdvisor #mainview .content #inboxCity a:hover{color:#DF5843;text-decoration:underline}
+#tradeAdvisor #mainview .content #inboxCity tr.alt
+td.city{background-color:#FFEACF}
+#tradeAdvisor #mainview #inboxCity
+td{padding:4px
+5px;vertical-align:top}
+#tradeAdvisor #mainview #inboxCity
+td.date{white-space:nowrap}
+#tradeAdvisor #mainview #inboxCity
+td.city{background:url(layout/icon-city2.gif) no-repeat 3px top;padding-left:23px}
+#tradeAdvisor #mainview #inboxCity
+td.island{background:url(layout/icon-island.gif) no-repeat 3px center;padding-left:20px}
+#tradeAdvisor #mainview #inboxCity
+td.subject{text-align:left}
+#tradeAdvisor #mainview #inboxCity td.subject ul.resources
+li{display:inline;padding-bottom:7px}
+#tradeAdvisor #mainview td.paginator
+a{color:#542c0f}
+#tradeAdvisor #mainview #inboxCity
+.attention{padding-left:22px;background:url(advisors/city/attention.gif) no-repeat 2px center}
+#tradeAdvisor #mainview #inboxCity
+.building{padding-left:22px}
+#tradeAdvisor #mainview #inboxCity
+.wonder{padding-left:22px}
+#tradeAdvisor #container ul.resources
+li{display:inline}

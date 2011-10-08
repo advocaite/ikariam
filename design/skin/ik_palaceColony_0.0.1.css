@@ -1,0 +1,10 @@
+#palaceColony
+.buildingDescription{background:url(buildings/y100/palaceColony.gif) no-repeat right 10px}
+#palaceColony #moveCapital
+.prerequisite{font-style:italic}
+#palaceColony #moveCapitalConfirmation
+ul{margin:8px
+40px}
+#palaceColony #moveCapitalConfirmation
+li{list-style:disc outside;margin:4px
+0px}

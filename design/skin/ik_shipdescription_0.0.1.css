@@ -1,0 +1,128 @@
+#shipdescription #mainview
+.costs{background-color:#FFFBEC;border:1px
+solid #FBE7C0;left:50px;margin:16px
+auto;padding:4px;position:relative;width:300px}
+#shipdescription #mainview .costs
+img{left:-150px;position:absolute;top:0px}
+#shipdescription #mainview .costs ul.resources
+li{display:inline}
+#shipdescription #mainview .costs
+ul.resources{margin-left:30px}
+#shipdescription
+ul.specs{width:90px;margin:5px}
+#shipdescription ul.specs
+li{background-repeat:no-repeat;padding-left:40px;margin:5px
+0px}
+#shipdescription ul.specs
+.unitCharacterRange{background-image:url(unitdesc/unit_type.gif);height:28px;line-height:28px}
+#shipdescription ul.specs
+.unitAttackPower{background-image:url(unitdesc/unit_attack.gif);height:27px;line-height:27px}
+#shipdescription ul.specs
+.unitSpeed{background-image:url(unitdesc/unit_speed.gif);height:35px;line-height:35px}
+#shipdescription #mainview .costs #unitValues,
+#shipdescription #mainview .costs
+#unitCosts{width:280px;margin:10px
+0px 10px 15px}
+#shipdescription #mainview .costs #unitValues th,
+#shipdescription #mainview .costs #unitCosts
+th{height:20px;padding-bottom:5px;border-bottom:1px solid #fbe7c0;font-weight:bold}
+#shipdescription #mainview .costs #unitValues
+td.attribute{width:35px}
+#shipdescription #mainview .costs #unitValues
+td.attribute{width:55px}
+#shipdescription #mainview .costs #unitValues
+img{position:relative;left:auto;top:auto}
+#shipdescription #mainview .costs #unitValues
+td.value{vertical-align:middle;padding-right:20px}
+#shipdescription
+#unit{width:255px;height:232px;float:left}
+#shipdescription
+#infoBox{float:right;padding:6px
+18px 0 0;line-height:18px;color:#542c0f}
+#shipdescription #infoBox
+.infoBoxHeader{width:374px;height:7px;background-image:url('ikipedia/infoBox_header.gif')}
+#shipdescription #infoBox
+.infoBoxFooter{width:374px;height:7px;background-image:url('ikipedia/infoBox_footer.gif')}
+#shipdescription #infoBox
+.infoBoxContent{border:1px
+solid #e5ba76;padding:5px
+5px 5px 25px;width:343px;height:320px;overflow:auto}
+#shipdescription .infoBoxContent
+h3{font-weight:bold;font-size:12px;color:#542c0f;background-image:url('ikipedia/helm.gif');background-repeat:no-repeat;height:34px;padding:8px
+0 0 25px}
+#shipdescription #infoBox
+.damageFocusContainer{width:150px;border:1px
+solid #4d0e0c;margin:5px
+0 5px 110px}
+#shipdescription #infoBox
+.damageFocus{background-color:#ff4646;height:6px}
+#shipdescription #infoBox
+span.textLabel{display:block;float:left;width:110px}
+#shipdescription #infoBox
+.weapon{background-image:url('workshop/angriff_gold.gif');background-repeat:no-repeat;padding:0
+0 0 70px;margin:0
+0 10px 0}
+#shipdescription #infoBox
+.weaponName{font-weight:bold;margin:10px
+0 0 0}
+#shipdescription #infoBox
+.req{font-weight:bold;display:block}
+#shipdescription #infoBox .available
+a{font-weight:bold;color:green}
+#shipdescription #infoBox
+.available{font-weight:bold;color:green;display:block;width:100%}
+#shipdescription #infoBox .notAvailable
+a{font-weight:bold;color:red}
+#shipdescription #infoBox
+.notAvailable{font-weight:bold;color:red;display:block}
+#shipdescription
+#unit.s201{background-image:url('ikipedia/201.gif')}
+#shipdescription
+#unit.s210{background-image:url('ikipedia/210.gif')}
+#shipdescription
+#unit.s211{background-image:url('ikipedia/211.gif')}
+#shipdescription
+#unit.s212{background-image:url('ikipedia/212.gif')}
+#shipdescription
+#unit.s213{background-image:url('ikipedia/213.gif')}
+#shipdescription
+#unit.s214{background-image:url('ikipedia/214.gif')}
+#shipdescription
+#unit.s215{background-image:url('ikipedia/215.gif')}
+#shipdescription
+#unit.s216{background-image:url('ikipedia/216.gif')}
+#shipdescription
+#unitRes{background-image:url('ikipedia/ressborder.gif');width:259px;height:71px;margin:284px
+0 0 15px}
+#shipdescription #mainview
+ul.resources{position:absolute}
+#shipdescription #mainview ul.resources
+li{overflow:visible;position:absolute}
+#shipdescription #mainview ul.resources
+li.firstpos{left:-1px;top:0px;width:35px;padding-left:33px}
+#shipdescription #mainview ul.resources
+li.secondpos{left:65px;top:0px;width:33px}
+#shipdescription #mainview ul.resources
+li.thirdpos{left:128px;top:0px;width:33px}
+#shipdescription #mainview ul.resources
+li.fourthpos{left:186px;top:0px;width:33px}
+#shipdescription #mainview ul.resources
+li.fifthpos{left:11px;top:27px;width:33px;padding-left:26px}
+#shipdescription #mainview ul.resources
+li.sixthpos{left:67px;top:27px;width:33px;padding-left:38px}
+#shipdescription #mainview ul.resources
+li.seventhpos{left:136px;top:27px;width:33px}
+#shipdescription #mainview ul.resources
+li{margin:3px
+8px 0 8px}
+#shipdescription #container ul.resources
+li.weight{background-image:url('ikipedia/weight.gif');background-position:5px 4px}
+#shipdescription #container ul.resources
+li.completionTime{background-image:url('resources/icon_time.gif');background-position:5px 4px}
+#shipdescription #mainview ul.resources
+li.building_level{background-image:url('unitdesc/level_green1.gif');background-position:5px 1px}
+#shipdescription #container ul.resources
+li.noData{width:250px;padding:0;margin:0;text-align:center}
+#shipdescription #container
+.shortdesc{padding:370px
+20px 30px 20px}

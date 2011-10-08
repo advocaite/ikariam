@@ -1,0 +1,67 @@
+#premiumTradeAdvisor #mainview table
+a{color:#542c0f}
+#premiumTradeAdvisor #mainview
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}
+#premiumTradeAdvisor #mainview th,
+#premiumTradeAdvisor #mainview
+td{padding:3px
+0px;vertical-align:middle;border:2px
+solid #FAEAC6}
+#premiumTradeAdvisor #mainview
+tr.alt{background-color:#fdf1d4}
+#premiumTradeAdvisor #mainview #buildingsOverview
+a{color:#542c0f}
+#premiumTradeAdvisor #buildingsOverview
+.building{width:15%;text-align:center;font-size:1.1em}
+#premiumTradeAdvisor  #buildingsOverview
+th.city{background:none;text-align:left;width:25%;font-weight:normal;padding-left:10px}
+#premiumTradeAdvisor #buildingsOverview tr.headingrow
+th{background-color:#FAEAC6;text-align:center;padding:0px}
+#premiumTradeAdvisor
+#populationOverview{}
+#premiumTradeAdvisor #populationOverview
+td.first{text-align:left}
+#premiumTradeAdvisor #resourceOverview
+td{text-align:right}
+#premiumTradeAdvisor #populationOverview table
+td.satisfaction{text-align:center;padding:0}
+#premiumTradeAdvisor #populationOverview td.city,
+#premiumTradeAdvisor #resourceOverview
+td.city{text-align:left;padding-left:10px;padding-right:6px}
+#premiumTradeAdvisor table
+.empty{width:80px}
+#premiumTradeAdvisor .dynamic
+.content{text-align:center}
+#premiumTradeAdvisor #resourceOverview
+td.stock{font-weight:bold;border-left-color:#f2d9ab;padding-right:6px}
+#premiumTradeAdvisor #container #mainview
+td.total{font-weight:bold}
+#premiumTradeAdvisor #resourceOverview td.wood,
+#premiumTradeAdvisor #resourceOverview td.wine,
+#premiumTradeAdvisor #resourceOverview td.marble,
+#premiumTradeAdvisor #resourceOverview td.glass,
+#premiumTradeAdvisor #resourceOverview td.sulfur,
+#premiumTradeAdvisor #resourceOverview td.crystal,
+#premiumTradeAdvisor #resourceOverview
+td.lvl{text-align:right;padding-right:6px}
+#premiumTradeAdvisor #resourceOverview td
+div.level{border-left:1px dotted #c66f5c;border-right:1px dotted #c66f5c;float:right;text-align:center;width:22px;margin-left:8px}
+#premiumTradeAdvisor #mainview .overview
+th.text{text-align:right;padding-right:5px;padding-top:10px}
+#premiumTradeAdvisor #mainview .overview
+th.image{padding-top:10px;text-align:left;padding-left:10px}
+#premiumTradeAdvisor #mainview .overview
+th.first{text-align:center}
+#premiumTradeAdvisor #mainview .overview
+td.city{border-left:0px;border-right:2px solid #FAEAC6}
+#premiumTradeAdvisor #mainview .overview
+td{padding-right:5px}
+#premiumTradeAdvisor #mainview .overview
+td.text{text-align:right}
+#premiumTradeAdvisor .building
+.upgrade{background-image:url(upgrade/arrow_upgrade.gif);background-repeat:no-repeat;padding-left:22px;margin:auto;width:70px;height:16px}
+#premiumTradeAdvisor .building .upgrade span,
+#premiumTradeAdvisor .building .upgradeList
+span{font-size:10px}
+#premiumTradeAdvisor .building
+.upgradeList{background-image:url(upgrade/arrow_upgradelist.gif);background-repeat:no-repeat;padding-left:20px;margin:auto;width:70px;height:16px}

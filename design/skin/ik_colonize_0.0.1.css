@@ -1,0 +1,45 @@
+#colonize
+.buildingDescription{background:url(img/colonize.gif) no-repeat right 10px}
+#colonize
+#mainview{padding-bottom:40px}
+#colonize #mainview #createColony
+em{font-weight:bold}
+#colonize #mainview #createColony
+.costs{position:relative;left:50px;width:300px;margin:16px
+auto;padding:4px;background-color:#fffbec;border:1px
+solid #fbe7c0}
+#colonize #mainview #createColony
+.noPalace{position:relative;margin:16px
+100px;padding:4px;background-color:#fffbec;border:1px
+solid #fbe7c0}
+#colonize #mainview #createColony .noPalace
+h4{font-weight:bold;margin-top:8px;color:#900;margin-left:170px}
+#colonize #mainview #createColony .noPalace
+img{float:left;margin-top:4px}
+#colonize #mainview #createColony .noPalace
+p{margin-left:170px}
+#colonize #mainview #createColony .noPalace
+em{font-style:italic;font-weight:normal}
+#colonize #mainview #createColony div.errors
+h4{font-weight:bold;margin-top:8px;color:#900;margin:4px
+60px 4px 60px}
+#colonize #mainview #createColony div.errors
+ul{margin-bottom:20px}
+#colonize #mainview #createColony div.errors
+li{list-style:disc inside;margin:2px
+60px 2px 60px;color:#900}
+#colonize #mainview #createColony div.errors li
+span{color:#000}
+#colonize #mainview #createColony div.errors li
+em{font-style:italic;font-weight:normal}
+#colonize #mainview #createColony .costs
+p{text-align:center;font-weight:bold}
+#colonize #mainview #createColony .costs
+img{position:absolute;top:0px;left:-150px}
+#colonize #mainview #createColony .costs
+.resources{margin-left:110px}
+#colonize #mainview .costs
+h5{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#colonize #notices
+.warning{margin:10px
+20px}

@@ -1,0 +1,132 @@
+#premium td.buy a:link{color:#542c0f;text-decoration:none}
+#premium td.buy a:hover{color:#b03937;text-decoration:none}
+#premium table td.desc,
+#premium table
+td.buy{font-size:11px}
+#premium
+td.ware{margin-top:10px}
+#premium
+td.buy{text-align:center;background-color:transparent;font-weight:bold;width:90px}
+#premium
+.product{margin:5px;border:3px
+solid #e4b873;padding:5px}
+#premium .product
+h2{font-weight:bold;font-size:14px;padding:5px
+0px}
+#premium .product
+.button{display:block;margin:5px
+0px}
+#premium .product
+h3{font-weight:bold;padding-left:20px}
+#premium .product
+table{margin:0px
+5px}
+#premium .product
+.until{color:red}
+#premium .product
+.desc{width:435px}
+#premium #mainview
+ul{margin-left:30px}
+#premium #mainview ul
+li{list-style-type:disc;margin-left:10px}
+#premium #premiumOffers table
+p{margin:0px;text-align:left}
+#premium #premiumOffers
+h4{font-weight:bold;text-align:left}
+#premium #premiumOffers
+td{padding:4px
+10px}
+#premium #premiumOffers
+.cost{width:60px}
+#premium #premiumOffers .cost
+img{vertical-align:middle}
+#premium #premiumOffers
+.buy{width:80px}
+#premium #premiumOffers
+td.feature{padding-left:100px}
+#premium #premiumOffers
+td.duration{font-weight:bold;text-align:right}
+#premium   #premiumOffers
+td.cost{font-weight:bold}
+#premium  #premiumOffers td.buy
+a{display:block}
+#premium  #premiumOffers tr.account
+td.feature{background:url(premium/premium_account.gif) no-repeat 10px 4px;padding-left:150px}
+#premium   #premiumOffers tr.woodbonus
+td.feature{background:url(premium/premium_wood.gif) no-repeat 10px top}
+#premium  #premiumOffers tr.marblebonus
+td.feature{background:url(premium/premium_marble.gif) no-repeat 10px top}
+#premium   #premiumOffers tr.sulfurbonus
+td.feature{background:url(premium/premium_sulfur.gif) no-repeat 10px top}
+#premium   #premiumOffers tr.crystalbonus
+td.feature{background:url(premium/premium_crystal.gif) no-repeat 10px top}
+#premium   #premiumOffers tr.savecapacityBonus
+td.feature{background:url(premium/safecapacity.gif) no-repeat 25px top}
+#premium   #premiumOffers tr.winebonus
+td.feature{background:url(premium/premium_wine.gif) no-repeat 10px top}
+#premium   #premiumOffers
+a.notenough{color:#999;font-weight:normal;font-size:11px;text-decoration:none}
+#premium #container #premiumOffers a.notenough
+.buyNow{text-decoration:underline}
+#premium #container #premiumOffers a.notenough:hover{color:#BBB}
+#premium
+.content{overflow:auto}
+#premium  .content div,
+#premium  .content h4,
+#premium
+.footer{clear:both}
+#premium  .content
+a.enlarge{float:right;width:300px;text-align:center;margin:10px;text-decoration:none}
+#premium  .content
+h4{font-weight:bold;margin:20px
+30px 10px 40px;;font-size:1.2em}
+#premium  .content
+ul{margin:8px
+30px}
+#premium  .content
+li{list-style:inside disc;margin:4px}
+#premium #premiumOffers
+h4{font-size:1em;font-weight:bold;text-align:left;margin:0}
+#premium #premiumOffers tr.account
+td.feature{}
+#premium  #mainview
+table.matrix{width:672px;margin-left:1px}
+#premium  #mainview .contentBox01h
+table.matrix{margin-bottom:2px}
+#premium  #mainview .contentBox01h table.matrix
+td{padding-top:3px;padding-right:0px;padding-bottom:3px;padding-left:5px;vertical-align:middle;border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:2px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#faeac6;border-right-color:#faeac6;border-bottom-color:#faeac6;border-left-color:#faeac6;cursor:hand;cursor:pointer}
+#premium  #mainview .contentBox01h table.matrix  td
+img{padding-bottom:2px}
+#premium  #mainview .contentBox01h table.matrix
+th{background-color:#faeac6;color:#906646;font-weight:bold;text-align:center;padding-top:10px;padding-bottom:3px}
+#premium  #mainview .contentBox01h table.matrix
+td.active{height:40px;background-image:url(smilies/ecstatic_x32.gif);background-repeat:no-repeat;background-position:50% 50%}
+#premium  #mainview .contentBox01h table.matrix
+td.inactive{height:40px;background-image:url(layout/help.gif);background-repeat:no-repeat;background-position:50% 50%;text-align:center;font-weight:bold}
+#premium  #mainview .contentBox01h table.matrix td.inactive
+.tooltip{text-align:left;font-weight:normal}
+#premium  #mainview .contentBox01h table.matrix
+td.active_short{height:40px;background-image:url(smilies/neutral_x32.gif);background-repeat:no-repeat;background-position:50% 50%}
+#premium .contentBox01h div.content
+table.matrix{background-color:#f2d9ab}
+#premium .contentBox01,.contentBox01h{background-image:url(layout/bg_contentBox01.gif);position:relative;width:680px;margin-bottom:10px}
+#premium .contentBox01h
+.tooltip{position:absolute;display:none;background-color:#f1d7ad;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#be8d53;border-right-color:#be8d53;border-bottom-color:#be8d53;border-left-color:#be8d53;border-top-width:4px;font-size:11px;line-height:14px;color:#542c0f;padding-top:4px;padding-right:8px;padding-bottom:4px;padding-left:8px;z-index:100000;margin-left:60px;margin-top:40px;width:320px}
+#premium .contentBox01h .tooltip .order
+a{margin-top:15px;margin-bottom:5px;float:right;padding-left:5px;padding-right:5px}
+#premium #mainview .contentBox01h .matrix div.tooltip
+table.payment{width:100%}
+#premium #mainview .contentBox01h .matrix div.tooltip table.payment
+td{border:none;margin:0px;padding:0px;line-height:14px}
+#premium #mainview .contentBox01h .matrix div.tooltip table.payment
+td.active{float:right;background-image:none;line-height:14px;height:16px}
+#premium #mainview .contentBox01h .matrix div.tooltip table.payment td
+div.extend{float:right;padding-left:15px;background-image:url(layout/icon-clock_8x10px.gif);background-repeat:no-repeat;background-position:4px 2px}
+#premium #mainview .contentBox01h
+div.childTooltip{position:absolute;display:none;left:80px;background-color:#fffdf1;border:1px
+solid #be8d53;border-top-width:4px;font-size:11px;line-height:1em;color:#542c0f;width:200px;padding:4px
+8px;text-align:left;margin-top:15px}
+#premium #mainview .contentBox01h .matrix div.tooltip table.payment
+td.buy{float:right;width:200px;text-align:right;font-weight:normal}
+#premium #mainview .contentBox01h .matrix div.tooltip table.payment
+td.active{float:right;width:200px;text-align:right;font-weight:normal}

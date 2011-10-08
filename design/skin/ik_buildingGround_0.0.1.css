@@ -1,0 +1,30 @@
+#buildingGround #container #mainview
+#buildings{position:relative}
+#buildingGround #container #mainview
+.building{position:relative;padding:10px
+0px;background:url(interface/bg_build.gif) repeat-y top right}
+#buildingGround #container #mainview .building
+h4{font-size:14px;font-weight:bold;line-height:22px;margin-bottom:2px;margin-left:180px;width:350px}
+#buildingGround .buildinginfo
+img{position:absolute;top:10px;left:0px}
+#buildingGround #container #mainview #buildings .building
+p{margin-left:180px;width:350px}
+#buildingGround #mainview .building
+label{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#buildingGround #mainview .building .costs
+h5{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+#buildingGround #container #mainview .building
+.resources{margin-left:180px}
+#buildingGround #container #mainview .building .resources
+li{display:inline;padding-top:3px;padding-bottom:3px;margin:4px
+8px}
+#buildingGround #container #mainview .building .resources
+li.upkeep{margin-left:22px}
+#buildingGround #container #mainview .building
+hr{margin-left:180px;margin-right:160px;color:#bc575d;background-color:#bc575d;border:none;border-color:#bc575d;height:1px}
+#buildingGround #mainview .building
+a.build{position:absolute;display:block;width:100px;top:42px;left:550px}
+#buildingGround #container #mainview #buildings .building
+p.cannotbuild{position:absolute;margin:0;top:42px;left:550px;width:100px;text-align:center;color:#960}
+#buildingGround .cannotbuild
+a{}

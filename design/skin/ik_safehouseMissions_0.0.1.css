@@ -1,0 +1,42 @@
+#safehouseMissions #mainview
+.button{display:block;left:470px;position:absolute;top:50px;text-decoration:none}
+#safehouseMissions #mainview
+.button{display:block;left:470px;position:absolute;top:50px;text-decoration:none}
+#safehouseMissions #mainview .contentBox01h
+.content{margin:10px
+0px 10px 0px}
+#safehouseMissions #mainview
+.statusBar{height:20px;width:300px;margin:0px
+auto}
+#safehouseMissions #mainview .statusBar
+.bar{background:url(layout/bg-spy-detection-bar.gif) no-repeat}
+#safehouseMissions #mainview
+ul#missionlist{margin:20px
+0px 10px 0px;padding-left:30px;padding:0;margin:0px
+auto}
+#safehouseMissions #mainview ul#missionlist
+li{position:relative;margin-bottom:25px;border-bottom:1px solid #E4B873;width:580px;padding:10px
+0px;margin:0px
+auto}
+#safehouseMissions #mainview
+.missionText{margin:0px;position:relative;margin-bottom:10px}
+#safehouseMissions #mainview li
+div.missionType{font-weight:bold}
+#safehouseMissions #mainview li
+div.missionDesc{padding:10px
+5px;width:450px}
+#safehouseMissions #mainview li
+div.missionCosts{}
+#safehouseMissions #mainview li div.missionCosts
+.gold{padding:2px
+20px 2px 0px;background:url(resources/icon_gold.gif) no-repeat right}
+#safehouseMissions #missionlist div.missionCosts
+.textLabel{display:none}
+#safehouseMissions #mainview li
+div.missionRisk{}
+#safehouseMissions #mainview
+div.percentage{font-weight:bold;text-align:left;position:absolute;top:20px;left:500px}
+#safehouseMissions #mainview li
+div.missionStart{}
+#safehouseMissions #mainview .contentBox01h .content
+h4{font-weight:bold;text-align:center;margin:0;padding:0}

@@ -1,0 +1,11 @@
+#diplomacyAdvisorAlly #container #mainview table.table01
+td.online{background-image:url(layout/bulb-on.gif);background-repeat:no-repeat;background-position:center}
+#diplomacyAdvisorAlly #container #mainview table.table01
+td.offline{background-image:url(layout/bulb-off.gif);background-repeat:no-repeat;background-position:center}
+#diplomacyAdvisorAlly #container #container2 #mainview
+#viewDiplomacyImperium.dynamic{margin-left:240px}
+#diplomacyAdvisorAlly #container #container2 #islandBoardOverview ul
+li{width:165px;background:url('board/schriftrolle_closed2.gif') no-repeat 14px 7px;margin:2px
+0;padding-left:30px}
+#diplomacyAdvisorAlly #container #container2 #islandBoardOverview
+li.current{font-weight:bold;background:url('board/schriftrolle_offen2_active.gif') no-repeat 0px 3px}

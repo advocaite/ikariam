@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,html,p {
+	padding:0; margin:0;
+	}
+body {
+	background: url('bg_stone.jpg') repeat scroll center top;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	text-align:center;
+	}
+.products {
+	color:#59ACDE;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	height:30px;	
+	width:100%;
+	z-index:300;
+	}
+.iframe {
+	height:30px;
+	width:100%;
+	}
+#headback {
+	background: url('headerback2.jpg') repeat-x scroll center top;
+	position:absolute;
+	top: 30px;
+	left: 0px;
+	width:100%;
+	}
+#headlogo {
+	background:url('ikariam-logo7-ru.jpg') no-repeat;
+	background-position:center top;
+	height:255px;
+	width:804px;
+	margin:0 auto;
+	position:relative;
+	}
+#computerspielpreis{
+    border:0px;
+	width:167px;
+    height:142px;
+    z-index:1000;
+    position:absolute;
+    left:60px;
+    top: 0px;
+}
+#bam{
+    border:0px;
+	width:100px;
+    height:118px;
+    z-index:1000;
+    position:relative;
+    left:270px;
+    top: 10px;
+    border:1px solid black;
+}
+#main {
+	background:url('main-bg5.jpg') repeat-y;
+	background-position:center top;
+	}
+#footer {
+	background:url('footer5.jpg') repeat-y;
+	background-position:center top;
+	background-repeat:no-repeat;
+	height:38px;
+	margin:0px auto 10px auto;
+	}
+#footer, #footer2 a {
+	color:#502604; 
+	font:bold 11px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	}
+#links {
+	background:url('zierelement.jpg') no-repeat;
+	background-position:center bottom;
+	height:25px;
+	width:527px;
+	margin:0 auto;
+	color:#811b0b;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	}
+#links a {
+	margin: 0px 15px;
+	color:#811b0b;
+	text-decoration:none;
+	}
+#links a:hover {
+	text-decoration:none;
+	color:#DF5843;
+	text-decoration:underline;
+	}
+h1 {
+	font:bold 16px  Arial, Helvetica, sans-serif;
+	padding:20px 0px 0px 0px;
+	margin:0;
+	color:#502604;	
+	}
+h2 {
+    font:bold 14px  Arial, Helvetica, sans-serif;
+    padding:20px 0px 0px 0px;
+    margin:0;
+    color:#502604;  
+	}
+p.desc {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	}
+#text {
+	width:530px; 
+	margin:0 auto; 
+	text-align:left; 
+	position:relative;
+	}
+#text p {
+	padding:20px 190px 0px 5px; 
+	color:#502604;
+	}
+.joinbutton {
+	background:url('button-bg.jpg') no-repeat; 
+	width:343px; 
+	height:38px; 
+	margin:20px 0px 0px 0px;
+	padding:0; 
+	font-size:22px; 
+	font-weight:bold; 
+	text-align:center; 
+	line-height:38px;
+	overflow:hidden;
+	}
+.joinbutton a {
+	color:#811b0b;
+	text-decoration:none;
+	}
+.joinbutton a:hover {
+	color:#DF5843;
+	text-decoration:none;
+	}
+#wrapper {
+	padding-top:10px;
+	}
+input.login, input.pass, select.uni {
+	width:115px;
+	border:1px solid #7a6042;
+	background-color:#ffffff;
+	color:#811b0b;
+	font-size:12px;	
+	}
+.startinput {
+	border:1px solid #7a6042;
+	background-color:#ffffff;
+	color:#811b0b;
+	font-size:12px;	
+	}
+select.uni {
+	width:100px;
+	}
+#formz {
+	font-size:12px; 
+	overflow:hidden; 
+	margin-top:20px;
+	}
+#logindata td {
+	padding-left:5px;
+	}
+#logindata label {
+	font-size:10px;
+	}
+#logindata td.forgotpwd {
+	font-size:10px;
+	padding:5px 0px 0px 0px;
+	}
+#logindata td.forgotpwd a {
+	padding: 0px 0px 0px 5px;
+	color:#811b0b;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	}
+#logindata td.forgotpwd a:hover {
+	color:#DF5843;
+	text-decoration:underline;
+	}
+#logindata td input.button {
+	width:120px;
+	margin-left:25px;
+	}
+img.bild1 {
+	position:absolute; 
+	top:20px; 
+	left:356px;
+	}
+img.bild2 {
+	position:absolute; 
+	top:110px; 
+	left:356px;
+	}
+*.button { 
+	border: 3px double #5d4c2f;
+	border-top-color: #c9a584;
+	border-left-color: #c9a584;
+	padding: 2px 0px;
+	background:#eccf8e url('button.gif') repeat-x;
+	font-weight: bold;
+	font-size:12px;
+	text-align:center;
+	color:#542c0f; /*Default Brown*/
+	}
+*.button:hover {
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+*.button:active {
+	border: 3px double #c9a584;
+	border-top-color: #5d4c2f;
+	border-left-color: #5d4c2f;
+	padding:3px 1px 1px 3px;
+	} 
+#register input.button {
+	margin:10px 0px 0px 73px;
+	padding:2px 52px;
+	}
+#register input#buttonlogin {
+	margin:0px 0px 0px 18px;
+	padding:2px 20px;
+	}
+#pwd input.button {
+	margin:10px 0px 0px 73px;
+	}
+#pwd p.desc {
+	padding-bottom:10px;
+	}
+a.footerlink {
+	margin-left:20px;
+	}
+a.firstlink {
+	margin-left:30px;
+	}
+.warning {
+	color:#ff0000;
+	width:350px;
+	font-weight:bold;
+	}
+.warning2 {
+	color:#ff8000;
+	width:350px;
+	font-weight:bold;
+	}
+div#demand {
+	padding-bottom:25px;
+	}
+#tour h3 {
+	font-size:14px;
+	text-align:center;
+	}
+#tour #imagecontainer {
+	height:230px;
+	overflow:hidden;
+	}
+#tour #tourtext{
+	height:120px;
+	overflow:auto;
+	}
+#tour #tourtext p{
+	padding:0px;
+	margin:10px 30px;
+	}
+#tour a.back {
+	display:block;
+	width:100px;
+	float:left;
+	margin-left:30px;
+	}
+#tour a.next {
+	margin-right:30px;
+	margin-left:auto;
+	width:100px;
+	display:block;
+	text-align:right;
+	}
+#tour a.back, 
+#tour a.next,
+#no-login-umod a.back {
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#811b0b;
+	}
+#tour a.back:hover,
+#tour a.next:hover {
+	color:#DF5843;
+	text-decoration:underline;
+	}
+#no-login-umod #main #text p {
+ 	padding: 0px 190px 15px 5px;
+	}
+#no-login-umod #main #text a {
+	color:#502604;
+	}
+#fuzz{ position:absolute; top:0; left:0; width:100%; z-index:100; background: url('dark-bg.png'); display:none; text-align:left; }
+.msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+.msgbox img {border:none; margin:5px;}
+.close{ top:0px; float:right; }
+.loadbox{ position:absolute; width:300px; height:200px; z-index:200; top: 50%; left: 50%; }
+.loadbox img {border:none; top: 50%; left: 50%; }

@@ -1,0 +1,20 @@
+#warehouse
+.buildingDescription{background:url(buildings/y100/warehouse.gif) no-repeat right 10px}
+#warehouse
+.buildingDescription{height:150px}
+#warehouse .sicher, #warehouse .gesamt, #warehouse
+.klaubar{vertical-align:top}
+#warehouse #container #mainview
+span.secure{font-weight:bold;color:#090}
+#warehouse #container #mainview
+span.insecure{font-weight:bold;color:#F00}
+#warehouse #container #mainview
+.table01{border:0px;margin-top:10px;margin-bottom:10px}
+#warehouse #container .dynamic
+table.safeinnextlevel{margin:0px
+auto}
+#warehouse #container .dynamic .safeinnextlevel th,
+#warehouse #container .dynamic .safeinnextlevel
+td{padding-left:10px}
+#warehouse #container .dynamic .safeinnextlevel
+th{background-color:#FAEAC6;color:#906646;font-weight:bold;text-align:center}

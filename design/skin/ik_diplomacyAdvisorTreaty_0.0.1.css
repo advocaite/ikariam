@@ -1,0 +1,9 @@
+#diplomacyAdvisorTreaty
+div.tooltip{z-index:5000;background-color:#F1D7AD;border-color:#BE8D53;border-style:solid;border-width:4px 1px 1px;color:#542C0F;display:none;font-size:11px;left:0px;line-height:1em;position:absolute;top:26px;width:360px;padding:0px;margin:0px;margin-left:20px}
+#diplomacyAdvisorTreaty #container #container2 #mainview
+#viewDiplomacyImperium.dynamic{margin-left:240px}
+#diplomacyAdvisorTreaty #container #container2 #islandBoardOverview ul
+li{width:165px;background:url('board/schriftrolle_closed2.gif') no-repeat 14px 7px;margin:2px
+0;padding-left:30px}
+#diplomacyAdvisorTreaty #container #container2 #islandBoardOverview
+li.current{font-weight:bold;background:url('board/schriftrolle_offen2_active.gif') no-repeat 0px 3px}

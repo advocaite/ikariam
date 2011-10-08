@@ -1,0 +1,53 @@
+#diplomacyAdvisor #container #mainview table.table01
+th{}
+#diplomacyAdvisor #container #mainview table.table01
+tr.entry{cursor:pointer}
+#diplomacyAdvisor #container #mainview table.table01
+tr.globalmessage{background-color:#FEFF6F}
+#diplomacyAdvisor #container #mainview table.table01 tr.new
+td{font-weight:bold}
+#diplomacyAdvisor #container #mainview #tab1 tr.text
+td.reply{padding:10px
+0px;border-bottom:1px dotted #E4B873}
+#diplomacyAdvisor #container #mainview table#messages
+td.subject{text-align:left}
+#diplomacyAdvisor #container #mainview table.table01
+.msgText{text-align:left;width:653px}
+#diplomacyAdvisor #container #mainview table.table01
+.action{margin:0
+auto}
+#diplomacyAdvisor #container #mainview table.table01
+.decision{background-color:#FFFAEF;border:1px
+solid #542c0f;margin:10px
+100px;padding:5px}
+#diplomacyAdvisor #alliance #allyinfo
+a{text-decoration:underline;color:#542c0f}
+#diplomacyAdvisor #container #mainview table.table01 .decision
+.reaction{padding:5px}
+#diplomacyAdvisor #container #mainview #demo
+a{color:#542c0f}
+#diplomacyAdvisor #container #mainview a.answerYes,
+#diplomacyAdvisor #container #mainview
+a.answerNo{background-repeat:no-repeat;background-position:left center;padding-left:20px;text-align:left;margin:0px
+auto}
+#diplomacyAdvisor #container #mainview .table01 a:hover{text-decoration:underline}
+#diplomacyAdvisor #container #mainview
+.answerYes{background-image:url(layout/answeryes.gif)}
+#diplomacyAdvisor #container #mainview
+.answerNo{background-image:url(layout/answerno.gif)}
+#diplomacyAdvisor #container #mainview #messages .contentBox01
+table.first{margin-top:10px}
+#diplomacyAdvisor #container #mainview table#commercialTreaty
+td.cities{width:50px}
+#diplomacyAdvisor #container #mainview table.table01
+.action{margin:0
+auto}
+#diplomacyAdvisor .tooltip table, #diplomacyAdvisor .tooltip
+treaty{margin:0px}
+#diplomacyAdvisor #container #container2 #mainview #tab1 #messages
+#viewDiplomacyImperium.dynamic{margin-left:240px}
+#diplomacyAdvisor #container #container2 #islandBoardOverview ul
+li{width:165px;background:url('board/schriftrolle_closed2.gif') no-repeat 14px 7px;margin:2px
+0;padding-left:30px}
+#diplomacyAdvisor #container #container2 #islandBoardOverview
+li.current{font-weight:bold;background:url('board/schriftrolle_offen2_active.gif') no-repeat 0px 3px}
