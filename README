@@ -1,0 +1,25 @@
+Welcome to Ikariam Clone using CodeIgnighter
+
+First things first you will Need:
+a web server capable of hosting php/mysql
+ability to use mod rewirte on server
+and basic script knowledge.
+
+To set this game up its as easy as uploading the script to host
+
+the .htaccess is set up to allow subdomains incase you want more worlds
+it also needs to be edited  to fit your own server
+
+The following files also need to be configured
+application/config/config.php
+application/config/autoloader.php
+application/config/ikariam.php
+application/config/database.php
+
+Currently we are working on adding missing files to clone,
+Then translating 100% so then we can add more languages to game
+
+Keep eyes out on RAGEZONE FORUMS for more details
+
+Advocaite.
+
